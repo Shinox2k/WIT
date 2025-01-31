@@ -26,7 +26,19 @@ def load_quizzes(directory="data"):
 
 
 def quiz_results(quiz_data, user_answers):
-    correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
+    correct = 0
+    for question_data in quiz_data:
+        question = question_data['question']
+
+        # Zamiana odpowiedzi na zbiory
+        correct_answer_set = set(map(str.strip, question_data['answer'].split(',')))
+        user_answer = user_answers.get(question, None)
+        user_answer_set = set(map(str.strip, user_answer.split(','))) if user_answer else set()
+
+        # Porównanie zbiorów odpowiedzi
+        if user_answer_set == correct_answer_set:
+            correct += 1
+
     total = len(quiz_data)
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
@@ -43,6 +55,7 @@ def quiz_results(quiz_data, user_answers):
             <p>Wynik procentowy: <strong>{score_percentage:.2f}%</strong></p>
         </div>
     """, unsafe_allow_html=True)
+
 
 quizzes = load_quizzes()
 
@@ -92,18 +105,17 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                 for opt in q["options"]
             ]
 
-            selected_option = st.radio(
+            selected_options = st.multiselect(
                 "Wybierz odpowiedź:",
-                options_with_emojis if st.session_state.show_results else q["options"],
-                index=(q["options"].index(st.session_state.user_answers[q['question']])
-                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
-                       else None),
+                options=q["options"],
+                default=st.session_state.user_answers.get(q['question'], []),
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
+
             )
 
             if not st.session_state.show_results and not st.session_state.answers_locked:
-                st.session_state.user_answers[q['question']] = selected_option
+                st.session_state.user_answers[q['question']] = ', '.join(selected_options)
 
         submit_button = st.form_submit_button(label="Sprawdź wynik")
         if submit_button:
