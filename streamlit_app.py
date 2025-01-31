@@ -83,18 +83,23 @@ if st.button("Rozpocznij test"):
     st.session_state.show_results = False
     st.session_state.answers_locked = False
 
-if st.session_state.quiz_started:
+if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
 
+            options_with_emojis = [
+                f"{opt} {'✅' if opt == q['answer'] else '❌' if st.session_state.show_results and st.session_state.user_answers[q['question']] == opt else ''}"
+                for opt in q["options"]
+            ]
+
             selected_option = st.radio(
                 "Wybierz odpowiedź:",
                 options_with_emojis if st.session_state.show_results else q["options"],
-                index=(-1 if not st.session_state.show_results and st.session_state.user_answers[q['question']] is None
-                       else q["options"].index(st.session_state.user_answers[q['question']])
-                if st.session_state.user_answers[q['question']] in q["options"] else 0),
+                index=(q["options"].index(st.session_state.user_answers[q['question']])
+                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
+                       else 0),
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
@@ -102,13 +107,11 @@ if st.session_state.quiz_started:
             if not st.session_state.show_results and not st.session_state.answers_locked:
                 st.session_state.user_answers[q['question']] = selected_option
 
-
         submit_button = st.form_submit_button(label="Sprawdź wynik")
         if submit_button:
             st.session_state.show_results = True
             st.session_state.answers_locked = True
             st.rerun()
-
 
 if "show_results" in st.session_state and st.session_state.show_results:
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
