@@ -61,7 +61,7 @@
     },
     {
         "question": "Do wymiarów jakości produktu prof. Garvin zalicza ... \n1. Niezawodność \n2. Sposób traktowania Klientów, np. uprzejmość \n3. Estetyka, tj. wrażenie Klienta jak produkt wygląda",
-        "options": ["INNA ODPOWIEDŹ", "tylko pierwsze określenie", "tylko pierwsze i trzecie określenie", "wszystkie te określenia"],
+        "options": ["INNA ODPOWIEDŻ", "tylko pierwsze określenie", "tylko pierwsze i trzecie określenie", "wszystkie te określenia"],
         "answer": "tylko pierwsze i trzecie określenie"
     },
     {
@@ -74,23 +74,23 @@
         "options": ["INNA ODPOWIEDŻ", "tylko pierwsze i trzecie działanie", "tylko pierwsze i drugie działanie", "wszystkie te działania"],
         "answer": "wszystkie te działania"
     },
-        {
+    {
         "question": "Test Q12 pozwala określić poziom:",
-        "options": ["zaangażowania pracowników w firmie", "doskonałości organizacji wg Modelu EFQM", "wdrożenia SZJ zgodnie ze wskazaniami norm z rodziny ISO 9000", "INNA ODPOWIEDŹ"],
+        "options": ["zaangażowania pracowników w firmie", "doskonałości organizacji wg Modelu EFQM", "wdrożenia SZJ zgodnie ze wskazaniami norm z rodziny ISO 9000", "INNA ODPOWIEDŻ"],
         "answer": "zaangażowania pracowników w firmie"
     },
     {
         "question": "Pojęcie \"Dekompozycja procesu” należy rozumieć jako ...",
-        "options": ["INNA ODPOWIEDŹ", "eliminowanie marnotrawstwa w procesie", "obniżenie kosztów procesu", "ograniczenie składu zespołu realizującego proces"],
-        "answer": "INNA ODPOWIEDŹ"
+        "options": ["INNA ODPOWIEDŻ", "eliminowanie marnotrawstwa w procesie", "obniżenie kosztów procesu", "ograniczenie składu zespołu realizującego proces"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
         "question": "Z definicji jakości podanej w normie ISO 9000 wynika, że jakość :",
-        "options": ["jest bezpośrednio związana z wartością", "INNA ODPOWIEDŹ", "wiąże się z dostarczeniem klientowi tego, czego on dziś potrzebuje, za cenę, którą jest skłonny zapłacić jutro", "mierzone jest stopniem uzyskania parametrów technicznych"],
-        "answer": "INNA ODPOWIEDŹ"
+        "options": ["jest bezpośrednio związana z wartością", "INNA ODPOWIEDŻ", "wiąże się z dostarczeniem klientowi tego, czego on dziś potrzebuje, za cenę, którą jest skłonny zapłacić jutro", "mierzone jest stopniem uzyskania parametrów technicznych"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Ile spośród nich jest zaliczanych do rodziny ISO 9000? \nISO 9000, \nISO 9001, \nISO 14001, \nISO 19011, \nISO 9004.",
+        "question": "Ile spośród nich jest zaliczanych do rodziny ISO 9000? ISO 9000, ISO 9001, ISO 14001, ISO 19011, ISO 900\n4.",
         "options": ["INNA ODPOWIEDŹ", "2", "3", "4"],
         "answer": "INNA ODPOWIEDŹ"
     },
@@ -120,9 +120,9 @@
         "answer": "pierwszym"
     },
     {
-        "question": "Wymagania do SZJ zostały przedstawione w normie ISO 9004. \nWymagania do SZJ zostały pogrupowane w 8 działów, zgodnie z Modelem Systemu Zarządzania Jakością opublikowanym przez ISO w 2015 r.",
-        "options": ["INNA ODPOWIEDŹ", "Prawdziwe jest tylko drugie zdanie", "Oba zdania są prawdziwe", "Prawdziwe jest tylko pierwsze zdanie"],
-        "answer": "INNA ODPOWIEDŹ"
+        "question": "Wymagania do SZJ zostały przedstawione w normie ISO 900\n4. Wymagania do SZJ zostały pogrupowane w 8 działów, zgodnie z Modelem Systemu Zarządzania Jakością opublikowanym przez ISO w 2015 r.",
+        "options": ["INNA ODPOWIEDŻ", "Prawdziwe jest tylko drugie zdanie", "Oba zdania są prawdziwe", "Prawdziwe jest tylko pierwsze zdanie"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
         "question": "Do grupy 6 przyjaciół, których imiona tworzą Listę Kipinga, należą .... \n1. Gdzie \n2. Co \n3. Kiedy",
@@ -140,48 +140,48 @@
         "answer": "spełnieniu wymagań"
     },
     {
-        "question": "1. Audyt musi być udokumentowany i niezależny. \n2. Kontrola zwykle jest zapowiedziana.",
+        "question": "\n1. Audyt musi być udokumentowany i niezależny. \n2. Kontrola zwykle jest zapowiedziana.",
         "options": ["Prawdziwe jest tylko pierwsze zdanie", "INNA ODPOWIEDŻ", "Prawdziwe jest tylko drugie zdanie", "Żadne z nich nie jest prawdziwe"],
         "answer": "Prawdziwe jest tylko pierwsze zdanie"
     },
-        {
-        "question": "Przygotowując się do wdrożenia I ciągłego doskonalenia swoich Systemów Zarządzania Jakością, firma A chce jako podstawę przyjąć normy ISO z rodziny 27000, a firma B - model doskonałości EFOM. \nJako właściwe można uznać postępowanie ...",
-        "options": ["tylko firmy B", "INNA ODPOWIEDŹ", "tylko firmy A", "obu tych firm"],
-        "answer": "INNA ODPOWIEDŹ"
+    {
+        "question": "Przygotowując się do wdrożenia I ciągłego doskonalenia swoich Systemów Zarządzania Jakością, firma A chce jako podstawę przyjąć normy ISO z rodziny 27000, a firma B - model doskonałości EFOM. Jako właściwe można uznać postępowanie ...",
+        "options": ["tylko firmy B", "INNA ODPOWIEDŻ", "tylko firmy A", "obu tych firm"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Firma A (ok. 100 pracowników) wdraża SZpJ. \nDo krytycznych czynników sukcesu tego przedsięwzięcia należy zaliczyć ... \n1. jasne zasady rozliczania celów kwartalnych pracowników \n2. odpowiedzialny, twórczy i aktywny zespół pracowników \n3. gruntowne szkolenia wszystkich pracowników, dotyczące metod i narzędzi jakości",
-        "options": ["prawdziwe jest tylko pierwsze i drugie zdanie", "prawdziwe jest tylko jedno zdanie", "prawdziwe jest tylko drugie i trzecie zdanie", "INNA ODPOWIEDŹ"],
-        "answer": "INNA ODPOWIEDŹ"
+        "question": "Firma A (ok. 100 pracowników) wdraża SZpJ. Do krytycznych czynników sukcesu tego przedsięwzięcia należy zaliczyć ... \n1. jasne zasady rozliczania celów kwartalnych pracowników \n2. odpowiedzialny, twórczy i aktywny zespół pracowników \n3. gruntowne szkolenia wszystkich pracowników, dotyczące metod i narzędzi jakości",
+        "options": ["prawdziwe jest tylko pierwsze i drugie zdanie", "prawdziwe jest tylko jedno zdanie", "prawdziwe jest tylko drugie i trzecie zdanie", "INNA ODPOWIEDŻ"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
         "question": "O jakości produktu wytworzonego w Europie zwykle decyduje ...",
-        "options": ["INNA ODPOWIEDŹ", "wynik analizy spełnienia potrzeb Klienta", "efektywność wdrożenia SZJ", "opinia Klienta"],
-        "answer": "INNA ODPOWIEDŹ"
+        "options": ["INNA ODPOWIEDŻ", "wynik analizy spełnienia potrzeb Klienta", "efektywność wdrożenia SZJ", "opinia Klienta"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
         "question": "Do skutków braku zaufania do pracowników zwykle należy ... \n1. konieczność podejmowania decyzji bez konsultacji z pracownikami. \n2. poniesienie kosztów koniecznych szkoleń dotyczących wymagań ISO 9000. \n3. przyjmowanie przez pracowników postaw obronnych wobec przetężonych.",
-        "options": ["INNA ODPOWIEDŹ", "prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedna zdanie", "prawdziwe są dokładnie dwa zdania"],
+        "options": ["INNA ODPOWIEDŻ", "prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedna zdanie", "prawdziwe są dokładnie dwa zdania"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
     {
-        "question": "Firma A jest oddziałem międzynarodowej organizacji B. \nW związku z przygotowaniami do spodziewanej kontroli przeprowadzonej przez B - kierownik Departamentu wytwarzania oprogramowania firmy A zapowiedział i osobiście przeprowadzi: \naudyt wewnętrzny kluczowych procesów, realizowanych w swoim Departamencie. \nDziałanie tego Kierownika nie było właściwe, bo ...",
-        "options": ["Kierownik nie powinien ograniczać się tylko do kluczowych procesów", "kontrola w firmie A powinna być niezapowiedziana i w związku z tym audyt nie był potrzebny", "INNA ODPOWIEDŹ", "audyt powinien być niezapowiedziany"],
-        "answer": "INNA ODPOWIEDŹ"
+        "question": "Firma A jest oddziałem międzynarodowej organizacji B. W związku z przygotowaniami do spodziewanej kontroli przeprowadzonej przez B - kierownik Departamentu wytwarzania oprogramowania firmy A zapowiedział i osobiście przeprowadzi: audyt wewnętrzny kluczowych procesów, realizowanych w swoim Departamencie. Działanie tego Kierownika nie było właściwe, bo ...",
+        "options": ["Kierownik nie powinien ograniczać się tylko do kluczowych procesów", "kontrola w firmie A powinna być niezapowiedziana i w związku z tym audyt nie był potrzebny", "INNA ODPOWIEDŻ", "audyt powinien być niezapowiedziany"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
         "question": "W odniesieniu do MBO - WE. Deming postulował …",
-        "options": ["odpowiednio rozumiane przywództwo zamiast zarządzania przez celę", "uzupełnienie MBO celami odnoszącymi się do efektywności pracy", "INNA ODPOWIEDŹ", "stopniowe wdrożenie MBO"],
+        "options": ["odpowiednio rozumiane przywództwo zamiast zarządzania przez celę", "uzupełnienie MBO celami odnoszącymi się do efektywności pracy", "INNA ODPOWIEDŻ", "stopniowe wdrożenie MBO"],
         "answer": "odpowiednio rozumiane przywództwo zamiast zarządzania przez celę"
     },
     {
         "question": "Do 3 filarów \"szczupłego’ zarządzania należą ... \n1. Podejście procesowe \n2. Określenie i tworzenie wartości dla klienta \n3. Kolektywne ustalanie celów \n4. Szacunek dla zatogi, okazywany poprzez odpowiednie przywództwo kierownictwa",
-        "options": ["INNA ODPOWIEDŹ", "tylko pierwsze i drugie hasło", "tylko drugie i czwarte hasło", "tylko pierwsze i czwarte hasło"],
+        "options": ["INNA ODPOWIEDŻ", "tylko pierwsze i drugie hasło", "tylko drugie i czwarte hasło", "tylko pierwsze i czwarte hasło"],
         "answer": "tylko drugie i czwarte hasło"
     },
     {
         "question": "Procesy główne (kluczowe) w organizacji są to procesy ...",
-        "options": ["INNA ODPOWIEDŹ", "których koszt jest największy (zgodnie z Zasadą Pareta)", "ukierunkowane na wytworzenie finalnego produktu lub usługi", "zarządcze"],
+        "options": ["INNA ODPOWIEDŻ", "których koszt jest największy (zgodnie z Zasadą Pareta)", "ukierunkowane na wytworzenie finalnego produktu lub usługi", "zarządcze"],
         "answer": "ukierunkowane na wytworzenie finalnego produktu lub usługi"
     },
     {
@@ -200,7 +200,7 @@
         "answer": "Prawdziwe jest tylko pierwsze zdanie"
     },
     {
-        "question": "1. Głosu Klienta słuchamy, gdy uzyskane wyniki procesu porównujemy z wymaganiami Klienta. \n2. Głosu Procesu słuchamy, gdy uzyskane wyniki procesu porównujemy z przyjętymi standardami.",
+        "question": "\n1. Głosu Klienta słuchamy, gdy uzyskane wyniki procesu porównujemy z wymaganiami Klienta. \n2. Głosu Procesu słuchamy, gdy uzyskane wyniki procesu porównujemy z przyjętymi standardami.",
         "options": ["Prawdziwe jest tylko pierwsze zdanie", "Żadne z nich nie jest prawdziwe", "Prawdziwe są oba zdania", "INNA ODPOWIEWDŹ"],
         "answer": "Prawdziwe są oba zdania"
     },
@@ -214,7 +214,7 @@
         "options": ["prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedno zdanie", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŹ"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
-        {
+    {
         "question": "Wg opisu ról uczestniczących w procesie - Właściciel procesu między innymi ...",
         "options": ["INNA ODPOWIEDŹ", "aktywnie bierze udział w wykonywaniu działań procesu (jako tzw. role model)", "określa zakres doskonalenia procesu", "decyduje o wynagrodzeniu wykonawców"],
         "answer": "INNA ODPOWIEDŹ"
@@ -235,7 +235,7 @@
         "answer": "oba działania są właściwe"
     },
     {
-        "question": "W ramach realizacji zasady ciąstego doskonalenia - firma X uruchomiła proces ograniczania liczby braków aż do osiągnięcia ich optymalnego poziomu. \nAnalizowane będą zmieniające się w czasie całkowite koszty jakości. \nMożna oczekiwać, że …",
+        "question": "W ramach realizacji zasady ciąstego doskonalenia - firma X uruchomiła proces ograniczania liczby braków aż do osiągnięcia ich optymalnego poziomu. Analizowane będą zmieniające się w czasie całkowite koszty jakości. Można oczekiwać, że …",
         "options": ["INNA ODPOWIEDŹ", "lekko zwiększą się w wyniku rosnących kosztów profilaktyki", "będą one światownie maleć, gdyż znikną koszty utraconych możliwości", "będą one stopniowo maleć dzięki redukcji kosztów niezgodności"],
         "answer": "będą one stopniowo maleć dzięki redukcji kosztów niezgodności"
     },
@@ -245,7 +245,7 @@
         "answer": "prawdziwe są wszystkie zdania"
     },
     {
-        "question": "W firmie A prowadzone są między innymi takie działania projakościowe: \n1. Monitorowanie i usprawnianie sposobów działania firmy \n2. Zbieranie wyników prowadzonych analiz, przygotowując podstawy do podejmowania decyzji \n3. Budowanie kontaktów z dostawcami opartych na zaufaniu \nSpośród powyższych działań - bezpośrednio z 7 zasad zarządzania jakością wynika …",
+        "question": "W firmie A prowadzone są między innymi takie działania projakościowe: \n1. Monitorowanie i usprawnianie sposobów działania firmy \n2. Zbieranie wyników prowadzonych analiz, przygotowując podstawy do podejmowania decyzji \n3. Budowanie kontaktów z dostawcami opartych na zaufaniu Spośród powyższych działań - bezpośrednio z 7 zasad zarządzania jakością wynika …",
         "options": ["tylko pierwsze i drugie działanie", "tylko drugie i trzecie działanie", "tylko pierwsze | trzecie działanie", "INNA ODPOWIEDŹ"],
         "answer": "INNA ODPOWIEDŹ"
     },
@@ -255,30 +255,63 @@
         "answer": "nie ma związku z poziomem zadowolenia Klienta"
     },
     {
-        "question": "W organizacji, w której wdrożono szczupłe” zarządzanie, przywódca … \n1. Jest przede wszystkim charyzmatycznym liderem, który umie pociągnąć za sobą ludzi. \n2. przede wszystkim wspiera swoich pracowników w ich rozwoju. \n3. buduje swą wiedzę o stanie organizacji głównie na podstawie otrzymywanych raportów, a nie rozmów z pracownikami i ich subiektywnych opinii.",
-        "options": ["prawdziwe jest tylko pierwsze zdanie", "prawdziwe są wszystkie zdania", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŹ"],
-        "answer": "INNA ODPOWIEDŹ"
+        "question": "W organizacji, w której wdrożono szczupte” zarządzanie, przywódca … \n1. Jest przede wszystkim charyzmatycznym liderem, który umie pociągnąć za sobą ludzi. \n2. przede wszystkim wspiera swoich pracowników w ich rozwoju. \n3. buduje swą wiedzę o stanie organizacji głównie na podstawie otrzymywanych raportów, a nie rozmów z pracownikami i ich subiektywnych opinii.",
+        "options": ["prawdziwe jest tylko pierwsze zdanie", "prawdziwe są wszystkie zdania", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŻ"],
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "W firmie X od wielu lat realizowany jest proces ciąstego doskonalenia organizacji. \nPlanując koszty i przychody firmy na kolejny rok, należy założyć, że we wszystkich kwartałach działania związane z tym procesem będą l… \n1. wymagać dużego zaangażowania Kierownictwa. \n2. przynosić znaczące przyrosty korzyści finansowych.",
-        "options": ["INNA ODPOWIEDŹ", "prawdziwe jest tylko pierwsze zdanie", "prawdziwe jest tylko drugie zdanie", "prawdziwe są oba zdania"],
+        "question": "W firmie X od wielu lat realizowany jest proces ciąstego doskonalenia organizacji. Planując koszty i przychody firmy na kolejny rok, należy założyć, że we wszystkich kwartałach działania związane z tym procesem będą l… \n1. wymagać dużego zaangażowania Kierownictwa. \n2. przynosić znaczące przyrosty korzyści finansowych.",
+        "options": ["INNA ODPOWIEDŻ", "prawdziwe jest tylko pierwsze zdanie", "prawdziwe jest tylko drugie zdanie", "prawdziwe są oba zdania"],
         "answer": "prawdziwe jest tylko pierwsze zdanie"
     },
     {
         "question": "Przygotowując się do rozpoczęcia wdrażania Systemu Zarządzania przez Jakość, uwzględnienie takich elementów jak ... \n1. przeszkolenie zatogi w zakresie norm z rodziny ISO 9000. \n2. uzyskanie zaangażowania wszystkich pracowników. \n3. opracowanie lub zaktualizowanie opisów procesów i procedur. \n4. ogłoszenie decyzji Kierownika ds. Jakości o wejściu na drogę do TQM.",
-        "options": ["prawdziwe są wszystkie zdania", "prawdziwe są dokładnie trzy zdania", "INNA ODPOWIEDŹ", "prawdziwe jest tylko jedno zdanie"],
+        "options": ["prawdziwe są wszystkie zdania", "prawdziwe są dokładnie trzy zdania", "INNA ODPOWIEDŻ", "prawdziwe jest tylko jedno zdanie"],
         "answer": "prawdziwe są dokładnie trzy zdania"
     },
     {
         "question": "Wśród 14 zasad zarządzania W.E. Deming uwzględnił ...",
-        "options": ["zastąpienie zapewnienia jakości przez statystyczną kontrolę jakości", "organizowanie odpowiednich szkoleń dla pracowników", "wdrożenie standardów systemowej kontroli jakości", "INNA ODPOWIEDŹ"],
+        "options": ["zastąpienie zapewnienia jakości przez statystyczną kontrolę jakości", "organizowanie odpowiednich szkoleń dla pracowników", "wdrożenie standardów systemowej kontroli jakości", "INNA ODPOWIEDŻ"],
         "answer": "organizowanie odpowiednich szkoleń dla pracowników"
     },
     {
-        "question": "1. SZJ jest elementem składowym systemu zarządzania, dotyczącym jakości. \n2. Po uzyskaniu przez firmę certyfikatu ISO 9001, jej SZJ nie powinien być modyfikowany do następnego audytu. \n3. SZJ opisuje sposoby kierowania i sterowania działaniami, mającymi związek z jakością produktu lub usługi.",
-        "options": ["nie ma zdania prawdziwego", "prawdziwe jest tylko jedno zdanie", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŹ"],
+        "question": "\n1. SZJ jest elementem składowym systemu zarządzania, dotyczącym jakości. \n2. Po uzyskaniu przez firmę certyfikatu ISO 9001, jej SZJ nie powinien być modyfikowany do następnego audytu. \n3. SZJ opisuje sposoby kierowania i sterowania działaniami, mającymi związek z jakością produktu lub usługi.",
+        "options": ["nie ma zdania prawdziwego", "prawdziwe jest tylko jedno zdanie", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŻ"],
         "answer": "prawdziwe są dokładnie dwa zdania"
+    },
+    {
+        "question": "\"Jakość produktów firmy X Jest tym większa, im wyższa Jest ich wartość.\" To zdanie jest…",
+        "options": ["prawdziwe, jeśli firma X stosuje model EFQM", "INNA ODPOWIEDŻ", "prawdziwe, jeśli firma X ma zatwierdzoną Politykę Jakości", "zawsze prawdziwe"],
+        "answer": "INNA ODPOWIEDŻ"
+    },
+    {
+        "question": "Osoba, z którą wiązany jest hierarchiczny model zarządzania organizacją, to …",
+        "options": ["WE. Deming", "Ch. Talleyrand", "D. Garvin", "INNA ODPOWIEDŻ"],
+        "answer": "INNA ODPOWIEDŻ"
+    },
+    {
+        "question": "Firma A zamówiła w firmie B opracowanie nowego systemu Kady-Płace. Firma B zajmuje się produkcją oprogramowania na zamówienie i uzyskała certyfikat ISO dla swego Systemu Zarządzania Jakością. Przykładem udokumentowanej informacji w SZJ firmy B może być … \n1. Wynik analizy wymagań Działu rekrutacji firmy A. \n2. Procedura \"Testowania oprogramowania\" wg której pracują testerzy firmy B. \n3. System Zarządzania Jakością firmy B.",
+        "options": ["prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedno zdanie", "INNA ODPOWIEDŻ", "prawdziwe są dokładnie dwa zdania"],
+        "answer": "prawdziwe są dokładnie dwa zdania"
+    },
+    {
+        "question": "Posiadanie przez daną firmę certyfikatu ISO 900\n1... \n1. sprzyja ciągłemu doskonaleniu usług świadczonych przez tę firmę. \n2. może tej firmie ułatwić pozyskanie zagranicznych kontraktów.",
+        "options": ["prawdziwe jest tylko pierwsze zdanie", "oba zdania są prawdziwe", "prawdziwe jest tylko drugie zdanie", "INNA ODPOWIEDZ"],
+        "answer": "oba zdania są prawdziwe"
+    },
+    {
+        "question": "Ciągłe doskonalenie procesu wymaga mierzenia różnych jego aspektów. Mierniki skuteczności procesu oraz mierniki sprawności procesu biorą pod uwagę ...",
+        "options": ["poniesione nakłady", "planowane wyniki", "INNA ODPOWIEDŻ", "uzyskane wyniki"],
+        "answer": "INNA ODPOWIEDŻ"
+    },
+    {
+        "question": "Dbając o właściwe relacje z pracownikami w firmie wdrażającej TQM, kierownicy powinni między innymi … \n1. umiejętnie słuchać tego, co pracownicy mają do powiedzenia. \n2. wydawać jasne polecenia i spokojnie oczekiwać na ich wykonanie. \n3. otwarcie i zdecydowanie oceniać pracowników, używając jednak tzw. mocnych słów wyłącznie w przypadku, gdy są one konieczne.",
+        "options": ["właściwe są wszystkie działania", "właściwe jest tylko jedno działanie", "INNA ODPOWIEDŹ", "właściwe jest tylko pierwsze I drugie działanie"],
+        "answer": "właściwe jest tylko pierwsze I drugie działanie"
+    },
+    {
+        "question": "Firma A (ok. 100 pracowników) planuje opracowanie I wdrożenie swego Systemu Zarządzania Jakością zgodnie ze wskazaniami ISO. W związku z tym KONIECZNE jest uwzględnienie w planie firmy A punktu ... \n1. Certyfikacja SZJ. \n2. Przeprowadzenie serii audytów wewnętrznych. \n3. Przeszkolenie załogi.",
+        "options": ["prawdziwe są tylko zdania drugie I trzecie", "INNA ODPOWIEDŹ", "prawdziwe są wszystkie zdania", "prawdziwe jest dokładnie jedno zdanie"],
+        "answer": "prawdziwe są wszystkie zdania"
     }
 ]
-
-
