@@ -3,14 +3,11 @@ import random
 import os
 import json
 
-
 def load_css(file_name="styles.css"):
     with open(file_name, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-
 load_css()
-
 
 def load_quizzes(directory="data"):
     quizzes = {}
@@ -29,16 +26,8 @@ def load_quizzes(directory="data"):
 
 
 def quiz_results(quiz_data, user_answers):
-    correct = 0
+    correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
     total = len(quiz_data)
-
-    for q in quiz_data:
-        correct_answers = q['answer'] if isinstance(q['answer'], list) else [q['answer']]
-        user_selected = user_answers[q['question']] if isinstance(user_answers[q['question']], list) else [
-            user_answers[q['question']]]
-        if set(user_selected) == set(correct_answers):
-            correct += 1
-
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
     st.markdown(f"""
@@ -55,13 +44,12 @@ def quiz_results(quiz_data, user_answers):
         </div>
     """, unsafe_allow_html=True)
 
-
 quizzes = load_quizzes()
 
 st.title("WIT 2025")
 
 quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
-
+#Test
 if quiz_choice:
     total_questions = len(quizzes[quiz_choice])
     question_percentage = st.radio(
@@ -88,7 +76,7 @@ if st.button("Rozpocznij test"):
     st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
     for q in st.session_state.quiz_data:
         random.shuffle(q["options"])
-    st.session_state.user_answers = {q['question']: [] for q in st.session_state.quiz_data}
+    st.session_state.user_answers = {q['question']: None for q in st.session_state.quiz_data}
     st.session_state.quiz_started = True
     st.session_state.show_results = False
     st.session_state.answers_locked = False
@@ -100,20 +88,22 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
 
             options_with_emojis = [
-                f"{opt} {'✅' if opt in (q['answer'] if isinstance(q['answer'], list) else [q['answer']]) else '❌' if st.session_state.show_results and opt in st.session_state.user_answers[q['question']] else ''}"
+                f"{opt} {'✅' if opt == q['answer'] else '❌' if st.session_state.show_results and st.session_state.user_answers[q['question']] == opt else ''}"
                 for opt in q["options"]
             ]
 
-            selected_options = st.multiselect(
+            selected_option = st.radio(
                 "Wybierz odpowiedź:",
                 options_with_emojis if st.session_state.show_results else q["options"],
-                default=st.session_state.user_answers[q['question']],
+                index=(q["options"].index(st.session_state.user_answers[q['question']])
+                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
+                       else None),
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
 
             if not st.session_state.show_results and not st.session_state.answers_locked:
-                st.session_state.user_answers[q['question']] = selected_options
+                st.session_state.user_answers[q['question']] = selected_option
 
         submit_button = st.form_submit_button(label="Sprawdź wynik")
         if submit_button:
