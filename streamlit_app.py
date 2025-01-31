@@ -30,7 +30,6 @@ def quiz_results(quiz_data, user_answers):
     total = len(quiz_data)
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
-    # Użycie zmiennych CSS
     st.markdown(f"""
         <style>
             :root {{
