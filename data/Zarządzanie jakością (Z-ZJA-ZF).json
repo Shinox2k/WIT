@@ -35,7 +35,7 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "W procesie rozwiązywania problemu kolejność podanych wyżej kroków jest następująca: 1. Określenie przyczyny źródłowej 2. Ustalenie Właściciela problemu 3. Pierwsza pomoc 4. Ocena działania doskonałącego",
+        "question": "W procesie rozwiązywania problemu kolejność podanych wyżej kroków jest następująca: \n 1.Określenie przyczyny źródłowej \n 2.Ustalenie Właściciela problemu \n 3.Pierwsza pomoc \n 4.Ocena działania doskonałącego",
         "options": ["1-2-3-4", "INNA ODPOWIEDŻ", "3-1-4-2", "3-1-2-4"],
         "answer": "3-1-2-4"
     },
@@ -55,12 +55,12 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Spośród powyższych haset do 7 zasad zarządzania jakością należą ... 1. Zarządzanie relacjami 2. Zaangażowanie ludzi 3. Kalibrowanie urządzeń",
+        "question": "Spośród powyższych haset do 7 zasad zarządzania jakością należą ... \n 1.Zarządzanie relacjami \n 2.Zaangażowanie ludzi \n 3.Kalibrowanie urządzeń",
         "options": ["tylko pierwsze i drugie hasło", "tylko drugie i trzecie hasło", "wszystkie hasta", "INNA ODPOWIEDŻ"],
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Do wymiarów jakości produktu prof. Garvin zalicza ... 1. Niezawodność 2. Sposób traktowania Klientów, np. uprzejmość 3. Estetyka, tj. wrażenie Klienta jak produkt wygląda",
+        "question": "Do wymiarów jakości produktu prof. Garvin zalicza ... \n 1.Niezawodność \n 2.Sposób traktowania Klientów, np. uprzejmość \n 3.Estetyka, tj. wrażenie Klienta jak produkt wygląda",
         "options": ["INNA ODPOWIEDŻ", "tylko pierwsze określenie", "tylko pierwsze i trzecie określenie", "wszystkie te określenia"],
         "answer": "tylko pierwsze i trzecie określenie"
     },
@@ -70,7 +70,7 @@
         "answer": "spełnieniu wymagań"
     },
     {
-        "question": "Spośród tych działań - funkcje zarządzania obejmują ... 1. Planowanie 2. Kontrolowanie 3. Motywowanie 4. Organizowanie",
+        "question": "Spośród tych działań - funkcje zarządzania obejmują ... \n 1.Planowanie \n 2.Kontrolowanie \n 3.Motywowanie \n 4.Organizowanie",
         "options": ["INNA ODPOWIEDŻ", "tylko pierwsze i trzecie działanie", "tylko pierwsze i drugie działanie", "wszystkie te działania"],
         "answer": "wszystkie te działania"
     },
@@ -95,17 +95,17 @@
         "answer": "INNA ODPOWIEDŹ"
     },
     {
-        "question": "Z doświadczeń firm wdrażających SZpJ wynika, że koła jakości zwykle przyczyniają się da … 1. podniesienia produktywności firmy. 2. łagodnego obniżenia motywacji pracowników. 3. usprawnienia procesów firmy.",
+        "question": "Z doświadczeń firm wdrażających SZpJ wynika, że koła jakości zwykle przyczyniają się da … \n 1.podniesienia produktywności firmy. \n 2.łagodnego obniżenia motywacji pracowników. \n 3.usprawnienia procesów firmy.",
         "options": ["INNA ODPOWIEDŹ", "prawdziwe są wszystkie zdania", "prawdziwe są dokładnie dwa zdania", "prawdziwe jest tylko jedno zdanie"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
     {
-        "question": "W XX w. ewoluowało znaczenie i miejsce jakości w zarządzaniu organizacją. Podane wyżej etapy tej ewolucji uporządkuj chronologicznie: 1. Statistical Process Control 2. Quality Assurance 3. Quality Inspection 4. Statistical Product Control 5. Quality Management",
+        "question": "W XX w. ewoluowało znaczenie i miejsce jakości w zarządzaniu organizacją. Podane wyżej etapy tej ewolucji uporządkuj chronologicznie: \n 1.Statistical Process Control \n 2.Quality Assurance \n 3.Quality Inspection \n 4.Statistical Product Control \n 5.Quality Management",
         "options": ["1-2-3-4-5", "3-4-1-5-2", "4-1-3-2-5", "INNA ODPOWIEDŹ"],
         "answer": "3-4-1-5-2"
     },
     {
-        "question": "Wśród podejść do zarządzania jakością w organizacji prof. Hamrol wymienia … 1. Powszechne zaangażowanie 2. Przestrzeganie uznanych standardów",
+        "question": "Wśród podejść do zarządzania jakością w organizacji prof. Hamrol wymienia … \n 1.Powszechne zaangażowanie \n 2.Przestrzeganie uznanych standardów",
         "options": ["tylko pierwsze określenie", "żadne z nich", "INNA ODPOWIEDŹ", "tylko drugie określenie"],
         "answer": "tylko pierwsze określenie"
     },
@@ -120,17 +120,17 @@
         "answer": "pierwszym"
     },
     {
-        "question": "Wymagania do SZJ zostały przedstawione w normie ISO 9004. Wymagania do SZJ zostały pogrupowane w 8 działów, zgodnie z Modelem Systemu Zarządzania Jakością opublikowanym przez ISO w 2015 r.",
+        "question": "Wymagania do SZJ zostały przedstawione w normie ISO 900\n 4.Wymagania do SZJ zostały pogrupowane w 8 działów, zgodnie z Modelem Systemu Zarządzania Jakością opublikowanym przez ISO w 2015 r.",
         "options": ["INNA ODPOWIEDŻ", "Prawdziwe jest tylko drugie zdanie", "Oba zdania są prawdziwe", "Prawdziwe jest tylko pierwsze zdanie"],
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Do grupy 6 przyjaciół, których imiona tworzą Listę Kipinga, należą .... 1. Gdzie 2. Co 3. Kiedy",
+        "question": "Do grupy 6 przyjaciół, których imiona tworzą Listę Kipinga, należą .... \n 1.Gdzie \n 2.Co \n 3.Kiedy",
         "options": ["Wszystkie te osoby", "tylko pierwsza i druga osoba", "tylko pierwsza i trzecia osoba", "INNA ODPOWIEDŻ"],
         "answer": "Wszystkie te osoby"
     },
     {
-        "question": "Z perspektywy jakości - prawdziwe ... 1. otrzymuje wyniki mojej pracy lub za nie płaci 2. dostarcza mi produkty dobrej jakości, bym mógł je dołączać do wyników mojej pracy dla kluczowych interesariuszy 3. korzysta z wyników mojej pracy",
+        "question": "Z perspektywy jakości - prawdziwe ... \n 1.otrzymuje wyniki mojej pracy lub za nie płaci \n 2.dostarcza mi produkty dobrej jakości, bym mógł je dołączać do wyników mojej pracy dla kluczowych interesariuszy \n 3.korzysta z wyników mojej pracy",
         "options": ["jest tylko pierwsze określenie", "są wszystkie te określenia", "INNA ODPOWIEDŻ", "jest pierwsze i trzecie określenie"],
         "answer": "jest pierwsze i trzecie określenie"
     },
@@ -140,7 +140,7 @@
         "answer": "spełnieniu wymagań"
     },
     {
-        "question": "1. Audyt musi być udokumentowany i niezależny. 2. Kontrola zwykle jest zapowiedziana.",
+        "question": "\n 1.Audyt musi być udokumentowany i niezależny. \n 2.Kontrola zwykle jest zapowiedziana.",
         "options": ["Prawdziwe jest tylko pierwsze zdanie", "INNA ODPOWIEDŻ", "Prawdziwe jest tylko drugie zdanie", "Żadne z nich nie jest prawdziwe"],
         "answer": "Prawdziwe jest tylko pierwsze zdanie"
     },
@@ -150,7 +150,7 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Firma A (ok. 100 pracowników) wdraża SZpJ. Do krytycznych czynników sukcesu tego przedsięwzięcia należy zaliczyć ... 1. jasne zasady rozliczania celów kwartalnych pracowników 2. odpowiedzialny, twórczy i aktywny zespół pracowników 3. gruntowne szkolenia wszystkich pracowników, dotyczące metod i narzędzi jakości",
+        "question": "Firma A (ok. 100 pracowników) wdraża SZpJ. Do krytycznych czynników sukcesu tego przedsięwzięcia należy zaliczyć ... \n 1.jasne zasady rozliczania celów kwartalnych pracowników \n 2.odpowiedzialny, twórczy i aktywny zespół pracowników \n 3.gruntowne szkolenia wszystkich pracowników, dotyczące metod i narzędzi jakości",
         "options": ["prawdziwe jest tylko pierwsze i drugie zdanie", "prawdziwe jest tylko jedno zdanie", "prawdziwe jest tylko drugie i trzecie zdanie", "INNA ODPOWIEDŻ"],
         "answer": "INNA ODPOWIEDŻ"
     },
@@ -160,7 +160,7 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Do skutków braku zaufania do pracowników zwykle należy ... 1. konieczność podejmowania decyzji bez konsultacji z pracownikami. 2. poniesienie kosztów koniecznych szkoleń dotyczących wymagań ISO 9000. 3. przyjmowanie przez pracowników postaw obronnych wobec przetężonych.",
+        "question": "Do skutków braku zaufania do pracowników zwykle należy ... \n 1.konieczność podejmowania decyzji bez konsultacji z pracownikami. \n 2.poniesienie kosztów koniecznych szkoleń dotyczących wymagań ISO 9000. \n 3.przyjmowanie przez pracowników postaw obronnych wobec przetężonych.",
         "options": ["INNA ODPOWIEDŻ", "prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedna zdanie", "prawdziwe są dokładnie dwa zdania"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
@@ -175,7 +175,7 @@
         "answer": "odpowiednio rozumiane przywództwo zamiast zarządzania przez celę"
     },
     {
-        "question": "Do 3 filarów \"szczupłego’ zarządzania należą ... 1. Podejście procesowe 2. Określenie i tworzenie wartości dla klienta 3. Kolektywne ustalanie celów 4. Szacunek dla zatogi, okazywany poprzez odpowiednie przywództwo kierownictwa",
+        "question": "Do 3 filarów \"szczupłego’ zarządzania należą ... \n 1.Podejście procesowe \n 2.Określenie i tworzenie wartości dla klienta \n 3.Kolektywne ustalanie celów \n 4.Szacunek dla zatogi, okazywany poprzez odpowiednie przywództwo kierownictwa",
         "options": ["INNA ODPOWIEDŻ", "tylko pierwsze i drugie hasło", "tylko drugie i czwarte hasło", "tylko pierwsze i czwarte hasło"],
         "answer": "tylko drugie i czwarte hasło"
     },
@@ -185,7 +185,7 @@
         "answer": "ukierunkowane na wytworzenie finalnego produktu lub usługi"
     },
     {
-        "question": "Prof. A.J. Blikle wskazał 7 procesów przemiany firmy wdrażającej SZpJ, a wśród nich ..... 1. budowanie indywidualnego zaangażowania pracowników 2. inicjowanie w firmie projektów BPR 3. budowanie fundamentu strategicznego",
+        "question": "Prof. A.J. Blikle wskazał 7 procesów przemiany firmy wdrażającej SZpJ, a wśród nich ..... \n 1.budowanie indywidualnego zaangażowania pracowników \n 2.inicjowanie w firmie projektów BPR \n 3.budowanie fundamentu strategicznego",
         "options": ["prawdziwe są wszystkie zdania", "prawdziwe są dokładnie dwa zdania", "prawdziwe jest tylko jedno zdanie", "INNA ODPOWIEDŹ"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
@@ -195,12 +195,12 @@
         "answer": "INNA ODPOWIEDŹ"
     },
     {
-        "question": "W firmach, które wdrożyły SZJ - kontrola jakości jest stosowana do wykrywania niezgodności. 2. W firmach, które NIE wdrożyły SZJ - skutki pojawienia się niezgodności z zasady pozostają nieusunięte.",
+        "question": "W firmach, które wdrożyły SZJ - kontrola jakości jest stosowana do wykrywania niezgodności. \n 2.W firmach, które NIE wdrożyły SZJ - skutki pojawienia się niezgodności z zasady pozostają nieusunięte.",
         "options": ["Oba zdania są prawdziwe", "Prawdziwe jest tylko pierwsze zdanie", "INNA ODPOWIEDŹ", "Prawdziwe jest tylko drugie zdanie"],
         "answer": "Prawdziwe jest tylko pierwsze zdanie"
     },
     {
-        "question": "1. Głosu Klienta słuchamy, gdy uzyskane wyniki procesu porównujemy z wymaganiami Klienta. 2. Głosu Procesu słuchamy, gdy uzyskane wyniki procesu porównujemy z przyjętymi standardami.",
+        "question": "\n 1.Głosu Klienta słuchamy, gdy uzyskane wyniki procesu porównujemy z wymaganiami Klienta. \n 2.Głosu Procesu słuchamy, gdy uzyskane wyniki procesu porównujemy z przyjętymi standardami.",
         "options": ["Prawdziwe jest tylko pierwsze zdanie", "Żadne z nich nie jest prawdziwe", "Prawdziwe są oba zdania", "INNA ODPOWIEWDŹ"],
         "answer": "Prawdziwe są oba zdania"
     },
@@ -210,7 +210,7 @@
         "answer": "INNA ODPOWIEDŹ"
     },
     {
-        "question": "Zastosowanie Modelu EFQM zwykle umożliwia ... 1. szybkie osiągnięcie wysokiego poziomu doskonałości organizacji. 2. Integrację istniejących w organizacji i planowanych inicjatyw projakościowych. 3. zrozumienie mocnych i słabych stron organizacji.",
+        "question": "Zastosowanie Modelu EFQM zwykle umożliwia ... \n 1.szybkie osiągnięcie wysokiego poziomu doskonałości organizacji. \n 2.Integrację istniejących w organizacji i planowanych inicjatyw projakościowych. \n 3.zrozumienie mocnych i słabych stron organizacji.",
         "options": ["prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedno zdanie", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŹ"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
@@ -220,17 +220,17 @@
         "answer": "INNA ODPOWIEDŹ"
     },
     {
-        "question": "Firma T wdraża SZpJ I w związku z tym, troszcząc się o motywację pracowników, kierownicy ... 1. zawsze transparentnie przedstawiają uzasadnienia przyznawanych nagród. 2. nigdy nie zaskakują pracowników decyzjami a obniżeniu premii w przypadku negatywnych wyników kontroli, lecz uzgadniają z nimi jasne zasady premiowania w danym roku. 3. otwarcie informują pracowników o możliwościach rozwoju i ścieżkach kariery oraz zasadach zwiększenia wynagrodzenia.",
+        "question": "Firma T wdraża SZpJ I w związku z tym, troszcząc się o motywację pracowników, kierownicy ... \n 1.zawsze transparentnie przedstawiają uzasadnienia przyznawanych nagród. \n 2.nigdy nie zaskakują pracowników decyzjami a obniżeniu premii w przypadku negatywnych wyników kontroli, lecz uzgadniają z nimi jasne zasady premiowania w danym roku. \n 3.otwarcie informują pracowników o możliwościach rozwoju i ścieżkach kariery oraz zasadach zwiększenia wynagrodzenia.",
         "options": ["właściwe są dokładnie dwa działania", "właściwe jest tylko jedno działanie", "INNA ODPOWIEDŹ", "właściwe są wszystkie działania"],
         "answer": "właściwe są wszystkie działania"
     },
     {
-        "question": "Porównując wykorzystanie procesów i procedur, można powiedzieć, że ... 1. procedury wykorzystujemy głównie do zarządzania. 2. procedury wykorzystujemy jako opisy realizacji procesów. 3. wykorzystanie zarówno procesów, jak i procedur wymaga między innymi określenia ich celów oraz danych wejściowych.",
+        "question": "Porównując wykorzystanie procesów i procedur, można powiedzieć, że ... \n 1.procedury wykorzystujemy głównie do zarządzania. \n 2.procedury wykorzystujemy jako opisy realizacji procesów. \n 3.wykorzystanie zarówno procesów, jak i procedur wymaga między innymi określenia ich celów oraz danych wejściowych.",
         "options": ["prawdziwe jest tylko jedno zdanie", "INNA ODPOWIEDŹ", "prawdziwe są wszystkie zdania", "prawdziwe są dokładnie dwa zdania"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
     {
-        "question": "Po zakończeniu audytu wewnętrznego - audytor ... 1. opracował i przedstawił do zatwierdzenia raport z audytu 2. wykonał wszystkie działania po audytowe.",
+        "question": "Po zakończeniu audytu wewnętrznego - audytor ... \n 1.opracował i przedstawił do zatwierdzenia raport z audytu \n 2.wykonał wszystkie działania po audytowe.",
         "options": ["właściwe jest tylko pierwsze działanie", "INNA ODPOWIEDŹ", "właściwe jest tylko drugie działanie", "oba działania są właściwe"],
         "answer": "oba działania są właściwe"
     },
@@ -240,12 +240,12 @@
         "answer": "będą one stopniowo maleć dzięki redukcji kosztów niezgodności"
     },
     {
-        "question": "Starając się zbudować zaangażowanie pracowników dla inicjatyw projakościowych, warto … 1. rozpoznać ich talenty i przydzielać im odpowiednie zadania. 2. zapewnić im szkolenia dotyczące otwartej komunikacji. 3. regularnie informować wszystkich pracowników o efektach prowadzonych działań i uzyskiwanych przez nich wyników oraz wyróżniać najlepszych.",
+        "question": "Starając się zbudować zaangażowanie pracowników dla inicjatyw projakościowych, warto … \n 1.rozpoznać ich talenty i przydzielać im odpowiednie zadania. \n 2.zapewnić im szkolenia dotyczące otwartej komunikacji. \n 3.regularnie informować wszystkich pracowników o efektach prowadzonych działań i uzyskiwanych przez nich wyników oraz wyróżniać najlepszych.",
         "options": ["prawdziwe jest tylko pierwsze i trzecie zdanie", "INNA ODPOWIEDŹ", "prawdziwe jest tylko pierwsze i drugie zdanie", "prawdziwe są wszystkie zdania"],
         "answer": "prawdziwe są wszystkie zdania"
     },
     {
-        "question": "W firmie A prowadzone są między innymi takie działania projakościowe: 1. Monitorowanie i usprawnianie sposobów działania firmy 2. Zbieranie wyników prowadzonych analiz, przygotowując podstawy do podejmowania decyzji 3. Budowanie kontaktów z dostawcami opartych na zaufaniu Spośród powyższych działań - bezpośrednio z 7 zasad zarządzania jakością wynika …",
+        "question": "W firmie A prowadzone są między innymi takie działania projakościowe: \n 1.Monitorowanie i usprawnianie sposobów działania firmy \n 2.Zbieranie wyników prowadzonych analiz, przygotowując podstawy do podejmowania decyzji \n 3.Budowanie kontaktów z dostawcami opartych na zaufaniu Spośród powyższych działań - bezpośrednio z 7 zasad zarządzania jakością wynika …",
         "options": ["tylko pierwsze i drugie działanie", "tylko drugie i trzecie działanie", "tylko pierwsze | trzecie działanie", "INNA ODPOWIEDŹ"],
         "answer": "INNA ODPOWIEDŹ"
     },
@@ -255,17 +255,17 @@
         "answer": "nie ma związku z poziomem zadowolenia Klienta"
     },
     {
-        "question": "W organizacji, w której wdrożono szczupte” zarządzanie, przywódca … 1. Jest przede wszystkim charyzmatycznym liderem, który umie pociągnąć za sobą ludzi. 2. przede wszystkim wspiera swoich pracowników w ich rozwoju. 3. buduje swą wiedzę o stanie organizacji głównie na podstawie otrzymywanych raportów, a nie rozmów z pracownikami i ich subiektywnych opinii.",
+        "question": "W organizacji, w której wdrożono szczupte” zarządzanie, przywódca … \n 1.Jest przede wszystkim charyzmatycznym liderem, który umie pociągnąć za sobą ludzi. \n 2.przede wszystkim wspiera swoich pracowników w ich rozwoju. \n 3.buduje swą wiedzę o stanie organizacji głównie na podstawie otrzymywanych raportów, a nie rozmów z pracownikami i ich subiektywnych opinii.",
         "options": ["prawdziwe jest tylko pierwsze zdanie", "prawdziwe są wszystkie zdania", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŻ"],
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "W firmie X od wielu lat realizowany jest proces ciąstego doskonalenia organizacji. Planując koszty i przychody firmy na kolejny rok, należy założyć, że we wszystkich kwartałach działania związane z tym procesem będą l… 1. wymagać dużego zaangażowania Kierownictwa. 2. przynosić znaczące przyrosty korzyści finansowych.",
+        "question": "W firmie X od wielu lat realizowany jest proces ciąstego doskonalenia organizacji. Planując koszty i przychody firmy na kolejny rok, należy założyć, że we wszystkich kwartałach działania związane z tym procesem będą l… \n 1.wymagać dużego zaangażowania Kierownictwa. \n 2.przynosić znaczące przyrosty korzyści finansowych.",
         "options": ["INNA ODPOWIEDŻ", "prawdziwe jest tylko pierwsze zdanie", "prawdziwe jest tylko drugie zdanie", "prawdziwe są oba zdania"],
         "answer": "prawdziwe jest tylko pierwsze zdanie"
     },
     {
-        "question": "Przygotowując się do rozpoczęcia wdrażania Systemu Zarządzania przez Jakość, uwzględnienie takich elementów jak ... 1. przeszkolenie zatogi w zakresie norm z rodziny ISO 9000. 2. uzyskanie zaangażowania wszystkich pracowników. 3. opracowanie lub zaktualizowanie opisów procesów i procedur. 4. ogłoszenie decyzji Kierownika ds. Jakości o wejściu na drogę do TQM.",
+        "question": "Przygotowując się do rozpoczęcia wdrażania Systemu Zarządzania przez Jakość, uwzględnienie takich elementów jak ... \n 1.przeszkolenie zatogi w zakresie norm z rodziny ISO 9000. \n 2.uzyskanie zaangażowania wszystkich pracowników. \n 3.opracowanie lub zaktualizowanie opisów procesów i procedur. \n 4.ogłoszenie decyzji Kierownika ds. Jakości o wejściu na drogę do TQM.",
         "options": ["prawdziwe są wszystkie zdania", "prawdziwe są dokładnie trzy zdania", "INNA ODPOWIEDŻ", "prawdziwe jest tylko jedno zdanie"],
         "answer": "prawdziwe są dokładnie trzy zdania"
     },
@@ -275,7 +275,7 @@
         "answer": "organizowanie odpowiednich szkoleń dla pracowników"
     },
     {
-        "question": "1. SZJ jest elementem składowym systemu zarządzania, dotyczącym jakości. 2. Po uzyskaniu przez firmę certyfikatu ISO 9001, jej SZJ nie powinien być modyfikowany do następnego audytu. 3. SZJ opisuje sposoby kierowania i sterowania działaniami, mającymi związek z jakością produktu lub usługi.",
+        "question": "\n 1.SZJ jest elementem składowym systemu zarządzania, dotyczącym jakości. \n 2.Po uzyskaniu przez firmę certyfikatu ISO 9001, jej SZJ nie powinien być modyfikowany do następnego audytu. \n 3.SZJ opisuje sposoby kierowania i sterowania działaniami, mającymi związek z jakością produktu lub usługi.",
         "options": ["nie ma zdania prawdziwego", "prawdziwe jest tylko jedno zdanie", "prawdziwe są dokładnie dwa zdania", "INNA ODPOWIEDŻ"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
@@ -290,12 +290,12 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Firma A zamówiła w firmie B opracowanie nowego systemu Kady-Płace. Firma B zajmuje się produkcją oprogramowania na zamówienie i uzyskała certyfikat ISO dla swego Systemu Zarządzania Jakością. Przykładem udokumentowanej informacji w SZJ firmy B może być … 1. Wynik analizy wymagań Działu rekrutacji firmy A. 2. Procedura \"Testowania oprogramowania\" wg której pracują testerzy firmy B. 3. System Zarządzania Jakością firmy B.",
+        "question": "Firma A zamówiła w firmie B opracowanie nowego systemu Kady-Płace. Firma B zajmuje się produkcją oprogramowania na zamówienie i uzyskała certyfikat ISO dla swego Systemu Zarządzania Jakością. Przykładem udokumentowanej informacji w SZJ firmy B może być … \n 1.Wynik analizy wymagań Działu rekrutacji firmy A. \n 2.Procedura \"Testowania oprogramowania\" wg której pracują testerzy firmy B. \n 3.System Zarządzania Jakością firmy B.",
         "options": ["prawdziwe są wszystkie zdania", "prawdziwe jest tylko jedno zdanie", "INNA ODPOWIEDŻ", "prawdziwe są dokładnie dwa zdania"],
         "answer": "prawdziwe są dokładnie dwa zdania"
     },
     {
-        "question": "Posiadanie przez daną firmę certyfikatu ISO 9001... 1. sprzyja ciągłemu doskonaleniu usług świadczonych przez tę firmę. 2. może tej firmie ułatwić pozyskanie zagranicznych kontraktów.",
+        "question": "Posiadanie przez daną firmę certyfikatu ISO 9001... \n 1.sprzyja ciągłemu doskonaleniu usług świadczonych przez tę firmę. \n 2.może tej firmie ułatwić pozyskanie zagranicznych kontraktów.",
         "options": ["prawdziwe jest tylko pierwsze zdanie", "oba zdania są prawdziwe", "prawdziwe jest tylko drugie zdanie", "INNA ODPOWIEDZ"],
         "answer": "oba zdania są prawdziwe"
     },
@@ -305,12 +305,12 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Dbając o właściwe relacje z pracownikami w firmie wdrażającej TQM, kierownicy powinni między innymi … 1. umiejętnie słuchać tego, co pracownicy mają do powiedzenia. 2. wydawać jasne polecenia i spokojnie oczekiwać na ich wykonanie. 3. otwarcie i zdecydowanie oceniać pracowników, używając jednak tzw. mocnych słów wyłącznie w przypadku, gdy są one konieczne.",
+        "question": "Dbając o właściwe relacje z pracownikami w firmie wdrażającej TQM, kierownicy powinni między innymi … \n 1.umiejętnie słuchać tego, co pracownicy mają do powiedzenia. \n 2.wydawać jasne polecenia i spokojnie oczekiwać na ich wykonanie. \n 3.otwarcie i zdecydowanie oceniać pracowników, używając jednak tzw. mocnych słów wyłącznie w przypadku, gdy są one konieczne.",
         "options": ["właściwe są wszystkie działania", "właściwe jest tylko jedno działanie", "INNA ODPOWIEDŹ", "właściwe jest tylko pierwsze I drugie działanie"],
         "answer": "właściwe jest tylko pierwsze I drugie działanie"
     },
     {
-        "question": "Firma A (ok. 100 pracowników) planuje opracowanie I wdrożenie swego Systemu Zarządzania Jakością zgodnie ze wskazaniami ISO. W związku z tym KONIECZNE jest uwzględnienie w planie firmy A punktu ... 1. Certyfikacja SZJ. 2. Przeprowadzenie serii audytów wewnętrznych. 3. Przeszkolenie załogi.",
+        "question": "Firma A (ok. 100 pracowników) planuje opracowanie I wdrożenie swego Systemu Zarządzania Jakością zgodnie ze wskazaniami ISO. W związku z tym KONIECZNE jest uwzględnienie w planie firmy A punktu ... \n 1.Certyfikacja SZJ. \n 2.Przeprowadzenie serii audytów wewnętrznych. \n 3.Przeszkolenie załogi.",
         "options": ["prawdziwe są tylko zdania drugie I trzecie", "INNA ODPOWIEDŹ", "prawdziwe są wszystkie zdania", "prawdziwe jest dokładnie jedno zdanie"],
         "answer": "prawdziwe są wszystkie zdania"
     }
