@@ -3,7 +3,12 @@ import random
 import os
 import json
 
-#31012025
+def load_css(file_name="styles.css"):
+    with open(file_name, "r") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+load_css()
+
 def load_quizzes(directory="data"):
     quizzes = {}
     if not os.path.exists(directory):
@@ -25,26 +30,20 @@ def quiz_results(quiz_data, user_answers):
     total = len(quiz_data)
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
-    background_color = "#f4fdf7" if score_percentage >= 50 else "#fdecea"
-    border_color = "#4CAF50" if score_percentage >= 50 else "#f44336"
-    text_color = "#4CAF50" if score_percentage >= 50 else "#f44336"
-
+    # Użycie zmiennych CSS
     st.markdown(f"""
-        <div style="
-            border: 3px solid {border_color}; 
-            border-radius: 10px; 
-            padding: 15px; 
-            margin-bottom: 20px;
-            text-align: center;
-            background-color: {background_color};
-        ">
-            <h2 style="color: {text_color}; margin: 0;">Twój wynik: <strong>{correct}/{total}</strong></h2>
-            <p style="color: {text_color}; margin: 5px 0 0; font-size: 18px;">
-                Wynik procentowy: <strong>{score_percentage:.2f}%</strong>
-            </p>
+        <style>
+            :root {{
+                --background-color: {"#f4fdf7" if score_percentage >= 50 else "#fdecea"};
+                --border-color: {"#4CAF50" if score_percentage >= 50 else "#f44336"};
+                --text-color: {"#4CAF50" if score_percentage >= 50 else "#f44336"};
+            }}
+        </style>
+        <div class="results-container" style="border-color: var(--border-color);">
+            <h2>Twój wynik: <strong>{correct}/{total}</strong></h2>
+            <p>Wynik procentowy: <strong>{score_percentage:.2f}%</strong></p>
         </div>
     """, unsafe_allow_html=True)
-
 
 quizzes = load_quizzes()
 

@@ -1,0 +1,30 @@
+.results-container {
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: var(--background-color);
+}
+
+.results-container h2 {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.results-container p {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
