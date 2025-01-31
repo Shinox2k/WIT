@@ -61,7 +61,7 @@ quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
 if quiz_choice:
     total_questions = len(quizzes[quiz_choice])
     question_percentage = st.radio(
-        "Wybierz, ile pytań chcesz wybrać:",
+        "Wybierz na ile pytań chcesz odpowiedzieć:",
         options=["5%", "10%", "25%", "50%", "100%"],
         index=4
     )
