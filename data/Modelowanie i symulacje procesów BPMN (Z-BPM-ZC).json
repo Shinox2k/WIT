@@ -1,0 +1,742 @@
+[
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (V)",
+        "options": [
+            "Silna orientacja na klienta. Identyfikacja klienta zarówno zewnętrznego, jak i wewnętrznego.",
+            "Identyfikacja klienta zewnętrznego.",
+            "Praca w ramach zespołów funkcjonalnych w strukturze organizacyjnej.",
+            "Struktura organizacji stabilna, uporządkowana według kryterium funkcji i specjalizacji."
+        ],
+        "answer": "Silna orientacja na klienta. Identyfikacja klienta zarówno zewnętrznego, jak i wewnętrznego."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O kontekście: Proces Biznesowy istnieje w określonym kontekście biznesowym\" należy: (II)",
+        "options": [
+            "Proces Biznesowy dostarcza wyjścia zewnętrznym klientom i interesariuszom oraz innym Procesom Biznesowym organizacji i otrzymuje wejścia od tychże.dasd",
+            "Diagram Procesu Biznesowego dostarcza informacji o modelu Procesu Biznesowego istotnych z punktu widzenia danej grupy użytkowników.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Proces Biznesowy powinien być sterowany przez fundamentalne zasady i wartości organizacji."
+        ],
+        "answer": "Proces Biznesowy dostarcza wyjścia zewnętrznym klientom i interesariuszom oraz innym Procesom Biznesowym organizacji i otrzymuje wejścia od tychże."
+    },
+    {
+        "question": "W rozwoju zarządzania procesowego Faza 4: Zarządzanie procesowe zorientowane na projekt … obejmuje elementy:",
+        "options": [
+            "Podejście systemowe; Zarządzanie łańcuchem wartości",
+            "Analiza procesu produkcyjnego pod kątem czasu przebiegu i zasobów procesu; Doskonalenie metod pracy; Kontrola wyników procesu produkcyjnego",
+            "Analiza potrzeb klientów w łańcuchu dostaw; Elastyczność procesów (czas reakcji na zmiany); Zarządzanie procesami w ujęciu zwinnym",
+            "Podnoszenie poziomu integracji i elastyczności procesów; Zapewnienie ciągłości działań w procesach"
+        ],
+        "answer": "Analiza potrzeb klientów w łańcuchu dostaw; Elastyczność procesów (czas reakcji na zmiany); Zarządzanie procesami w ujęciu zwinnym"
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego etap: Operowanie (kierowanie) procesem oznacza:",
+        "options": [
+            "pomiar wykonania procesu oraz możliwość związania z procesem wskaźników (Key Process Indicators – KPI) oraz dokonywanie ich obserwacji w trakcie realizacji i po wykonaniu procesu",
+            "jest ściśle związane z reakcją na zaistniałe sytuacje wyjątkowe. Obejmuje takie działania, jak: dodawanie, usuwanie, zmiana, zastępowanie uczestników procesów, zmiana logiki procesu w trakcie realizacji, zmiana rozlokowania i wykorzystania zasobów itp.",
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "dystrybucję danych można umieścić w kontekście controllingu procesów"
+        ],
+        "answer": "jest ściśle związane z reakcją na zaistniałe sytuacje wyjątkowe. Obejmuje takie działania, jak: dodawanie, usuwanie, zmiana, zastępowanie uczestników procesów, zmiana logiki procesu w trakcie realizacji, zmiana rozlokowania i wykorzystania zasobów itp."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O modelach: Model Procesu Biznesowego umożliwia wykorzystanie wielu różnych perspektyw, diagramów i notacji\" należy: (IV)",
+        "options": [
+            "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego.",
+            "Użytkownicy pracujący z modelem lub wdrażający wybrane aspekty modelu, powinni mieć możliwość oglądania diagramu Procesu w notacji, która jest odpowiednia dla ich własnych potrzeb.",
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Użytkownicy pracujący z modelem lub wdrażający wybrane aspekty modelu, powinni mieć możliwość oglądania diagramu Procesu w notacji, która jest odpowiednia dla ich własnych potrzeb."
+    },
+    {
+        "question": "W podejściu procesowym można odnaleźć implementacje wielu metod. nalezą do nich: (III)",
+        "options": [
+            "Activity Based Costing, Activity Based Mangement, Balanced Scored Card",
+            "Wszystkie merytoryczna odpowiedź są poprawne",
+            "Żadna merytoryczna odpowiedź nie jest poprawna",
+            "Just-In-Time, Kazein, Kanban, Lean Management"
+        ],
+        "answer": "Wszystkie merytoryczna odpowiedź są poprawne"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O unikalności: Proces Biznesowy jest unikalnym aktywem organizacji, który wykorzystuje inne aktywa organizacji\" należy: (V)",
+        "options": [
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Wszystkie zasoby wykorzystywane przy wykonywaniu Procesu Biznesowego powinny mieć jasno zdefiniowane zadania, role i odpowiedzialności.",
+            "Organizacja nie powinna mieć więcej niż jeden zestaw Procesów Biznesowych.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Organizacja nie powinna mieć więcej niż jeden zestaw Procesów Biznesowych."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O motywacji: Cele Procesu Biznesowego wspierają osiąganie strategicznych, taktycznych i operatywnych celów organizacji\" należy: (I)",
+        "options": [
+            "Model Procesu Biznesowego zawiera wszystkie informacje niezbędne do opisania Procesu oraz otoczenia, w którym jest realizowany.",
+            "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych.",
+            "Proces Biznesowy powinien być sterowany, formalnie bądź nieformalnie, przez misję, wizję, strategiczne cele organizacji i ich cele pochodne.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Proces Biznesowy powinien być sterowany, formalnie bądź nieformalnie, przez misję, wizję, strategiczne cele organizacji i ich cele pochodne."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O pracy: Proces Biznesowy opisuje pracę wykonywaną w organizacji\" należy: (II)",
+        "options": [
+            "Proces Biznesowy dostarcza wyjścia zewnętrznym klientom i interesariuszom oraz innym Procesom Biznesowym organizacji i otrzymuje wejścia od tychże.",
+            "Wartość tworzona przez Proces Biznesowy powinna być mierzona przez jeden lub więcej wskaźników i/lub mierników.",
+            "Proces Biznesowy składa się z zestawu działań, z których każde może posiadać swój własny zestaw działań.",
+            "Nazwa Procesu Biznesowego powinna odzwierciedlać wykonywane w nim działania i nie powinna być sformułowana z użyciem strony biernej."
+        ],
+        "answer": "Proces Biznesowy składa się z zestawu działań, z których każde może posiadać swój własny zestaw działań."
+    },
+    {
+        "question": "Charakterystyka rozwoju zarządzania procesowego obejmuje fazy. Właściwa kolejność faz to:",
+        "options": [
+            "Zintegrowane zarządzanie procesowe; Podejście procesowe; Badania procesu produkcyjnego; Zarządzanie procesowe; Podejście procesowe; Badania procesu produkcyjnego; Zarządzanie procesowe zorientowane na projekt, wiedzę Dynamiczne zarządzanie procesowe /Zwinne zarządzanie procesowe;",
+            "Podejście procesowe; Badania procesu produkcyjnego; Zarządzanie procesowe; Podejście procesowe; Badania procesu produkcyjnego; Zarządzanie procesowe zorientowane na projekt, wiedzę Dynamiczne zarządzanie procesowe /Zwinne zarządzanie procesowe; Zintegrowane zarządzanie procesowe",
+            "Podejście procesowe; Badania procesu produkcyjnego; Zarządzanie procesowe; Zarządzanie procesowe zorientowane na projekt, wiedzę Dynamiczne zarządzanie procesowe /Zwinne zarządzanie procesowe; Zintegrowane zarządzanie procesowe",
+            "Badania procesu produkcyjnego; Podejście procesowe; Zarządzanie procesowe; Zarządzanie procesowe zorientowane na projekt, wiedzę Dynamiczne zarządzanie procesowe /Zwinne zarządzanie procesowe; Zintegrowane zarządzanie procesowe"
+        ],
+        "answer": "Badania procesu produkcyjnego; Podejście procesowe; Zarządzanie procesowe; Zarządzanie procesowe zorientowane na projekt, wiedzę Dynamiczne zarządzanie procesowe /Zwinne zarządzanie procesowe; Zintegrowane zarządzanie procesowe"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O zasobach: Proces Biznesowy jest realizowany poprzez kombinację różnorodnych zasobów w różnych organizacjach lub jednostkach organizacyjnych\" należy: (I)",
+        "options": [
+            "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Proces Biznesowy powinien być sterowany, formalnie bądź nieformalnie, przez misję, wizję, strategiczne cele organizacji i ich cele pochodne.",
+            "Proces Biznesowy powinien być wykonywany przez zasoby ludzkie posiadające umiejętności niezbędne do realizacji powierzonej im pracy."
+        ],
+        "answer": "Proces Biznesowy powinien być wykonywany przez zasoby ludzkie posiadające umiejętności niezbędne do realizacji powierzonej im pracy."
+    },
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (IV)",
+        "options": [
+            "Akcent postawiony na dostarczenie narzędzi i rozwiązań w obszarze.",
+            "Identyfikacja klienta zewnętrznego.",
+            "Praca w ramach zespołów funkcjonalnych",
+            "Akcent na jakość wykonywanych procesów zarządzania, efektywność realizacji procesów."
+        ],
+        "answer": "Akcent na jakość wykonywanych procesów zarządzania, efektywność realizacji procesów."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O motywacji: Cele Procesu Biznesowego wspierają osiąganie strategicznych, taktycznych i operatywnych celów organizacji\" należy: (II)",
+        "options": [
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania.",
+            "Proces Biznesowy powinien być sterowany przez fundamentalne zasady i wartości organizacji.",
+            "Diagram Procesu Biznesowego dostarcza informacji o modelu Procesu Biznesowego istotnych z punktu widzenia danej grupy użytkowników.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Proces Biznesowy powinien być sterowany przez fundamentalne zasady i wartości organizacji."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O zasobach: Proces Biznesowy jest realizowany poprzez kombinację różnorodnych zasobów w różnych organizacjach lub jednostkach organizacyjnych\" należy: (II)",
+        "options": [
+            "Proces Biznesowy powinien być sterowany przez fundamentalne zasady i wartości organizacji.",
+            "Proces Biznesowy powinien być wykonywany przez zasoby technologii informacyjnych, posiadające zdolność realizacji technologicznych aspektów pracy.",
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Proces Biznesowy powinien być wykonywany przez zasoby technologii informacyjnych, posiadające zdolność realizacji technologicznych aspektów pracy."
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego, w etapie Analiza, Analiza zewnętrza dotyczy:",
+        "options": [
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "głównie symulacji i prognozowaniu przebiegów procesów oraz parametrów ich realizacji (np. kosztu, czasu, wykorzystania zasobów)",
+            "tego, co odbywa się w ramach procesu i służy odpowiedzi na pytanie: co się wydarzyło/dzieje/może wydarzyć w trakcie realizacji?",
+            "przejawów realizacji procesów w organizacji"
+        ],
+        "answer": "przejawów realizacji procesów w organizacji"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O motywacji: Cele Procesu Biznesowego wspierają osiąganie strategicznych, taktycznych i operatywnych celów organizacji\" należy: (V)",
+        "options": [
+            "Organizacja nie powinna mieć więcej niż jeden zestaw Procesów Biznesowych.",
+            "Wszystkie Procesy Biznesowe powinny być wspierane przez kulturę organizacyjną, w której są realizowane.",
+            "Wszystkie Procesy Biznesowe i wchodzące w ich skład działania powinny być opisane z użyciem wspólnego wzorca na każdym poziomie dekompozycji.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Wszystkie Procesy Biznesowe powinny być wspierane przez kulturę organizacyjną, w której są realizowane."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O pracy: Proces Biznesowy opisuje pracę wykonywaną w organizacji\" należy: (III)",
+        "options": [
+            "Nazwa Procesu Biznesowego powinna jednoznacznie wskazywać na jego zamierzony rezultat biznesowy.",
+            "Kompletny zestaw Procesów Biznesowych organizacji opisuje całość prac podejmowanych przez tę organizację.",
+            "Wskaźniki i mierniki każdego działania będącego częścią Procesu Biznesowego muszą być powiązane ze wskaźnikami i miernikami Procesu Biznesowego.",
+            "Proces Biznesowy rozpoczyna się, gdy nastąpi jedno lub więcej zdarzeń aktywujących jego rozpoczęcie."
+        ],
+        "answer": "Kompletny zestaw Procesów Biznesowych organizacji opisuje całość prac podejmowanych przez tę organizację."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O wytwarzaniu wartości: Proces Biznesowy tworzy wartość dla klientów i innych interesariuszy tego procesu\" należy: (I)",
+        "options": [
+            "Proces Biznesowy powinien tworzyć mierzalną wartość dla klientów i innych interesariuszy, poprzez dostarczanie wyników zaspokajających ich szczególne potrzeby i oczekiwania.",
+            "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych.",
+            "Proces Biznesowy powinien być zdefiniowany w ściśle określonych granicach organizacji lub grupy organizacji.",
+            "Model Procesu Biznesowego zawiera wszystkie informacje niezbędne do opisania Procesu oraz otoczenia, w którym jest realizowany."
+        ],
+        "answer": "Proces Biznesowy powinien tworzyć mierzalną wartość dla klientów i innych interesariuszy, poprzez dostarczanie wyników zaspokajających ich szczególne potrzeby i oczekiwania."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O nazwach: Idealna nazwa Procesu Biznesowego jest jednoznaczna, konsekwentnie stosowana oraz zrozumiała i przyjazna dla organizacji\" należy: (I)",
+        "options": [
+            "Praca wykonywana w Procesie Biznesowym przekształca fizyczne i informacyjne wejścia w wyjścia.",
+            "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych.",
+            "Proces Biznesowy powinien mieć jedną i tylko jedną nazwę.",
+            "Proces Biznesowy powinien tworzyć mierzalną wartość dla klientów i innych interesariuszy, poprzez dostarczanie wyników zaspokajających ich szczególne potrzeby i oczekiwania."
+        ],
+        "answer": "Proces Biznesowy powinien mieć jedną i tylko jedną nazwę."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O nazwach: Idealna nazwa Procesu Biznesowego jest jednoznaczna, konsekwentnie stosowana oraz zrozumiała i przyjazna dla organizacji\" należy: (III)",
+        "options": [
+            "Proces Biznesowy może składać się z wysoce ustrukturyzowanych i powtarzalnych działań lub być luźno ustrukturyzowany i charakteryzować się dużą zmiennością.",
+            "Nazwa Procesu Biznesowego powinna jednoznacznie wskazywać na jego zamierzony rezultat biznesowy.",
+            "Wskaźniki i mierniki każdego działania będącego częścią Procesu Biznesowego muszą być powiązane ze wskaźnikami i miernikami Procesu Biznesowego.",
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania."
+        ],
+        "answer": "Nazwa Procesu Biznesowego powinna jednoznacznie wskazywać na jego zamierzony rezultat biznesowy."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O modelach: Model Procesu Biznesowego umożliwia wykorzystanie wielu różnych perspektyw, diagramów i notacji\" należy: (II)",
+        "options": [
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Diagram Procesu Biznesowego dostarcza informacji o modelu Procesu Biznesowego istotnych z punktu widzenia danej grupy użytkowników.",
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania."
+        ],
+        "answer": "Diagram Procesu Biznesowego dostarcza informacji o modelu Procesu Biznesowego istotnych z punktu widzenia danej grupy użytkowników."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O wytwarzaniu wartości: Proces Biznesowy tworzy wartość dla klientów i innych interesariuszy tego procesu\" należy: (IV)",
+        "options": [
+            "Proces Biznesowy kończy się, gdy osiągnięty jest zamierzony rezultat lub gdy podjęta jest decyzja o jego przerwaniu i rezygnacji z osiągnięcia zamierzonego rezultatu.",
+            "Użytkownicy pracujący z modelem lub wdrażający wybrane aspekty modelu, powinni mieć możliwość oglądania diagramu Procesu w notacji, która jest odpowiednia dla ich własnych potrzeb.",
+            "Organizacja nie powinna mieć więcej niż jeden zestaw Procesów Biznesowych.",
+            "Proces Biznesowy powinien być mierzony w stałych punktach, w celu oceny jego skuteczności oraz zidentyfikowania możliwości jego poprawy."
+        ],
+        "answer": "Proces Biznesowy powinien być mierzony w stałych punktach, w celu oceny jego skuteczności oraz zidentyfikowania możliwości jego poprawy."
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego etap: Monitorowanie oznacza:",
+        "options": [
+            "jest ściśle związane z reakcją na zaistniałe sytuacje wyjątkowe. Obejmuje takie działania, jak: dodawanie, usuwanie, zmiana, zastępowanie uczestników procesów, zmiana logiki procesu w trakcie realizacji, zmiana rozlokowania i wykorzystania zasobów itp.",
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "dystrybucję danych można umieścić w kontekście controllingu procesów",
+            "pomiar wykonania procesu oraz możliwość związania z procesem wskaźników (Key Process Indicators – KPI) oraz dokonywanie ich obserwacji w trakcie realizacji i po wykonaniu procesu"
+        ],
+        "answer": "pomiar wykonania procesu oraz możliwość związania z procesem wskaźników (Key Process Indicators – KPI) oraz dokonywanie ich obserwacji w trakcie realizacji i po wykonaniu procesu"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O unikalności: Proces Biznesowy jest unikalnym aktywem organizacji, który wykorzystuje inne aktywa organizacji\" należy: (I)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Proces Biznesowy powinien być wykonywany przez zasoby ludzkie posiadające umiejętności niezbędne do realizacji powierzonej im pracy.",
+            "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych."
+        ],
+        "answer": "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych."
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego etap: Identyfikacja oznacza:",
+        "options": [
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "modelowanie przebiegu procesu z uwzględnieniem znanych ograniczeń i przy wykorzystaniu dostępnych zasobów",
+            "wiąże się z mniej lub bardziej formalnym opisem rzeczywistości (modelowaniem)",
+            "możliwość uruchomienia określonego mechanizmu wymuszającego to, że działania w procesach są podejmowane przez wszystkich wykonawców przewidzianych projektem, inne organizacje, systemy i procesy"
+        ],
+        "answer": "wiąże się z mniej lub bardziej formalnym opisem rzeczywistości (modelowaniem)"
+    },
+    {
+        "question": "W rozwoju zarządzania procesowego Faza 1: Badania procesu produkcyjnego obejmuje elementy:",
+        "options": [
+            "Dostrzeżenie dostawców i roli procesów pomocniczych w zarządzaniu organizacją (procesy zaopatrzenia); Zmiana spojrzenia z wyników procesów na procesy realizowane wewnątrz funkcji",
+            "Podejście systemowe; Zarządzanie łańcuchem wartości",
+            "Analiza potrzeb klientów w łańcuchu dostaw; Elastyczność procesów (czas reakcji na zmiany); Zarządzanie procesami w ujęciu zwinnym",
+            "Analiza procesu produkcyjnego pod kątem czasu przebiegu i zasobów procesu; Doskonalenie metod pracy; Kontrola wyników procesu produkcyjnego"
+        ],
+        "answer": "Analiza procesu produkcyjnego pod kątem czasu przebiegu i zasobów procesu; Doskonalenie metod pracy; Kontrola wyników procesu produkcyjnego"
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego etap: Wdrożenie i wykonanie oznacza:",
+        "options": [
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "możliwość uruchomienia określonego mechanizmu wymuszającego to, że działania w procesach są podejmowane przez wszystkich wykonawców przewidzianych projektem, inne organizacje, systemy i procesy",
+            "modelowanie przebiegu procesu z uwzględnieniem znanych ograniczeń i przy wykorzystaniu dostępnych zasobów",
+            "wiąże się z mniej lub bardziej formalnym opisem rzeczywistości (modelowaniem)"
+        ],
+        "answer": "możliwość uruchomienia określonego mechanizmu wymuszającego to, że działania w procesach są podejmowane przez wszystkich wykonawców przewidzianych projektem, inne organizacje, systemy i procesy"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O wytwarzaniu wartości: Proces Biznesowy tworzy wartość dla klientów i innych interesariuszy tego procesu\" należy: (II)",
+        "options": [
+            "Wartość tworzona przez Proces Biznesowy powinna być mierzona przez jeden lub więcej wskaźników i/lub mierników.",
+            "Proces Biznesowy dostarcza wyjścia zewnętrznym klientom i interesariuszom oraz innym Procesom Biznesowym organizacji i otrzymuje wejścia od tychże.",
+            "Diagram Procesu Biznesowego dostarcza informacji o modelu Procesu Biznesowego istotnych z punktu widzenia danej grupy użytkowników.",
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania."
+        ],
+        "answer": "Wartość tworzona przez Proces Biznesowy powinna być mierzona przez jeden lub więcej wskaźników i/lub mierników."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O unikalności: Proces Biznesowy jest unikalnym aktywem organizacji, który wykorzystuje inne aktywa organizacji\" należy: (II)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania.",
+            "Proces Biznesowy powinien być wykonywany przez zasoby technologii informacyjnych, posiadające zdolność realizacji technologicznych aspektów pracy.",
+            "Wszystkie merytoryczna odpowiedź są poprawne."
+        ],
+        "answer": "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania."
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego etap: Analiza oznacza:",
+        "options": [
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "dystrybucję danych można umieścić w kontekście controllingu procesów",
+            "jest ściśle związane z reakcją na zaistniałe sytuacje wyjątkowe. Obejmuje takie działania, jak: dodawanie, usuwanie, zmiana, zastępowanie uczestników procesów, zmiana logiki procesu w trakcie realizacji, zmiana rozlokowania i wykorzystania zasobów itp.",
+            "pomiar wykonania procesu oraz możliwość związania z procesem wskaźników (Key Process Indicators – KPI) oraz dokonywanie ich obserwacji w trakcie realizacji i po wykonaniu procesu"
+        ],
+        "answer": "dystrybucję danych można umieścić w kontekście controllingu procesów"
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego etap: Projektowanie oznacza:",
+        "options": [
+            "wiąże się z mniej lub bardziej formalnym opisem rzeczywistości (modelowaniem)",
+            "możliwość uruchomienia określonego mechanizmu wymuszającego to, że działania w procesach są podejmowane przez wszystkich wykonawców przewidzianych projektem, inne organizacje, systemy i procesy",
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "modelowanie przebiegu procesu z uwzględnieniem znanych ograniczeń i przy wykorzystaniu dostępnych zasobów"
+        ],
+        "answer": "modelowanie przebiegu procesu z uwzględnieniem znanych ograniczeń i przy wykorzystaniu dostępnych zasobów"
+    },
+    {
+        "question": "Skuteczne zarządzanie procesami biznesowymi to zdolność do (II):",
+        "options": [
+            "usprawniania i optymalizacji procesów",
+            "monitorowania i wpływania na realizację procesów",
+            "zapisywania i analizy informacji o ich przebiegach",
+            "wszystkie merytoryczne odpowiedzi są poprawne"
+        ],
+        "answer": "wszystkie merytoryczne odpowiedzi są poprawne"
+    },
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (VII)",
+        "options": [
+            "Praca w ramach zespołów funkcjonalnych w strukturze organizacyjnej",
+            "Struktura organizacji stabilna, uporządkowana według kryterium funkcji i specjalizacji",
+            "Struktura organizacyjna ulega transformacji według kryterium procesów",
+            "Identyfikacja klienta zewnętrznego"
+        ],
+        "answer": "Struktura organizacyjna ulega transformacji według kryterium procesów"
+    },
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (I)",
+        "options": [
+            "Odpowiedzialność za decyzje i działania w obszarze jednostki organizacyjnej, funkcja menedżera.",
+            "Celem jest wywiązanie się z zadań przydzielonych określonej komórce organizacyjnej.",
+            "Akcent postawiony na dostarczenie narzędzi i rozwiązań w obszarze.",
+            "Postrzeganie organizacji jako układu dynamicznego zbioru procesów wzajemnie na siebie wpływających (którym odpowiadają wielofunkcyjne łańcuchy wartości). Horyzontalne spojrzenie na procesy."
+        ],
+        "answer": "Postrzeganie organizacji jako układu dynamicznego zbioru procesów wzajemnie na siebie wpływających (którym odpowiadają wielofunkcyjne łańcuchy wartości). Horyzontalne spojrzenie na procesy."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O modelach: Model Procesu Biznesowego umożliwia wykorzystanie wielu różnych perspektyw, diagramów i notacji\" należy: (I)",
+        "options": [
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Inne aktywa organizacji posiadają cechy wyraźnie odróżniające te aktywa od Procesów Biznesowych.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Model Procesu Biznesowego zawiera wszystkie informacje niezbędne do opisania Procesu oraz otoczenia, w którym jest realizowany."
+        ],
+        "answer": "Model Procesu Biznesowego zawiera wszystkie informacje niezbędne do opisania Procesu oraz otoczenia, w którym jest realizowany."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O zasobach: Proces Biznesowy jest realizowany poprzez kombinację różnorodnych zasobów w różnych organizacjach lub jednostkach organizacyjnych\" należy: (V)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Wszystkie Procesy Biznesowe powinny być wspierane przez kulturę organizacyjną, w której są realizowane.",
+            "Wszystkie zasoby wykorzystywane przy wykonywaniu Procesu Biznesowego powinny mieć jasno zdefiniowane zadania, role i odpowiedzialności.",
+            "Wszystkie modele Procesów organizacji powinny być zintegrowane w jeden zestaw Procesów Biznesowych."
+        ],
+        "answer": "Wszystkie zasoby wykorzystywane przy wykonywaniu Procesu Biznesowego powinny mieć jasno zdefiniowane zadania, role i odpowiedzialności."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O wytwarzaniu wartości: Proces Biznesowy tworzy wartość dla klientów i innych interesariuszy tego procesu\" należy: (V)",
+        "options": [
+            "Wskaźniki i mierniki Procesu Biznesowego powinny być mierzalne i porównywalne w czasie, jak również we wszystkich miejscach, w których proces jest realizowany.",
+            "Wszystkie modele Procesów organizacji powinny być zintegrowane w jeden zestaw Procesów Biznesowych.",
+            "Wszystkie Procesy Biznesowe i wchodzące w ich skład działania powinny być opisane z użyciem wspólnego wzorca na każdym poziomie dekompozycji.",
+            "Proces Biznesowy powinien być zdefiniowany w ściśle określonych granicach organizacji lub grupy organizacji."
+        ],
+        "answer": "Wskaźniki i mierniki Procesu Biznesowego powinny być mierzalne i porównywalne w czasie, jak również we wszystkich miejscach, w których proces jest realizowany."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O unikalności: Proces Biznesowy jest unikalnym aktywem organizacji, który wykorzystuje inne aktywa organizacji\" należy: (VI)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Wszystkie zasoby wykorzystywane przy wykonywaniu Procesu Biznesowego powinny mieć jasno zdefiniowane zadania, role i odpowiedzialności.",
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Wszystkie modele Procesów organizacji powinny być zintegrowane w jeden zestaw Procesów Biznesowych."
+        ],
+        "answer": "Wszystkie modele Procesów organizacji powinny być zintegrowane w jeden zestaw Procesów Biznesowych."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O pracy: Proces Biznesowy opisuje pracę wykonywaną w organizacji\" należy: (IV)",
+        "options": [
+            "Proces Biznesowy może składać się z wysoce ustrukturyzowanych i powtarzalnych działań lub być luźno ustrukturyzowany i charakteryzować się dużą zmiennością.",
+            "Nazwa Procesu Biznesowego powinna być jednoznacznie i spójnie rozumiana przez zewnętrznych i wewnętrznych interesariuszy organizacji.",
+            "Proces Biznesowy kończy się, gdy osiągnięty jest zamierzony rezultat lub gdy podjęta jest decyzja o jego przerwaniu i rezygnacji z osiągnięcia zamierzonego rezultatu.",
+            "Proces Biznesowy powinien być mierzony w stałych punktach, w celu oceny jego skuteczności oraz zidentyfikowania możliwości jego poprawy."
+        ],
+        "answer": "Proces Biznesowy może składać się z wysoce ustrukturyzowanych i powtarzalnych działań lub być luźno ustrukturyzowany i charakteryzować się dużą zmiennością."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O zasobach: Proces Biznesowy jest realizowany poprzez kombinację różnorodnych zasobów w różnych organizacjach lub jednostkach organizacyjnych\" należy: (IV)",
+        "options": [
+            "Organizacja nie powinna mieć więcej niż jeden zestaw Procesów Biznesowych.",
+            "Zasoby ludzkie zaangażowane w wykonywanie Procesu Biznesowego powinny mieć dostęp do praktycznej wiedzy, niezbędnej dla osiągnięcia optymalnego poziomu realizacji zadań.",
+            "Wszystkie Procesy Biznesowe powinny być wspierane przez kulturę organizacyjną, w której są realizowane.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Zasoby ludzkie zaangażowane w wykonywanie Procesu Biznesowego powinny mieć dostęp do praktycznej wiedzy, niezbędnej dla osiągnięcia optymalnego poziomu realizacji zadań."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O kontekście: Proces Biznesowy istnieje w określonym kontekście biznesowym\" należy: (III)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Notacja jest zestawem symboli i zasad konstruowania diagramów Procesu, stosowanych do wizualizacji i przekazywania informacji z określonej perspektywy modelu Procesu Biznesowego. Notacja nie jest modelem Procesu Biznesowego.",
+            "Zachęty i bodźce motywacyjne zasobów ludzkich powiązanych z Procesem Biznesowym powinny wzmacniać osiąganie pożądanych rezultatów tego procesu.",
+            "Proces Biznesowy rozpoczyna się, gdy nastąpi jedno lub więcej zdarzeń aktywujących jego rozpoczęcie."
+        ],
+        "answer": "Proces Biznesowy rozpoczyna się, gdy nastąpi jedno lub więcej zdarzeń aktywujących jego rozpoczęcie."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O nazwach: Idealna nazwa Procesu Biznesowego jest jednoznaczna, konsekwentnie stosowana oraz zrozumiała i przyjazna dla organizacji\" należy: (V)",
+        "options": [
+            "Organizacja nie powinna mieć więcej niż jeden zestaw Procesów Biznesowych.",
+            "Praca wykonywana w Procesie Biznesowym przekształca fizyczne i informacyjne wejścia w wyjścia.",
+            "Należy stosować jednolitą składnię do konstruowania nazw wszystkich Procesów Biznesowych oraz działań na wszystkich poziomach ich dekompozycji.",
+            "Proces Biznesowy powinien tworzyć mierzalną wartość dla klientów i innych interesariuszy, poprzez dostarczanie wyników zaspokajających ich szczególne potrzeby i oczekiwania."
+        ],
+        "answer": "Należy stosować jednolitą składnię do konstruowania nazw wszystkich Procesów Biznesowych oraz działań na wszystkich poziomach ich dekompozycji."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O modelach: Model Procesu Biznesowego umożliwia wykorzystanie wielu różnych perspektyw, diagramów i notacji\" należy: (III)",
+        "options": [
+            "Wytyczne i reguły biznesowe stanowią ograniczenia dla Procesu Biznesowego.",
+            "Notacja jest zestawem symboli i zasad konstruowania diagramów Procesu, stosowanych do wizualizacji i przekazywania informacji z określonej perspektywy modelu Procesu Biznesowego. Notacja nie jest modelem Procesu Biznesowego.",
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Notacja jest zestawem symboli i zasad konstruowania diagramów Procesu, stosowanych do wizualizacji i przekazywania informacji z określonej perspektywy modelu Procesu Biznesowego. Notacja nie jest modelem Procesu Biznesowego."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O unikalności: Proces Biznesowy jest unikalnym aktywem organizacji, który wykorzystuje inne aktywa organizacji\" należy: (IV)",
+        "options": [
+            "Zasoby ludzkie zaangażowane w wykonywanie Procesu Biznesowego powinny mieć dostęp do praktycznej wiedzy, niezbędnej dla osiągnięcia optymalnego poziomu realizacji zadań.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego."
+        ],
+        "answer": "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O pracy: Proces Biznesowy opisuje pracę wykonywaną w organizacji\" należy: (I)",
+        "options": [
+            "Proces Biznesowy powinien być zdefiniowany w ściśle określonych granicach organizacji lub grupy organizacji.",
+            "Praca wykonywana w Procesie Biznesowym przekształca fizyczne i informacyjne wejścia w wyjścia.",
+            "Proces Biznesowy powinien mieć jedną i tylko jedną nazwę.",
+            "Proces Biznesowy powinien tworzyć mierzalną wartość dla klientów i innych interesariuszy, poprzez dostarczanie wyników zaspokajających ich szczególne potrzeby i oczekiwania."
+        ],
+        "answer": "Praca wykonywana w Procesie Biznesowym przekształca fizyczne i informacyjne wejścia w wyjścia."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O wytwarzaniu wartości: Proces Biznesowy tworzy wartość dla klientów i innych interesariuszy tego procesu\" należy: (III)",
+        "options": [
+            "Wskaźniki i mierniki każdego działania będącego częścią Procesu Biznesowego muszą być powiązane ze wskaźnikami i miernikami Procesu Biznesowego.że.",
+            "Wytyczne i reguły biznesowe stanowią ograniczenia dla Procesu Biznesowego.",
+            "Notacja jest zestawem symboli i zasad konstruowania diagramów Procesu, stosowanych do wizualizacji i przekazywania informacji z określonej perspektywy modelu Procesu Biznesowego. Notacja nie jest modelem Procesu Biznesowego.",
+            "Proces Biznesowy rozpoczyna się, gdy nastąpi jedno lub więcej zdarzeń aktywujących jego rozpoczęcie."
+        ],
+        "answer": "Wskaźniki i mierniki każdego działania będącego częścią Procesu Biznesowego muszą być powiązane ze wskaźnikami i miernikami Procesu Biznesowego.że."
+    },
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (III)",
+        "options": [
+            "Praca w ramach zespołów funkcjonalnych",
+            "Akcent postawiony na dostarczenie narzędzi i rozwiązań w obszarze.",
+            "Przydzielenie właściciela procesu odpowiedzialnego za cały proces zarządzania personelem",
+            "Identyfikacja klienta zewnętrznego"
+        ],
+        "answer": "Przydzielenie właściciela procesu odpowiedzialnego za cały proces zarządzania personelem"
+    },
+    {
+        "question": "Specyfika procesu w organizacji obejmuje następujące elementy (zaznacz poprawną odpowiedź):",
+        "options": [
+            "Zasoby/Wejście; Proces; Wymagania zewnętrzne; Wymagania wewnętrzne; Zasoby/Wyjście",
+            "Zasoby/Wejście; Proces; Wymagania wewnętrzne; Zasoby/Wyjście",
+            "Zasoby/Wejście; Proces; Wymagania zewnętrzne; Zasoby/Wyjście",
+            "Zasoby/Wejście; Proces; Wymagania zewnętrzne; Wymagania wewnętrzne"
+        ],
+        "answer": "Zasoby/Wejście; Proces; Wymagania zewnętrzne; Wymagania wewnętrzne; Zasoby/Wyjście"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O motywacji: Cele Procesu Biznesowego wspierają osiąganie strategicznych, taktycznych i operatywnych celów organizacji\" należy: (IV)",
+        "options": [
+            "Zachęty i bodźce motywacyjne zasobów ludzkich powiązanych z Procesem Biznesowym powinny wzmacniać osiąganie pożądanych rezultatów tego procesu.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Użytkownicy pracujący z modelem lub wdrażający wybrane aspekty modelu, powinni mieć możliwość oglądania diagramu Procesu w notacji, która jest odpowiednia dla ich własnych potrzeb.",
+            "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego."
+        ],
+        "answer": "Zachęty i bodźce motywacyjne zasobów ludzkich powiązanych z Procesem Biznesowym powinny wzmacniać osiąganie pożądanych rezultatów tego procesu."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O motywacji: Cele Procesu Biznesowego wspierają osiąganie strategicznych, taktycznych i operatywnych celów organizacji\" należy: (III)",
+        "options": [
+            "Wytyczne i reguły biznesowe stanowią ograniczenia dla Procesu Biznesowego.",
+            "Proces Biznesowy powinien wykorzystywać wytyczne i reguły biznesowe do podejmowania decyzji biznesowych.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Notacja jest zestawem symboli i zasad konstruowania diagramów Procesu, stosowanych do wizualizacji i przekazywania informacji z określonej perspektywy modelu Procesu Biznesowego. Notacja nie jest modelem Procesu Biznesowego."
+        ],
+        "answer": "Proces Biznesowy powinien wykorzystywać wytyczne i reguły biznesowe do podejmowania decyzji biznesowych."
+    },
+    {
+        "question": "W podejściu procesowym można odnaleźć implementacje wielu metod. nalezą do nich: (I)",
+        "options": [
+            "Reeingineering, Total Quality Management, Benchmarking",
+            "Activity Based Costing, Activity Based Mangement, Balanced Scored Card",
+            "Żadna merytoryczna odpowiedź nie jest poprawna",
+            "Wszystkie merytoryczna odpowiedź są poprawne"
+        ],
+        "answer": "Wszystkie merytoryczna odpowiedź są poprawne"
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego, w etapie Analiza, Analiza wyprzedzającej służy:",
+        "options": [
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "głównie symulacji i prognozowaniu przebiegów procesów oraz parametrów ich realizacji (np. kosztu, czasu, wykorzystania zasobów)",
+            "dotyczy tego, co odbywa się w ramach procesu i służy odpowiedzi na pytanie: co się wydarzyło/dzieje/może wydarzyć w trakcie realizacji?",
+            "dotyczy przejawów realizacji procesów w organizacji."
+        ],
+        "answer": "głównie symulacji i prognozowaniu przebiegów procesów oraz parametrów ich realizacji (np. kosztu, czasu, wykorzystania zasobów)"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O modelach: Model Procesu Biznesowego umożliwia wykorzystanie wielu różnych perspektyw, diagramów i notacji\" należy: (V)",
+        "options": [
+            "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego.",
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Wszystkie Procesy Biznesowe i wchodzące w ich skład działania powinny być opisane z użyciem wspólnego wzorca na każdym poziomie dekompozycji.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Wszystkie Procesy Biznesowe i wchodzące w ich skład działania powinny być opisane z użyciem wspólnego wzorca na każdym poziomie dekompozycji."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O nazwach: Idealna nazwa Procesu Biznesowego jest jednoznaczna, konsekwentnie stosowana oraz zrozumiała i przyjazna dla organizacji\" należy: (II)",
+        "options": [
+            "Wartość tworzona przez Proces Biznesowy powinna być mierzona przez jeden lub więcej wskaźników i/lub mierników.",
+            "Zdarzenia biznesowe inicjują lub kończą Proces Biznesowy i jego działania.",
+            "Proces Biznesowy składa się z zestawu działań, z których każde może posiadać swój własny zestaw działań.",
+            "Nazwa Procesu Biznesowego powinna odzwierciedlać wykonywane w nim działania i nie powinna być sformułowana z użyciem strony biernej."
+        ],
+        "answer": "Nazwa Procesu Biznesowego powinna odzwierciedlać wykonywane w nim działania i nie powinna być sformułowana z użyciem strony biernej."
+    },
+    {
+        "question": "W rozwoju zarządzania procesowego Faza 3: Zarządzanie procesowe obejmuje elementy:",
+        "options": [
+            "Podnoszenie poziomu integracji i elastyczności procesów; Zapewnienie ciągłości działań w procesach",
+            "Dostrzeżenie dostawców i roli procesów pomocniczych w zarządzaniu organizacją (procesy zaopatrzenia); Zmiana spojrzenia z wyników procesów na procesy realizowane wewnątrz funkcji",
+            "Podejście systemowe; Zarządzanie łańcuchem wartości",
+            "Analiza potrzeb klientów w łańcuchu dostaw; Elastyczność procesów (czas reakcji na zmiany); Zarządzanie procesami w ujęciu zwinnym"
+        ],
+        "answer": "Dostrzeżenie dostawców i roli procesów pomocniczych w zarządzaniu organizacją (procesy zaopatrzenia); Zmiana spojrzenia z wyników procesów na procesy realizowane wewnątrz funkcji"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O unikalności: Proces Biznesowy jest unikalnym aktywem organizacji, który wykorzystuje inne aktywa organizacji\" należy: (III)",
+        "options": [
+            "Wszystkie merytoryczna odpowiedź są poprawne.",
+            "Wytyczne i reguły biznesowe stanowią ograniczenia dla Procesu Biznesowego.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Proces Biznesowy powinien być wykonywany z wykorzystaniem obiektów i ich wyposażenia, które wspierają fizyczne aspekty pracy."
+        ],
+        "answer": "Wytyczne i reguły biznesowe stanowią ograniczenia dla Procesu Biznesowego."
+    },
+    {
+        "question": "Specyfika procesu w organizacji w obszarze Zasoby/Wejście m.in. obejmuje następujące elementy:",
+        "options": [
+            "Misja, strategia, cele strategiczne, Procedury, polityki, regulaminy, standardy, System jakości",
+            "Produkt/Usługa",
+            "Przepisy prawne, Normy, Wymagania akcjonariuszy",
+            "Klienci, Pracownicy, Kompetencje, Wiedza, Technologia, Infrastruktura"
+        ],
+        "answer": "Klienci, Pracownicy, Kompetencje, Wiedza, Technologia, Infrastruktura"
+    },
+    {
+        "question": "W rozwoju zarządzania procesowego Faza 2: Podejście procesowe obejmuje elementy:",
+        "options": [
+            "Dostrzeżenie dostawców i roli procesów pomocniczych w zarządzaniu organizacją (procesy zaopatrzenia); Zmiana spojrzenia z wyników procesów na procesy realizowane wewnątrz funkcji",
+            "Podnoszenie poziomu integracji i elastyczności procesów; Zapewnienie ciągłości działań w procesach",
+            "Analiza potrzeb klientów w łańcuchu dostaw; Elastyczność procesów (czas reakcji na zmiany); Zarządzanie procesami w ujęciu zwinnym",
+            "Podejście systemowe; Zarządzanie łańcuchem wartości"
+        ],
+        "answer": "Podejście systemowe; Zarządzanie łańcuchem wartości"
+    },
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (II)",
+        "options": [
+            "Identyfikacja klienta zewnętrznego.",
+            "Celem jest dostarczenie wartości dodanej: – bezpośrednio klientowi wewnętrznemu, – pośrednio klientowi zewnętrznemu.",
+            "Akcent postawiony na dostarczenie narzędzi i rozwiązań w obszarze.",
+            "Odpowiedzialność za decyzje i działania w obszarze jednostki organizacyjnej, funkcja menedżera."
+        ],
+        "answer": "Celem jest dostarczenie wartości dodanej: – bezpośrednio klientowi wewnętrznemu, – pośrednio klientowi zewnętrznemu."
+    },
+    {
+        "question": "W porównaniu podejścia funkcjonalnego do procesowego, które z poniższych jest charakterystyczne dla spojrzenia procesowego: (VI)",
+        "options": [
+            "Identyfikacja klienta zewnętrznego",
+            "Struktura organizacji stabilna, uporządkowana według kryterium funkcji i specjalizacji",
+            "Praca w ramach zespołów funkcjonalnych w strukturze organizacyjnej",
+            "Współpraca w ramach procesu ‒ zespoły tworzone przez przedstawicieli różnych jednostek funkcjonalnych"
+        ],
+        "answer": "Współpraca w ramach procesu ‒ zespoły tworzone przez przedstawicieli różnych jednostek funkcjonalnych"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O nazwach: Idealna nazwa Procesu Biznesowego jest jednoznaczna, konsekwentnie stosowana oraz zrozumiała i przyjazna dla organizacji\" należy: (IV)",
+        "options": [
+            "Proces Biznesowy powinien być mierzony w stałych punktach, w celu oceny jego skuteczności oraz zidentyfikowania możliwości jego poprawy.",
+            "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego.",
+            "Kompletny zestaw Procesów Biznesowych organizacji opisuje całość prac podejmowanych przez tę organizację.",
+            "Nazwa Procesu Biznesowego powinna być jednoznacznie i spójnie rozumiana przez zewnętrznych i wewnętrznych interesariuszy organizacji."
+        ],
+        "answer": "Nazwa Procesu Biznesowego powinna być jednoznacznie i spójnie rozumiana przez zewnętrznych i wewnętrznych interesariuszy organizacji."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O nazwach: Idealna nazwa Procesu Biznesowego jest jednoznaczna, konsekwentnie stosowana oraz zrozumiała i przyjazna dla organizacji\" należy: (VI)",
+        "options": [
+            "Wartość tworzona przez Proces Biznesowy powinna być mierzona przez jeden lub więcej wskaźników i/lub mierników.",
+            "Nazwa Procesu Biznesowego nie powinna wskazywać, gdzie proces jest wykonywany, kto lub co bierze w nim udział oraz jak jest wykonywany.",
+            "Wszystkie modele Procesów organizacji powinny być zintegrowane w jeden zestaw Procesów Biznesowych.",
+            "Praca wykonywana w Procesie Biznesowym przekształca fizyczne i informacyjne wejścia w wyjścia."
+        ],
+        "answer": "Nazwa Procesu Biznesowego nie powinna wskazywać, gdzie proces jest wykonywany, kto lub co bierze w nim udział oraz jak jest wykonywany."
+    },
+    {
+        "question": "W rozwoju zarządzania procesowego Faza 5: Zintegrowane zarządzanie procesowe obejmuje elementy:",
+        "options": [
+            "Podejście systemowe; Zarządzanie łańcuchem wartości",
+            "Podnoszenie poziomu integracji i elastyczności procesów; Zapewnienie ciągłości działań w procesach",
+            "Dostrzeżenie dostawców i roli procesów pomocniczych w zarządzaniu organizacją (procesy zaopatrzenia); Zmiana spojrzenia z wyników procesów na procesy realizowane wewnątrz funkcji",
+            "Analiza procesu produkcyjnego pod kątem czasu przebiegu i zasobów procesu; Doskonalenie metod pracy; Kontrola wyników procesu produkcyjnego"
+        ],
+        "answer": "Podnoszenie poziomu integracji i elastyczności procesów; Zapewnienie ciągłości działań w procesach"
+    },
+    {
+        "question": "Specyfika procesu w organizacji w obszarze Wymagania wewnętrzne m.in. obejmuje następujące elementy:",
+        "options": [
+            "Klienci, Pracownicy, Kompetencje, Wiedza, Technologia, Infrastruktura",
+            "Przepisy prawne, Normy, Wymagania akcjonariuszy",
+            "Misja, strategia, cele strategiczne, Procedury, polityki, regulaminy, standardy, System jakości",
+            "Produkt/Usługa"
+        ],
+        "answer": "Misja, strategia, cele strategiczne, Procedury, polityki, regulaminy, standardy, System jakości"
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego, proces jest:",
+        "options": [
+            "identyfikowany, projektowany",
+            "modelowany, następnie jest wdrażany",
+            "wykonywany, obserwowany, analizowany i doskonalony",
+            "wszystkie merytoryczne odpowiedzi są poprawne"
+        ],
+        "answer": "wszystkie merytoryczne odpowiedzi są poprawne"
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O kontekście: Proces Biznesowy istnieje w określonym kontekście biznesowym\" należy: (IV)",
+        "options": [
+            "Wszystkie Procesy Biznesowe powinny być wspierane przez kulturę organizacyjną, w której są realizowane.",
+            "Użytkownicy pracujący z modelem lub wdrażający wybrane aspekty modelu, powinni mieć możliwość oglądania diagramu Procesu w notacji, która jest odpowiednia dla ich własnych potrzeb.",
+            "Proces Biznesowy kończy się, gdy osiągnięty jest zamierzony rezultat lub gdy podjęta jest decyzja o jego przerwaniu i rezygnacji z osiągnięcia zamierzonego rezultatu.",
+            "Żadna merytoryczna odpowiedź nie jest poprawna."
+        ],
+        "answer": "Proces Biznesowy kończy się, gdy osiągnięty jest zamierzony rezultat lub gdy podjęta jest decyzja o jego przerwaniu i rezygnacji z osiągnięcia zamierzonego rezultatu."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O kontekście: Proces Biznesowy istnieje w określonym kontekście biznesowym\" należy: (I)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Proces Biznesowy powinien być zdefiniowany w ściśle określonych granicach organizacji lub grupy organizacji.",
+            "Proces Biznesowy powinien być sterowany, formalnie bądź nieformalnie, przez misję, wizję, strategiczne cele organizacji i ich cele pochodne.",
+            "Model Procesu Biznesowego zawiera wszystkie informacje niezbędne do opisania Procesu oraz otoczenia, w którym jest realizowany."
+        ],
+        "answer": "Proces Biznesowy powinien być zdefiniowany w ściśle określonych granicach organizacji lub grupy organizacji."
+    },
+    {
+        "question": "W Manifeście Procesu Biznesowego, do obszaru: \"O zasobach: Proces Biznesowy jest realizowany poprzez kombinację różnorodnych zasobów w różnych organizacjach lub jednostkach organizacyjnych\" należy: (III)",
+        "options": [
+            "Żadna merytoryczna odpowiedź nie jest poprawna.",
+            "Zasoby ludzkie, technologie i fizyczne aktywa umożliwiają realizację Procesu Biznesowego.",
+            "Zachęty i bodźce motywacyjne zasobów ludzkich powiązanych z Procesem Biznesowym powinny wzmacniać osiąganie pożądanych rezultatów tego procesu.",
+            "Proces Biznesowy powinien być wykonywany z wykorzystaniem obiektów i ich wyposażenia, które wspierają fizyczne aspekty pracy."
+        ],
+        "answer": "Proces Biznesowy powinien być wykonywany z wykorzystaniem obiektów i ich wyposażenia, które wspierają fizyczne aspekty pracy."
+    },
+    {
+        "question": "Manifest Procesu Biznesowego obejmuje obszary:",
+        "options": [
+            "O pracy; O wytwarzaniu wartości; O zasobach; O kontekście; O modelach; O unikalności",
+            "O pracy; O zasobach; O kontekście; O motywacji; O nazwach; O modelach; O unikalności",
+            "O pracy; O wytwarzaniu wartości; O motywacji; O nazwach; O modelach; O unikalności",
+            "O pracy; O wytwarzaniu wartości; O zasobach; O kontekście; O motywacji; O nazwach; O modelach; O unikalności"
+        ],
+        "answer": "O pracy; O wytwarzaniu wartości; O zasobach; O kontekście; O motywacji; O nazwach; O modelach; O unikalności"
+    },
+    {
+        "question": "Specyfika procesu w organizacji w obszarze Wymagania zewnętrzne m.in. obejmuje następujące elementy:",
+        "options": [
+            "Klienci, Pracownicy, Kompetencje, Wiedza, Technologia, Infrastruktura",
+            "Misja, strategia, cele strategiczne, Procedury, polityki, regulaminy, standardy, System jakości",
+            "Produkt/Usługa",
+            "Przepisy prawne, Normy, Wymagania akcjonariuszy"
+        ],
+        "answer": "Przepisy prawne, Normy, Wymagania akcjonariuszy"
+    },
+    {
+        "question": "Skuteczne zarządzanie procesami biznesowymi to zdolność do (I):",
+        "options": [
+            "ich identyfikacji i opisania",
+            "wszystkie merytoryczne odpowiedzi są poprawne",
+            "wdrażania (implementacji) i uruchamiania procesów",
+            "projektowania, organizowania i symulacji procesów"
+        ],
+        "answer": "wszystkie merytoryczne odpowiedzi są poprawne"
+    },
+    {
+        "question": "W podejściu procesowym można odnaleźć implementacje wielu metod. nalezą do nich: (II)",
+        "options": [
+            "Just-In-Time, Kazein, Kanban, Lean Management",
+            "Reeingineering, Total Quality Management, Benchmarking",
+            "Wszystkie merytoryczna odpowiedź są poprawne",
+            "Żadna merytoryczna odpowiedź nie jest poprawna"
+        ],
+        "answer": "Wszystkie merytoryczna odpowiedź są poprawne"
+    },
+    {
+        "question": "W kontekście cyklu życia procesu biznesowego, w etapie Analiza, Analiza wewnętrzna dotyczy:",
+        "options": [
+            "tego, co odbywa się w ramach procesu i służy odpowiedzi na pytanie: co się wydarzyło/dzieje/może wydarzyć w trakcie realizacji?",
+            "głównie symulacji i prognozowaniu przebiegów procesów oraz parametrów ich realizacji (np. kosztu, czasu, wykorzystania zasobów)",
+            "przejawów realizacji procesów w organizacji.",
+            "wszystkie merytoryczne odpowiedzi są poprawne"
+        ],
+        "answer": "tego, co odbywa się w ramach procesu i służy odpowiedzi na pytanie: co się wydarzyło/dzieje/może wydarzyć w trakcie realizacji?"
+    },
+    {
+        "question": "Specyfika procesu w organizacji w obszarze Zasoby/Wyjście m.in. obejmuje następujące elementy:",
+        "options": [
+            "Przepisy prawne, Normy, Wymagania akcjonariuszy",
+            "Klienci, Pracownicy, Kompetencje, Wiedza, Technologia, Infrastruktura",
+            "Produkt/Usługa",
+            "Misja, strategia, cele strategiczne, Procedury, polityki, regulaminy, standardy, System jakości"
+        ],
+        "answer": "Produkt/Usługa"
+    }
+]

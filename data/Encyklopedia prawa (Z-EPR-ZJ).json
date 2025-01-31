@@ -1,0 +1,416 @@
+[
+    {
+        "question": "W jaki sposób najczęściej ustalane są zasady prawa?",
+        "options": [
+            "Poprzez ich bezpośrednie wyrażenie w tekście aktu normatywnego.",
+            "Poprzez ich zidentyfikowanie w ramach analizy tekstu normatywnego.",
+            "Poprzez ich wyrażenie w treści orzeczenia sądu."
+        ],
+        "answer": "Poprzez ich zidentyfikowanie w ramach analizy tekstu normatywnego."
+    },
+    {
+        "question": "Które z poniższych twierdzeń dotyczy norm-reguł?",
+        "options": [
+            "Są albo spełnione albo naruszone.",
+            "W systemie prawa zajmują wobec innych norm pozycję nadrzędną.",
+            "Mogą być spełnione w większym lub mniejszym stopniu."
+        ],
+        "answer": "Są albo spełnione albo naruszone."
+    },
+    {
+        "question": "Które z poniższych twierdzeń dotyczy norm-zasad?",
+        "options": [
+            "Są albo spełnione albo naruszone.",
+            "Określają uprawnienia i obowiązki pierwotnych adresatów prawa.",
+            "Nakazują realizację określonej wartości."
+        ],
+        "answer": "Nakazują realizację określonej wartości."
+    },
+    {
+        "question": "Zasada in dubio pro reo jest zasadą...",
+        "options": [
+            "prawa podatkowego",
+            "prawa karnego",
+            "prawa administracyjnego"
+        ],
+        "answer": "prawa karnego"
+    },
+    {
+        "question": "Zasada pierwszeństwa prawa unijnego została wykształcona w orzecznictwie",
+        "options": [
+            "Sądu Najwyższego",
+            "Trybunału Konstytucyjnego",
+            "Trybunału Sprawiedliwości Unii Europejskiej"
+        ],
+        "answer": "Trybunału Sprawiedliwości Unii Europejskiej"
+    },
+    {
+        "question": "Koncepcja fikcji powszechnej znajomości prawa jest wyłączona w prawie:",
+        "options": [
+            "cywilnym",
+            "karnym",
+            "administracyjnym procesowym"
+        ],
+        "answer": "administracyjnym procesowym"
+    },
+    {
+        "question": "Zasadą wspólną dla prawa unijnego i prawa administracyjnego procesowego jest zasada",
+        "options": [
+            "bezstronności",
+            "równego traktowania",
+            "czynnego udziału stron w postępowaniu"
+        ],
+        "answer": "czynnego udziału stron w postępowaniu"
+    },
+    {
+        "question": "Jakie dobro osobiste pracownika zostało wprost wskazane w kodeksie pracy jako podlegające ochronie?",
+        "options": [
+            "zdrowie",
+            "wizerunek",
+            "godność"
+        ],
+        "answer": "godność"
+    },
+    {
+        "question": "Wskaż źródła prawa w znaczeniu formalnym",
+        "options": [
+            "Konstytucja, ustawy, rozporządzenia",
+            "okoliczności o charakterze ekonomicznym, kulturowym, politycznym, społecznym, a niekiedy religijnym, które wpływają na treść i formę prawa",
+            "Sejm, Senat, Rada Ministrów, Prezydent"
+        ],
+        "answer": "Konstytucja, ustawy, rozporządzenia"
+    },
+    {
+        "question": "Dziennik Ustaw stanowi...",
+        "options": [
+            "nieurzędowe źródło poznania prawa",
+            "urzędowe źródło poznania prawa",
+            "źródło poznania prawa sui generis"
+        ],
+        "answer": "urzędowe źródło poznania prawa"
+    },
+    {
+        "question": "Decyzja administracyjna stanowi przykład",
+        "options": [
+            "aktu tworzenia prawa",
+            "orzeczenia sądu",
+            "aktu stosowania prawa"
+        ],
+        "answer": "aktu stosowania prawa"
+    },
+    {
+        "question": "Wskaż konsekwencje ujęcia źródeł polskiego prawa powszechnie obowiązującego w ramach katalogu zamkniętego",
+        "options": [
+            "tylko akty prawne wymienione w art. 87 Konstytucji RP stanowią źródła prawa powszechnie obowiązującego",
+            "źródłami prawa są ustawy (w tym zasadnicza), rozporządzenia oraz orzecznictwo",
+            "źródłami prawa są ustawy (w tym zasadnicza), rozporządzenia oraz orzecznictwo, a także interna"
+        ],
+        "answer": "tylko akty prawne wymienione w art. 87 Konstytucji RP stanowią źródła prawa powszechnie obowiązującego"
+    },
+    {
+        "question": "Jak akt prawny może zostać wydany w celu wykonania ustawy?",
+        "options": [
+            "Rozporządzenie wojewody",
+            "Rozporządzenie Komisji Europejskiej",
+            "Rozporządzenie ministra"
+        ],
+        "answer": "Rozporządzenie ministra"
+    },
+    {
+        "question": "Unijnym aktem prawnym obowiązującym bezpośrednio w polskim porządku prawnym jest",
+        "options": [
+            "rozporządzenie",
+            "dyrektywa",
+            "zalecenia"
+        ],
+        "answer": "dyrektywa"
+    },
+    {
+        "question": "Porozumienia zbiorowe stanowią swoiste źródło",
+        "options": [
+            "prawa o zgromadzeniach",
+            "prawa o stowarzyszeniach",
+            "prawa pracy"
+        ],
+        "answer": "prawa pracy"
+    },
+    {
+        "question": "Zasada dyskontynuacji w pracach legislacyjnych parlamentu stanowi przykład",
+        "options": [
+            "prawa zwyczajowego",
+            "prawa precedensowego",
+            "zwyczaju prawnego"
+        ],
+        "answer": "zwyczaju prawnego"
+    },
+    {
+        "question": "Podział prawa na publiczne i prywatne wywodzi się",
+        "options": [
+            "z antycznej Grecji",
+            "ze starożytnego Rzymu",
+            "ze średniowiecznej Europy"
+        ],
+        "answer": "ze starożytnego Rzymu"
+    },
+    {
+        "question": "Wskaż trzy podstawowe metody regulacji stosunków społecznych",
+        "options": [
+            "prawnocywilna, prawnoadministracyjna, prawnokarna",
+            "przedmiotowa, podmiotowa, przedmiotowo-podmiotowa",
+            "ogólnopaństwowa, regionalna, lokalna"
+        ],
+        "answer": "prawnocywilna, prawnoadministracyjna, prawnokarna"
+    },
+    {
+        "question": "Prawo bankowe przynależy do",
+        "options": [
+            "prawa publicznego",
+            "prawa prywatnego",
+            "zarówno do prawa publicznego jak i prywatnego"
+        ],
+        "answer": "zarówno do prawa publicznego jak i prywatnego"
+    },
+    {
+        "question": "Prawo karne przynależy do",
+        "options": [
+            "prawa publicznego",
+            "prawa prywatnego",
+            "zarówno do prawa publicznego jak i prywatnego"
+        ],
+        "answer": "prawa publicznego"
+    },
+    {
+        "question": "W Polsce nie ma kodeksu",
+        "options": [
+            "prawa administracyjnego materialnego",
+            "prawa administracyjnego procesowego",
+            "prawa morskiego"
+        ],
+        "answer": "prawa administracyjnego materialnego"
+    },
+    {
+        "question": "Do prawa wewnętrznego nie należy",
+        "options": [
+            "prawa międzynarodowe prywatne",
+            "prawa międzynarodowe publiczne",
+            "prawo handlowe"
+        ],
+        "answer": "prawa międzynarodowe publiczne"
+    },
+    {
+        "question": "Normy prawne są",
+        "options": [
+            "generalne i konkretne",
+            "indywidualne i konkretne",
+            "generalne i abstrakcyjne"
+        ],
+        "answer": "generalne i abstrakcyjne"
+    },
+    {
+        "question": "Za elementy normy prawnej najczęściej uznaje się",
+        "options": [
+            "hipoteza, dyspozycja, sankcja",
+            "hipoteza, dyspozycja",
+            "poprzednik, następnik"
+        ],
+        "answer": "hipoteza, dyspozycja"
+    },
+    {
+        "question": "Akty stosowania prawa są",
+        "options": [
+            "czynnościami konwencjonalnymi prawnie obojętnymi",
+            "czynnościami konwencjonalnymi prawnie istotnymi",
+            "czynnościami konwencjonalnymi prawnie irrelewantnymi"
+        ],
+        "answer": "czynnościami konwencjonalnymi prawnie istotnymi"
+    },
+    {
+        "question": "Norma prawna w odniesieniu do przepisu prawa stanowi jego",
+        "options": [
+            "formę",
+            "parafrazę",
+            "treść"
+        ],
+        "answer": "treść"
+    },
+    {
+        "question": "Artykuły w kodeksach dzielą się na",
+        "options": [
+            "ustępy",
+            "tiret",
+            "paragrafy"
+        ],
+        "answer": "paragrafy"
+    },
+    {
+        "question": "Podstawową jednostką redakcyjną polskiego rozporządzenia jest",
+        "options": [
+            "punkt",
+            "paragraf",
+            "artykuł"
+        ],
+        "answer": "paragraf"
+    },
+    {
+        "question": "Norma prawna najczęściej jest wywiedziona z",
+        "options": [
+            "jednego przepisu",
+            "dwóch przepisów",
+            "kilku przepisów"
+        ],
+        "answer": "kilku przepisów"
+    },
+    {
+        "question": "Preambuła aktu prawnego należy do jego części",
+        "options": [
+            "artykułowanej",
+            "nieartykułowanej",
+            "końcowej"
+        ],
+        "answer": "artykułowanej"
+    },
+    {
+        "question": "Wskaż definicję języka prawnego",
+        "options": [
+            "element każdej kultury i główny środkiem komunikacji między ludźmi",
+            "środek ustanawiania i podtrzymania więzi społecznych",
+            "zbiór wypowiedzi pełniących funkcję sugestywną"
+        ],
+        "answer": "zbiór wypowiedzi pełniących funkcję sugestywną"
+    },
+    {
+        "question": "Język potoczny stanowi odmianę języka",
+        "options": [
+            "etnicznego",
+            "prawnego",
+            "prawniczego"
+        ],
+        "answer": "etnicznego"
+    },
+    {
+        "question": "Akty prawa są wyrażane w języku",
+        "options": [
+            "potocznym",
+            "prawnym",
+            "prawniczym"
+        ],
+        "answer": "prawnym"
+    },
+    {
+        "question": "Do cech języka prawnego nie należy",
+        "options": [
+            "adekwatność",
+            "komunikatywność",
+            "mniejsza dbałość o dobór słów i konstrukcję wypowiedzi w porównaniu do języka etnicznego"
+        ],
+        "answer": "mniejsza dbałość o dobór słów i konstrukcję wypowiedzi w porównaniu do języka etnicznego"
+    },
+    {
+        "question": "Definicje legalne nie służą zwiększeniu",
+        "options": [
+            "jednoznaczności tekstu prawnego",
+            "precyzyjności tekstu prawnego",
+            "elastyczności tekstu prawnego"
+        ],
+        "answer": "elastyczności tekstu prawnego"
+    },
+    {
+        "question": "Klauzula generalna odsyła do",
+        "options": [
+            "przepisów znajdujących się w tej samej ustawie",
+            "przepisów znajdujących się w innej ustawie",
+            "innego niż prawny systemu norm lub ocen"
+        ],
+        "answer": "innego niż prawny systemu norm lub ocen"
+    },
+    {
+        "question": "Wypowiedź skonstruowana według schematu logicznego „X powinien (może) Y\" to wypowiedź",
+        "options": [
+            "ocenna",
+            "opisowa",
+            "normatywna"
+        ],
+        "answer": "normatywna"
+    },
+    {
+        "question": "Prosty język to styl pisania tekstów urzędowych, które mają trafić",
+        "options": [
+            "masowego odbiorcy",
+            "osób z niepełnosprawnościami intelektualnymi",
+            "osób zatrudnionych w służbie cywilnej"
+        ],
+        "answer": "masowego odbiorcy"
+    },
+    {
+        "question": "Wykładnią prawa nie są",
+        "options": [
+            "czynności zmierzających do ustalenia prawidłowego znaczenia przepisu prawnego",
+            "rezultaty procesu ustalania znaczenia przepisu prawnego",
+            "działania podejmowane w ramach procesu nauczania prawa"
+        ],
+        "answer": "działania podejmowane w ramach procesu nauczania prawa"
+    },
+    {
+        "question": "Wykładnia contra legem to wykładnia",
+        "options": [
+            "sprzeczna z prawem",
+            "wykraczająca poza prawo",
+            "sprzeczna z prawem"
+        ],
+        "answer": "sprzeczna z prawem"
+    },
+    {
+        "question": "Wykładnia sądowa jest rodzajem wykładni",
+        "options": [
+            "autentycznej",
+            "operatywnej",
+            "legalnej"
+        ],
+        "answer": "operatywnej"
+    },
+    {
+        "question": "Punktem odniesienia dla wykładni systemowej jest",
+        "options": [
+            "usytuowanie przepisu w systematyce wewnętrznej aktu normatywnego",
+            "właściwości językowe tekstu przepisu",
+            "warunki, w jakich ma funkcjonować norma wyinterpretowana z przepisu"
+        ],
+        "answer": "usytuowanie przepisu w systematyce wewnętrznej aktu normatywnego"
+    },
+    {
+        "question": "Najpopularniejszym domniemaniem interpretacyjnym jest domniemanie",
+        "options": [
+            "braku zbędnych norm",
+            "dążenia do społecznie aprobowanych celów",
+            "racjonalności prawodawcy"
+        ],
+        "answer": "racjonalności prawodawcy"
+    },
+    {
+        "question": "Do założeń koncepcji klaryfikacyjnej nie należy stwierdzenie",
+        "options": [
+            "nie dokonuje się wykładni tego, co jasne",
+            "wykładnia kończy się wtedy, gdy osiągamy jasność",
+            "wykładnia prawa jest konieczna zawsze"
+        ],
+        "answer": "wykładnia prawa jest konieczna zawsze"
+    },
+    {
+        "question": "Do elementów normy prawnej nie należy",
+        "options": [
+            "wskazanie adresata",
+            "funktor regulujący zachowanie",
+            "sankcja"
+        ],
+        "answer": "sankcja"
+    },
+    {
+        "question": "W praktyce stosowania prawa unijnego dominuje wykładnia",
+        "options": [
+            "językowa",
+            "systemowa",
+            "celowościowa"
+        ],
+        "answer": "celowościowa"
+    }
+]
