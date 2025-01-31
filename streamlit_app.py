@@ -9,6 +9,15 @@ def load_css(file_name="styles.css"):
 
 load_css()
 
+def preprocess_quiz_data(quiz_data):
+    for question_data in quiz_data:
+        if ',' in question_data['answer']:
+            question_data['multiple_correct'] = True
+        else:
+            question_data['multiple_correct'] = False
+    return quiz_data
+
+
 def load_quizzes(directory="data"):
     quizzes = {}
     if not os.path.exists(directory):
@@ -19,14 +28,31 @@ def load_quizzes(directory="data"):
             test_name = filename.replace(".json", "")
             try:
                 with open(os.path.join(directory, filename), "r", encoding="utf-8") as file:
-                    quizzes[test_name] = json.load(file)
+                    raw_quiz_data = json.load(file)
+                    quizzes[test_name] = preprocess_quiz_data(raw_quiz_data)
             except Exception as e:
                 st.error(f"Problem z załadowaniem pliku {filename}: {e}")
+
     return quizzes
 
 
+
 def quiz_results(quiz_data, user_answers):
-    correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
+    correct = 0
+    for question_data in quiz_data:
+        question = question_data['question']
+        correct_answer = question_data['answer']
+        user_answer = user_answers.get(question, None)
+
+        if question_data.get('multiple_correct', False):
+            correct_answer_set = set(map(str.strip, correct_answer.split(',')))
+            user_answer_set = set(map(str.strip, user_answer.split(','))) if user_answer else set()
+            if user_answer_set == correct_answer_set:
+                correct += 1
+        else:
+            if user_answer == correct_answer:
+                correct += 1
+
     total = len(quiz_data)
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
@@ -44,12 +70,12 @@ def quiz_results(quiz_data, user_answers):
         </div>
     """, unsafe_allow_html=True)
 
+
 quizzes = load_quizzes()
 
 st.title("WIT 2025")
 
 quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
-#Test
 if quiz_choice:
     total_questions = len(quizzes[quiz_choice])
     question_percentage = st.radio(
@@ -87,17 +113,15 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
 
-            options_with_emojis = [
-                f"{opt} {'✅' if opt == q['answer'] else '❌' if st.session_state.show_results and st.session_state.user_answers[q['question']] == opt else ''}"
-                for opt in q["options"]
-            ]
+            if q.get('multiple_correct', False):
+                st.caption(
+                    "To pytanie ma więcej niż jedną poprawną odpowiedź. Wybierz odpowiedź najbardziej odpowiadającą oczekiwaniom.")
 
             selected_option = st.radio(
                 "Wybierz odpowiedź:",
-                options_with_emojis if st.session_state.show_results else q["options"],
+                options=q["options"],
                 index=(q["options"].index(st.session_state.user_answers[q['question']])
-                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
-                       else None),
+                       if st.session_state.user_answers[q['question']] in q["options"] else None),
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
