@@ -97,9 +97,10 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             selected_option = st.radio(
                 "Wybierz odpowiedź:",
                 options_with_emojis if st.session_state.show_results else q["options"],
-                index=(q["options"].index(st.session_state.user_answers[q['question']])
-                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
-                       else 0),
+                index=(-1 if not st.session_state.show_results and not st.session_state.answers_locked and
+                             st.session_state.user_answers[q['question']] is None else
+                       q["options"].index(st.session_state.user_answers[q['question']])
+                       if st.session_state.user_answers[q['question']] in q["options"] else 0),
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
