@@ -103,12 +103,17 @@ if st.button("Rozpocznij test"):
 
 if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
-    hint_content = None
-    if st.button("Pokaż pomoc"):
-        hint_content = load_hint(quiz_choice)  # Ładowanie pliku pomocniczego
 
-    if hint_content:
-        st.markdown(f"### Treść pomocy:\n{format_hint_as_markdown(hint_content)}")
+    if "show_hint" not in st.session_state:
+        st.session_state.show_hint = False
+
+    if st.button("Pokaż pomoc"):
+        st.session_state.show_hint = not st.session_state.show_hint
+
+    if st.session_state.show_hint:
+        hint_content = load_hint(st.session_state.selected_quiz)
+        if hint_content:
+            st.markdown(f"### Treść pomocy:\n{format_hint_as_markdown(hint_content)}")
 
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
