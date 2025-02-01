@@ -110,10 +110,29 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
     if st.button("Pokaż pomoc"):
         st.session_state.show_hint = not st.session_state.show_hint
 
-    if st.session_state.show_hint:
-        hint_content = load_hint(st.session_state.selected_quiz)
-        if hint_content:
-            st.markdown(f"### Treść pomocy:\n{format_hint_as_markdown(hint_content)}")
+    if "show_hint" not in st.session_state:
+        st.session_state.show_hint = False
+
+    # Pływający przycisk "Pokaż pomoc/Ukryj pomoc"
+    st.markdown(
+        f"""
+        <button class="floating-btn" onclick="toggleHelp()">{"Ukryj pomoc" if st.session_state.show_hint else "Pokaż pomoc"}</button>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Pobierz treść pomocy i stwórz pływające okno
+    hint_content = load_hint(st.session_state.selected_quiz)
+    if hint_content:
+        st.markdown(
+            f"""
+            <div class="floating-help {'visible' if st.session_state.show_hint else ''}">
+                <strong>Treść pomocy:</strong><br>
+                {format_hint_as_markdown(hint_content)}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
@@ -159,3 +178,22 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
+st.markdown(
+    """
+    <script>
+    const toggleHelp = () => {
+        const showHelp = !document.querySelector(".floating-help").classList.contains("visible");
+        document.querySelector(".floating-help").classList.toggle("visible", showHelp);
+        document.querySelector(".floating-btn").innerText = showHelp ? "Ukryj pomoc" : "Pokaż pomoc";
+        const streamlitFuncs = window.parent.StreamlitActions;
+        if (streamlitFuncs) {
+            streamlitFuncs.runOnStreamlitReady(() => {
+                streamlitFuncs.sessions.toggleValue("show_hint");
+            });
+        }
+    };
+    </script>
+    """,
+    unsafe_allow_html=True
+)

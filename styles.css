@@ -28,3 +28,37 @@
 .stButton>button:hover {
     background-color: #45a049;
 }
+
+.floating-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.floating-help {
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    width: 30%;
+    max-height: 50%;
+    overflow-y: auto;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    z-index: 999;
+    display: none;
+}
+
+.floating-help.visible {
+    display: block;
+}
