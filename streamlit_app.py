@@ -209,4 +209,24 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Pływający przycisk - renderowanie
+st.markdown(
+    f"""
+    <button id="floating-btn" class="floating-btn">{'Ukryj pomoc' if st.session_state.show_hint else 'Pokaż pomoc'}</button>
+    """,
+    unsafe_allow_html=True
+)
+
+# Wyświetlanie treści pomocy (dynamicznie zależne od stanu aplikacji)
+hint_content = load_hint(st.session_state.selected_quiz) if "selected_quiz" in st.session_state else None
+st.markdown(
+    f"""
+    <div id="floating-help" class="floating-help {'visible' if st.session_state.show_hint else ''}">
+        <strong>Treść pomocy:</strong><br>
+        {format_hint_as_markdown(hint_content) if hint_content else "Brak pomocy do załadowania."}
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
