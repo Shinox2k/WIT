@@ -89,6 +89,14 @@ if st.button("Rozpocznij test"):
     st.session_state.show_results = False
     st.session_state.answers_locked = False
 
+    # Inicjuj statystyki
+    st.session_state.stats = {
+        "unique_questions_seen": 0,
+        "correct_answers": 0,
+        "wrong_answers": 0,
+        "total_questions": total_questions
+    }
+
 if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
     with st.form(key="quiz_form"):
@@ -117,21 +125,33 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
         if submit_button:
             st.session_state.show_results = True
             st.session_state.answers_locked = True
+
+            # Aktualizacja statystyk
+            st.session_state.stats["unique_questions_seen"] = len(st.session_state.quiz_data)
+            for q in st.session_state.quiz_data:
+                if st.session_state.user_answers[q['question']] == q['answer']:
+                    st.session_state.stats["correct_answers"] += 1
+                else:
+                    st.session_state.stats["wrong_answers"] += 1
+
             st.rerun()
 
 if "show_results" in st.session_state and st.session_state.show_results:
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
 
-st.markdown("""
-    <style>
-        .stButton>button {
-            background-color: #4CAF50;
-            color: white;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .stButton>button:hover {
-            background-color: #45a049;
-        }
-    </style>
-""", unsafe_allow_html=True)
+    # Wyświetlenie statystyk
+    stats = st.session_state.stats
+    percent_seen = (stats["unique_questions_seen"] / stats["total_questions"]) * 100
+    percent_correct = (stats["correct_answers"] / stats["unique_questions_seen"]) * 100 if stats[
+                                                                                               "unique_questions_seen"] > 0 else 0
+    percent_wrong = (stats["wrong_answers"] / stats["unique_questions_seen"]) * 100 if stats[
+                                                                                           "unique_questions_seen"] > 0 else 0
+
+    st.markdown(f"""
+        ### Statystyki:
+        - **Unikalne pytania:** Widziałeś {stats['unique_questions_seen']} z {stats['total_questions']} pytań.
+        - **Poprawnie odpowiedziane pytania:** {stats['correct_answers']} ({percent_correct:.2f}%).
+        - **Błędne odpowiedzi:** {stats['wrong_answers']} ({percent_wrong:.2f}%).
+        - **Procentowo wszystkich:** Widziałeś {percent_seen:.2f}% pytań.
+    """)
+
