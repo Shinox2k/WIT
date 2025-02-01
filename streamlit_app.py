@@ -127,10 +127,16 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                 options_with_emojis.append(f"{opt}{emoji}")
 
             if is_multiple:
+                # Konwertuj wybrane odpowiedzi na indeksy
+                default_indices = [
+                    q["options"].index(opt)
+                    for opt in st.session_state.user_answers[q['question']]
+                ] if st.session_state.user_answers[q['question']] else []
+
                 selected_options = st.multiselect(
                     "Wybierz odpowiedzi:",
                     options_with_emojis if st.session_state.show_results else q["options"],
-                    default=st.session_state.user_answers[q['question']],
+                    default=default_indices,  # Używamy indeksów zamiast wartości
                     key=f"{q['question']}_{idx}",
                     disabled=st.session_state.show_results or st.session_state.answers_locked
                 )
