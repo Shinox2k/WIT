@@ -138,8 +138,8 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
-                if not st.session_state.show_results and not st.session_state.answers_locked:
-                    st.session_state.user_answers[q['question']] = selected_options
+            if not st.session_state.show_results and not st.session_state.answers_locked:
+                st.session_state.user_answers[q['question']] = selected_options
             else:
                 selected_option = st.radio(
                     "Wybierz odpowiedź:",
