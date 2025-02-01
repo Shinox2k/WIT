@@ -126,19 +126,18 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                             emoji = " ❌"
                 options_with_emojis.append(f"{opt}{emoji}")
 
-            if is_multiple:
-                valid_default_values = [
-                    opt for opt in st.session_state.user_answers[q['question']]
-                    if opt in q["options"]  # Use q["options"] instead of options_with_emojis
-                ]
+            valid_default_values = [
+                opt for opt in st.session_state.user_answers[q['question']]
+                if opt in q["options"]  # Use the original options, not the emoji-modified ones
+            ]
 
-                selected_options = st.multiselect(
-                    "Wybierz odpowiedzi:",
-                    options_with_emojis if st.session_state.show_results else q["options"],
-                    default=valid_default_values,  # Use filtered values
-                    key=f"{q['question']}_{idx}",
-                    disabled=st.session_state.show_results or st.session_state.answers_locked
-                )
+            selected_options = st.multiselect(
+                "Wybierz odpowiedzi:",
+                options_with_emojis if st.session_state.show_results else q["options"],
+                default=valid_default_values,  # Use filtered values
+                key=f"{q['question']}_{idx}",
+                disabled=st.session_state.show_results or st.session_state.answers_locked
+            )
                 if not st.session_state.show_results and not st.session_state.answers_locked:
                     st.session_state.user_answers[q['question']] = selected_options
             else:
