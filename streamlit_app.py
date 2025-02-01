@@ -127,23 +127,18 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                 options_with_emojis.append(f"{opt}{emoji}")
 
             if is_multiple:
-                # Konwertuj wybrane odpowiedzi na indeksy
-                default_indices = [
-                    q["options"].index(opt)
-                    for opt in st.session_state.user_answers[q['question']]
-                ] if st.session_state.user_answers[q['question']] else []
+                # Ustaw wartości domyślne bezpośrednio jako wybrane odpowiedzi
+                default_values = st.session_state.user_answers[q['question']] if st.session_state.user_answers[q['question']] else []
 
                 selected_options = st.multiselect(
                     "Wybierz odpowiedzi:",
                     options_with_emojis if st.session_state.show_results else q["options"],
-                    default=default_indices,  # Używamy indeksów
+                    default=default_values,  # Używamy wartości, nie indeksów
                     key=f"{q['question']}_{idx}",
                     disabled=st.session_state.show_results or st.session_state.answers_locked
                 )
                 if not st.session_state.show_results and not st.session_state.answers_locked:
-                    st.session_state.user_answers[q['question']] = [
-                        q["options"][idx] for idx in selected_options
-                    ]
+                    st.session_state.user_answers[q['question']] = selected_options
             else:
                 selected_option = st.radio(
                     "Wybierz odpowiedź:",
