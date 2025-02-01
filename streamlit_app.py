@@ -3,10 +3,6 @@ import random
 import os
 import json
 
-# Initialize session state variables
-if "show_hint" not in st.session_state:
-    st.session_state.show_hint = False  # Default value for the hint visibility
-
 def load_css(file_name="styles.css"):
     with open(file_name, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -27,6 +23,7 @@ def load_quizzes(directory="data"):
             except Exception as e:
                 st.error(f"Problem z załadowaniem pliku {filename}: {e}")
     return quizzes
+
 
 def quiz_results(quiz_data, user_answers):
     correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
@@ -53,12 +50,13 @@ def quiz_results(quiz_data, user_answers):
         </div>
     """, unsafe_allow_html=True)
 
+
 quizzes = load_quizzes()
 
 st.title("WIT 2025")
 
 quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
-
+#Test
 if quiz_choice:
     total_questions = len(quizzes[quiz_choice])
     question_percentage = st.radio(
@@ -80,18 +78,6 @@ if quiz_choice:
 
     st.write(f"Test zawiera {total_questions} pytań. Wybrano {num_questions} pytań do testu.")
 
-def load_hint(hint_name, directory="hints"):
-    hint_file = os.path.join(directory, f"{hint_name}.txt")
-    if os.path.exists(hint_file):
-        with open(hint_file, "r", encoding="utf-8") as file:
-            return file.read()
-    else:
-        return "Brak dostępnej pomocy dla tego testu."
-
-def format_hint_as_markdown(hint_text):
-    formatted = hint_text.replace("\n    ", "\n> ").replace("\n", "  \n")
-    return formatted
-
 if st.button("Rozpocznij test"):
     st.session_state.selected_quiz = quiz_choice
     st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
@@ -104,28 +90,6 @@ if st.button("Rozpocznij test"):
 
 if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
-
-    # Renderowanie pływającego przycisku
-    st.markdown(
-        f"""
-        <button id="floating-btn" class="floating-btn" onclick="toggleHelp()">{"Ukryj pomoc" if st.session_state.show_hint else "Pokaż pomoc"}</button>
-        """,
-        unsafe_allow_html=True
-    )
-
-    # Wyświetlanie pływającego okna z treścią pomocy
-    hint_content = load_hint(
-        st.session_state.selected_quiz) if "selected_quiz" in st.session_state else "Brak pomocy do załadowania."
-    st.markdown(
-        f"""
-        <div id="floating-help" class="floating-help {'visible' if st.session_state.show_hint else ''}">
-            <strong>Treść pomocy:</strong><br>
-            {format_hint_as_markdown(hint_content)}
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
@@ -152,33 +116,10 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
         if submit_button:
             st.session_state.show_results = True
             st.session_state.answers_locked = True
-            st.experimental_rerun()
+            st.rerun()
 
 if "show_results" in st.session_state and st.session_state.show_results:
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
-
-st.markdown(
-    """
-    <script>
-    const toggleHelp = () => {
-        const floatingHelp = document.querySelector("#floating-help");
-        const floatingBtn = document.querySelector("#floating-btn");
-
-        // Przełącz widoczność okna pomocy
-        const isVisible = floatingHelp.classList.contains("visible");
-        floatingHelp.classList.toggle("visible", !isVisible);
-        floatingBtn.innerText = isVisible ? "Pokaż pomoc" : "Ukryj pomoc";
-
-        // Zaktualizuj stan Streamlit
-        const streamlitFuncs = window.parent.StreamlitActions;
-        if (streamlitFuncs) {
-            streamlitFuncs.setCustomState("show_hint", !isVisible);
-        }
-    };
-    </script>
-    """,
-    unsafe_allow_html=True
-)
 
 st.markdown("""
     <style>
