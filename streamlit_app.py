@@ -190,17 +190,22 @@ st.markdown(
     """
     <script>
     const toggleHelp = () => {
-        const showHelp = !document.querySelector(".floating-help").classList.contains("visible");
-        document.querySelector(".floating-help").classList.toggle("visible", showHelp);
-        document.querySelector(".floating-btn").innerText = showHelp ? "Ukryj pomoc" : "Pokaż pomoc";
+        const floatingHelp = document.querySelector("#floating-help");
+        const floatingBtn = document.querySelector("#floating-btn");
+
+        // Przełącz widoczność okna pomocy
+        const isVisible = floatingHelp.classList.contains("visible");
+        floatingHelp.classList.toggle("visible", !isVisible);
+        floatingBtn.innerText = isVisible ? "Pokaż pomoc" : "Ukryj pomoc";
+
+        // Zaktualizuj stan Streamlit
         const streamlitFuncs = window.parent.StreamlitActions;
         if (streamlitFuncs) {
-            streamlitFuncs.runOnStreamlitReady(() => {
-                streamlitFuncs.sessions.toggleValue("show_hint");
-            });
+            streamlitFuncs.setCustomState("show_hint", !isVisible);
         }
     };
     </script>
     """,
     unsafe_allow_html=True
 )
+
