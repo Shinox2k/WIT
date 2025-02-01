@@ -27,7 +27,16 @@ def load_quizzes(directory="data"):
 
 
 def quiz_results(quiz_data, user_answers):
-    correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
+    correct = 0
+    for q in quiz_data:
+        user_answer = user_answers[q['question']]
+        correct_answer = q['answer']
+        if isinstance(correct_answer, list):
+            if set(user_answer) == set(correct_answer):
+                correct += 1
+        else:
+            if user_answer == correct_answer:
+                correct += 1
     total = len(quiz_data)
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
@@ -84,7 +93,12 @@ if st.button("Rozpocznij test"):
     st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
     for q in st.session_state.quiz_data:
         random.shuffle(q["options"])
-    st.session_state.user_answers = {q['question']: None for q in st.session_state.quiz_data}
+    st.session_state.user_answers = {}
+    for q in st.session_state.quiz_data:
+        if isinstance(q['answer'], list):
+            st.session_state.user_answers[q['question']] = []
+        else:
+            st.session_state.user_answers[q['question']] = None
     st.session_state.quiz_started = True
     st.session_state.show_results = False
     st.session_state.answers_locked = False
@@ -94,24 +108,46 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
+            is_multiple = isinstance(q['answer'], list)
 
-            options_with_emojis = [
-                f"{opt} {'✅' if opt == q['answer'] else '❌' if st.session_state.show_results and st.session_state.user_answers[q['question']] == opt else ''}"
-                for opt in q["options"]
-            ]
+            options_with_emojis = []
+            for opt in q["options"]:
+                emoji = ""
+                if st.session_state.show_results:
+                    if is_multiple:
+                        if opt in q['answer']:
+                            emoji = " ✅"
+                        elif opt in st.session_state.user_answers[q['question']]:
+                            emoji = " ❌"
+                    else:
+                        if opt == q['answer']:
+                            emoji = " ✅"
+                        elif opt == st.session_state.user_answers[q['question']]:
+                            emoji = " ❌"
+                options_with_emojis.append(f"{opt}{emoji}")
 
-            selected_option = st.radio(
-                "Wybierz odpowiedź:",
-                options_with_emojis if st.session_state.show_results else q["options"],
-                index=(q["options"].index(st.session_state.user_answers[q['question']])
-                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
-                       else None),
-                key=f"{q['question']}_{idx}",
-                disabled=st.session_state.show_results or st.session_state.answers_locked
-            )
-
-            if not st.session_state.show_results and not st.session_state.answers_locked:
-                st.session_state.user_answers[q['question']] = selected_option
+            if is_multiple:
+                selected_options = st.multiselect(
+                    "Wybierz odpowiedzi:",
+                    options_with_emojis if st.session_state.show_results else q["options"],
+                    default=st.session_state.user_answers[q['question']],
+                    key=f"{q['question']}_{idx}",
+                    disabled=st.session_state.show_results or st.session_state.answers_locked
+                )
+                if not st.session_state.show_results and not st.session_state.answers_locked:
+                    st.session_state.user_answers[q['question']] = selected_options
+            else:
+                selected_option = st.radio(
+                    "Wybierz odpowiedź:",
+                    options_with_emojis if st.session_state.show_results else q["options"],
+                    index=(q["options"].index(st.session_state.user_answers[q['question']])
+                           if st.session_state.user_answers[q['question']] in q["options"]
+                           else None),
+                    key=f"{q['question']}_{idx}",
+                    disabled=st.session_state.show_results or st.session_state.answers_locked
+                )
+                if not st.session_state.show_results and not st.session_state.answers_locked:
+                    st.session_state.user_answers[q['question']] = selected_option
 
         submit_button = st.form_submit_button(label="Sprawdź wynik")
         if submit_button:

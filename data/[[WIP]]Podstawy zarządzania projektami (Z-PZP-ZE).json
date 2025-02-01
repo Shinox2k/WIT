@@ -8,7 +8,10 @@
             "Główny użytkownik",
             "Kierownicy zespołów"
         ],
-        "answer": "Główny dostawca, Główny użytkownik"
+        "answer": [
+            "Główny dostawca",
+            "Główny użytkownik"
+        ]
     },
     {
         "question": "Jakie działania względem środowiska projektu powinien realizować kierownik projektu?",
@@ -18,7 +21,10 @@
             "Tworzyć otoczenie i środowisko projektu",
             "Monitorować zmiany w środowisku projektu"
         ],
-        "answer": "Zarządzać środowiskiem, Monitorować zmiany w środowisku projektu"
+        "answer": [
+            "Zarządzać środowiskiem",
+            "Monitorować zmiany w środowisku projektu"
+        ]
     },
     {
         "question": "Czy kierownik projektu w metodykach kaskadowych może samodzielnie podjąć decyzję o kontynuowaniu prac i rozpoczęciu kolejnego etapu zarządczego?",
@@ -26,7 +32,9 @@
             "TAK",
             "NIE"
         ],
-        "answer": "NIE"
+        "answer": [
+            "NIE"
+        ]
     },
     {
         "question": "Które z poniższych zdań o projektach jest prawdziwe?",
@@ -36,7 +44,11 @@
             "To przedsięwzięcie wymagające zaangażowania limitowanych środków rzeczowych, ludzkich, finansowych",
             "Projekt jest realizowany tylko przez kierownika projektu"
         ],
-        "answer": "To przedsięwzięcie wymagające zaangażowania limitowanych środków rzeczowych, ludzkich, finansowych"
+        "answer": [
+            "To przedsięwzięcie wymagające zaangażowania limitowanych środków rzeczowych",
+            "ludzkich",
+            "finansowych"
+        ]
     },
     {
         "question": "Powołanie których ról w zespole zarządzania projektami jest obowiązkowe?",
@@ -47,7 +59,10 @@
             "Nadzór",
             "Wsparcie"
         ],
-        "answer": "Kierownik projektu, Przewodniczący komitetu sterującego"
+        "answer": [
+            "Kierownik projektu",
+            "Przewodniczący komitetu sterującego"
+        ]
     },
     {
         "question": "Co jest celem zarządzania projektami?",
@@ -56,7 +71,11 @@
             "Zagwarantowanie, że projekt ma nadal cel biznesowy i jest korzystny dla firmy",
             "Utrzymanie istniejących procesów działalności operacyjnej na niezmiennym poziomie"
         ],
-        "answer": "Zagwarantowanie aktualnej wiedzy o stanie realizacji projektu, Zagwarantowanie, że projekt ma nadal cel biznesowy i jest korzystny dla firmy"
+        "answer": [
+            "Zagwarantowanie aktualnej wiedzy o stanie realizacji projektu",
+            "Zagwarantowanie",
+            "że projekt ma nadal cel biznesowy i jest korzystny dla firmy"
+        ]
     },
     {
         "question": "Technika ścieżki krytycznej służy do:",
@@ -66,7 +85,10 @@
             "Przeprowadzenia analizy celu (krytyki możliwych opcji)",
             "Wyznaczenia zadań związanych z największym ryzykiem"
         ],
-        "answer": "Wyznaczenia najwcześniejszych i najpóźniejszych czasów rozpoczęcia oraz zakończenia zadań, Wyznaczenia zadań związanych z największym ryzykiem"
+        "answer": [
+            "Wyznaczenia najwcześniejszych i najpóźniejszych czasów rozpoczęcia oraz zakończenia zadań",
+            "Wyznaczenia zadań związanych z największym ryzykiem"
+        ]
     },
     {
         "question": "Plan bazowy projektu:",
@@ -75,7 +97,10 @@
             "Jest stały przez cały cykl życia projektu",
             "Jest stały na podstawie decyzji kierownika projektu"
         ],
-        "answer": "Jest stały przez cały cykl życia projektu, Jest stały na podstawie decyzji kierownika projektu"
+        "answer": [
+            "Jest stały przez cały cykl życia projektu",
+            "Jest stały na podstawie decyzji kierownika projektu"
+        ]
     },
     {
         "question": "Miara możliwości wystąpienia ryzyka w projekcie to:",
@@ -85,7 +110,9 @@
             "Bliskość ryzyka",
             "Tolerancja ryzyka"
         ],
-        "answer": "Prawdopodobieństwo ryzyka"
+        "answer": [
+            "Prawdopodobieństwo ryzyka"
+        ]
     },
     {
         "question": "Metoda Earned Value umożliwia:",
@@ -98,7 +125,13 @@
             "Wyznaczenie predykcji ostatecznego czasu trwania projektu",
             "Wyznaczenie wskaźnika harmonogramu"
         ],
-        "answer": "Wyznaczenie predykcji ostatecznych kosztów projektu, Wyznaczenie wartości uzyskanej projektu, Wyznaczenie wskaźników efektywności projektu, Wyznaczenie wskaźnika kosztów, Wyznaczenie wskaźnika harmonogramu"
+        "answer": [
+            "Wyznaczenie predykcji ostatecznych kosztów projektu",
+            "Wyznaczenie wartości uzyskanej projektu",
+            "Wyznaczenie wskaźników efektywności projektu",
+            "Wyznaczenie wskaźnika kosztów",
+            "Wyznaczenie wskaźnika harmonogramu"
+        ]
     },
     {
         "question": "Analiza ryzyka jest narzędziem wykorzystywanym m.in. do:",
@@ -108,7 +141,11 @@
             "Oceny zaawansowania projektu",
             "Przygotowania polityki bezpieczeństwa i systemów"
         ],
-        "answer": "Zarządzania projektem, Różnego rodzaju analiz biznesowych, Przygotowania polityki bezpieczeństwa i systemów"
+        "answer": [
+            "Zarządzania projektem",
+            "Różnego rodzaju analiz biznesowych",
+            "Przygotowania polityki bezpieczeństwa i systemów"
+        ]
     },
     {
         "question": "Możliwymi reakcjami na ryzyko mogą być:",
@@ -120,7 +157,11 @@
             "Wykorzystanie",
             "Odrzucenie"
         ],
-        "answer": "Akceptowanie, Unikanie, Wykorzystanie"
+        "answer": [
+            "Akceptowanie",
+            "Unikanie",
+            "Wykorzystanie"
+        ]
     },
     {
         "question": "Kaskadowymi metodykami zarządzania projektami są:",
@@ -130,7 +171,10 @@
             "PRINCE2",
             "SCRUM"
         ],
-        "answer": "PMBoK, PRINCE2"
+        "answer": [
+            "PMBoK",
+            "PRINCE2"
+        ]
     },
     {
         "question": "W wyniku projektu możemy otrzymać:",
@@ -140,7 +184,11 @@
             "Wyrób unikalny",
             "Wyrób powtarzalny"
         ],
-        "answer": "Usługę lub zdolność wykonywania usługi, Usprawnienie istniejącego wyrobu lub usługi, Wyrób unikalny"
+        "answer": [
+            "Usługę lub zdolność wykonywania usługi",
+            "Usprawnienie istniejącego wyrobu lub usługi",
+            "Wyrób unikalny"
+        ]
     },
     {
         "question": "Każdy projekt jest charakteryzowany przez trzy elementy, które składają się na tzw. trójkąt projektu. Są to:",
@@ -150,7 +198,11 @@
             "Czas, zakres, zasoby",
             "Jakość, plany, czas"
         ],
-        "answer": "Czas, zakres, zasoby"
+        "answer": [
+            "Czas",
+            "zakres",
+            "zasoby"
+        ]
     },
     {
         "question": "Role Komitetu Sterującego to:",
@@ -160,6 +212,9 @@
             "Stworzenie zespołu projektowego",
             "Kierowanie i zarządzanie realizacją projektu"
         ],
-        "answer": "Udział w zarządzaniu zmianą, Akceptacja faz i produktów projektu"
+        "answer": [
+            "Udział w zarządzaniu zmianą",
+            "Akceptacja faz i produktów projektu"
+        ]
     }
 ]
