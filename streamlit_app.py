@@ -107,16 +107,23 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
     if "show_hint" not in st.session_state:
         st.session_state.show_hint = False
 
-    if st.button("Pokaż pomoc"):
-        st.session_state.show_hint = not st.session_state.show_hint
-
-    if "show_hint" not in st.session_state:
-        st.session_state.show_hint = False
-
-    # Pływający przycisk "Pokaż pomoc/Ukryj pomoc"
+    # Renderowanie pływającego przycisku
     st.markdown(
         f"""
-        <button class="floating-btn" onclick="toggleHelp()">{"Ukryj pomoc" if st.session_state.show_hint else "Pokaż pomoc"}</button>
+        <button id="floating-btn" class="floating-btn" onclick="toggleHelp()">{"Ukryj pomoc" if st.session_state.show_hint else "Pokaż pomoc"}</button>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Wyświetlanie pływającego okna z treścią pomocy
+    hint_content = load_hint(
+        st.session_state.selected_quiz) if "selected_quiz" in st.session_state else "Brak pomocy do załadowania."
+    st.markdown(
+        f"""
+        <div id="floating-help" class="floating-help {'visible' if st.session_state.show_hint else ''}">
+            <strong>Treść pomocy:</strong><br>
+            {format_hint_as_markdown(hint_content)}
+        </div>
         """,
         unsafe_allow_html=True
     )
