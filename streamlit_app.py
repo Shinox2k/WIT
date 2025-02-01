@@ -80,8 +80,21 @@ if quiz_choice:
     st.write(f"Test zawiera {total_questions} pytań. Wybrano {num_questions} pytań do testu.")
 
 if st.button("Rozpocznij test"):
-    st.session_state.selected_quiz = quiz_choice
-    st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
+    if (
+            "selected_quiz" not in st.session_state
+            or st.session_state.selected_quiz != quiz_choice
+    ):
+        st.session_state.selected_quiz = quiz_choice
+        st.session_state.stats = {
+            "unique_questions_seen": 0,
+            "correct_answers": 0,
+            "wrong_answers": 0,
+            "total_questions": len(quizzes[quiz_choice])
+        }
+        st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
+    else:
+        st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
+
     for q in st.session_state.quiz_data:
         random.shuffle(q["options"])
     st.session_state.user_answers = {q['question']: None for q in st.session_state.quiz_data}
@@ -89,7 +102,6 @@ if st.button("Rozpocznij test"):
     st.session_state.show_results = False
     st.session_state.answers_locked = False
 
-    # Inicjuj statystyki
     st.session_state.stats = {
         "unique_questions_seen": 0,
         "correct_answers": 0,
@@ -126,7 +138,6 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             st.session_state.show_results = True
             st.session_state.answers_locked = True
 
-            # Aktualizacja statystyk
             st.session_state.stats["unique_questions_seen"] = len(st.session_state.quiz_data)
             for q in st.session_state.quiz_data:
                 if st.session_state.user_answers[q['question']] == q['answer']:
@@ -139,7 +150,6 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
 if "show_results" in st.session_state and st.session_state.show_results:
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
 
-    # Wyświetlenie statystyk
     stats = st.session_state.stats
     percent_seen = (stats["unique_questions_seen"] / stats["total_questions"]) * 100
     percent_correct = (stats["correct_answers"] / stats["unique_questions_seen"]) * 100 if stats[
