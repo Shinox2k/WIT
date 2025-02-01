@@ -127,23 +127,34 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                 options_with_emojis.append(f"{opt}{emoji}")
 
             if is_multiple:
+                default = st.session_state.user_answers[q['question']]
+
+                # Filtrujemy tylko wartości, które znajdują się w `q["options"]`
+                default = [opt for opt in default if opt in q["options"]]
+
                 selected_options = st.multiselect(
                     "Wybierz odpowiedzi:",
                     options_with_emojis if st.session_state.show_results else q["options"],
-                    default=st.session_state.user_answers[q['question']],
+                    default=default,
                     key=f"{q['question']}_{idx}",
                     disabled=st.session_state.show_results or st.session_state.answers_locked
                 )
+
                 if not st.session_state.show_results and not st.session_state.answers_locked:
                     st.session_state.user_answers[q['question']] = selected_options
             else:
                 index = None
                 if st.session_state.user_answers[q['question']] in q["options"]:
                     index = q["options"].index(st.session_state.user_answers[q['question']])
-                selected_option = st.radio(
-                    "Wybierz odpowiedź:",
+                default = st.session_state.user_answers[q['question']]
+
+                # Filtrujemy tylko wartości, które znajdują się w `q["options"]`
+                default = [opt for opt in default if opt in q["options"]]
+
+                selected_options = st.multiselect(
+                    "Wybierz odpowiedzi:",
                     options_with_emojis if st.session_state.show_results else q["options"],
-                    index=index,
+                    default=default,
                     key=f"{q['question']}_{idx}",
                     disabled=st.session_state.show_results or st.session_state.answers_locked
                 )
