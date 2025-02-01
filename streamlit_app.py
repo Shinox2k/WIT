@@ -134,8 +134,8 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             selected_options = st.multiselect(
                 "Wybierz odpowiedzi:",
                 options_with_emojis if st.session_state.show_results else q["options"],
-                default=valid_default_values,  # Use filtered values
-                key=f"{q['question']}_{idx}",
+                default=[opt for opt in st.session_state.user_answers[q['question']] if opt in q["options"]],
+                key=f"{st.session_state.selected_quiz}_{idx}_{q['question'][:10]}",  # Unique key
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
             if not st.session_state.show_results and not st.session_state.answers_locked:
