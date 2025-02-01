@@ -3,6 +3,10 @@ import random
 import os
 import json
 
+# Initialize session state variables
+if "show_hint" not in st.session_state:
+    st.session_state.show_hint = False  # Default value for the hint visibility
+
 def load_css(file_name="styles.css"):
     with open(file_name, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -100,9 +104,6 @@ if st.button("Rozpocznij test"):
 
 if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
-
-    if "show_hint" not in st.session_state:
-        st.session_state.show_hint = False
 
     # Renderowanie pływającego przycisku
     st.markdown(
