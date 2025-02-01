@@ -9,7 +9,6 @@ def load_css(file_name="styles.css"):
 
 load_css()
 
-
 def load_quizzes(directory="data"):
     quizzes = {}
     if not os.path.exists(directory):
@@ -24,7 +23,6 @@ def load_quizzes(directory="data"):
             except Exception as e:
                 st.error(f"Problem z załadowaniem pliku {filename}: {e}")
     return quizzes
-
 
 def quiz_results(quiz_data, user_answers):
     correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
@@ -51,13 +49,12 @@ def quiz_results(quiz_data, user_answers):
         </div>
     """, unsafe_allow_html=True)
 
-
 quizzes = load_quizzes()
 
 st.title("WIT 2025")
 
 quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
-#Test
+
 if quiz_choice:
     total_questions = len(quizzes[quiz_choice])
     question_percentage = st.radio(
@@ -128,19 +125,6 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
         unsafe_allow_html=True
     )
 
-    # Pobierz treść pomocy i stwórz pływające okno
-    hint_content = load_hint(st.session_state.selected_quiz)
-    if hint_content:
-        st.markdown(
-            f"""
-            <div class="floating-help {'visible' if st.session_state.show_hint else ''}">
-                <strong>Treść pomocy:</strong><br>
-                {format_hint_as_markdown(hint_content)}
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
@@ -167,7 +151,7 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
         if submit_button:
             st.session_state.show_results = True
             st.session_state.answers_locked = True
-            st.rerun()
+            st.experimental_rerun()
 
 if "show_results" in st.session_state and st.session_state.show_results:
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
@@ -208,25 +192,3 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
-# Pływający przycisk - renderowanie
-st.markdown(
-    f"""
-    <button id="floating-btn" class="floating-btn">{'Ukryj pomoc' if st.session_state.show_hint else 'Pokaż pomoc'}</button>
-    """,
-    unsafe_allow_html=True
-)
-
-# Wyświetlanie treści pomocy (dynamicznie zależne od stanu aplikacji)
-hint_content = load_hint(st.session_state.selected_quiz) if "selected_quiz" in st.session_state else None
-st.markdown(
-    f"""
-    <div id="floating-help" class="floating-help {'visible' if st.session_state.show_hint else ''}">
-        <strong>Treść pomocy:</strong><br>
-        {format_hint_as_markdown(hint_content) if hint_content else "Brak pomocy do załadowania."}
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
