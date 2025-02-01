@@ -79,6 +79,14 @@ if quiz_choice:
 
     st.write(f"Test zawiera {total_questions} pytań. Wybrano {num_questions} pytań do testu.")
 
+def load_hint(hint_name, directory="hints"):
+    hint_file = os.path.join(directory, f"{hint_name}.txt")
+    if os.path.exists(hint_file):
+        with open(hint_file, "r", encoding="utf-8") as file:
+            return file.read()
+    else:
+        return "Brak dostępnej pomocy dla tego testu."
+
 if st.button("Rozpocznij test"):
     st.session_state.selected_quiz = quiz_choice
     st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
@@ -91,6 +99,14 @@ if st.button("Rozpocznij test"):
 
 if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
+
+    hint_content = None
+    if st.button("Pokaż pomoc"):
+        hint_content = load_hint(quiz_choice)
+
+    if hint_content:
+        st.markdown(f"### Treść pomocy:\n{hint_content}")
+
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
