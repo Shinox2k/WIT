@@ -111,9 +111,9 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             is_multiple = isinstance(q['answer'], list)
 
             options_with_emojis = []
-            for opt in q["options"]:
-                emoji = ""
-                if st.session_state.show_results:
+            if st.session_state.show_results:
+                for opt in q["options"]:
+                    emoji = ""
                     if is_multiple:
                         if opt in q['answer']:
                             emoji = " ✅"
@@ -124,22 +124,25 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                             emoji = " ✅"
                         elif opt == st.session_state.user_answers[q['question']]:
                             emoji = " ❌"
-                options_with_emojis.append(f"{opt}{emoji}")
+                    options_with_emojis.append(f"{opt}{emoji}")
+            else:
+                options_with_emojis = q["options"]
 
             if is_multiple:
                 selected_options = st.multiselect(
                     "Wybierz odpowiedzi:",
-                    options_with_emojis if st.session_state.show_results else q["options"],
+                    options=q["options"],
                     default=st.session_state.user_answers[q['question']],
                     key=f"{q['question']}_{idx}",
                     disabled=st.session_state.show_results or st.session_state.answers_locked
                 )
                 if not st.session_state.show_results and not st.session_state.answers_locked:
                     st.session_state.user_answers[q['question']] = selected_options
+
             else:
                 selected_option = st.radio(
                     "Wybierz odpowiedź:",
-                    options_with_emojis if st.session_state.show_results else q["options"],
+                    options=q["options"],
                     index=(q["options"].index(st.session_state.user_answers[q['question']])
                            if st.session_state.user_answers[q['question']] in q["options"]
                            else None),
