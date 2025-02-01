@@ -26,10 +26,20 @@ def load_quizzes(directory="data"):
     return quizzes
 
 
-def quiz_results(quiz_data, user_answers):
-    correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
-    total = len(quiz_data)
-    score_percentage = (correct / total) * 100 if total > 0 else 0
+def quiz_results_multiple(quiz_data, user_answers):
+    correct = 0
+    total = 0
+
+    for q in quiz_data:
+        total += 1
+        correct_answers = set(q['answer'])
+        user_selected = set(user_answers[q['question']])
+
+        # Liczenie punktów za poprawne i błędne odpowiedzi
+        correct += len(correct_answers.intersection(user_selected))
+        correct -= len(user_selected - correct_answers)  # Punkty ujemne za błędne
+
+    score_percentage = (correct / (total * len(q['answer']))) * 100 if total > 0 else 0
 
     background_color = "#f4fdf7" if score_percentage >= 50 else "#fdecea"
     border_color = "#4CAF50" if score_percentage >= 50 else "#f44336"
@@ -44,7 +54,7 @@ def quiz_results(quiz_data, user_answers):
             text-align: center;
             background-color: {background_color};
         ">
-            <h2 style="color: {text_color}; margin: 0;">Twój wynik: <strong>{correct}/{total}</strong></h2>
+            <h2 style="color: {text_color}; margin: 0;">Twój wynik: <strong>{correct}/{total * len(q['answer'])}</strong></h2>
             <p style="color: {text_color}; margin: 5px 0 0; font-size: 18px;">
                 Wynik procentowy: <strong>{score_percentage:.2f}%</strong>
             </p>
@@ -52,66 +62,34 @@ def quiz_results(quiz_data, user_answers):
     """, unsafe_allow_html=True)
 
 
-quizzes = load_quizzes()
-
-st.title("WIT 2025")
-
-quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
-#Test
-if quiz_choice:
-    total_questions = len(quizzes[quiz_choice])
-    question_percentage = st.radio(
-        "Wybierz na ile pytań chcesz odpowiedzieć:",
-        options=["5%", "10%", "25%", "50%", "100%"],
-        index=4
-    )
-
-    if question_percentage == "5%":
-        num_questions = max(1, total_questions // 20)
-    elif question_percentage == "10%":
-        num_questions = max(1, total_questions // 10)
-    elif question_percentage == "25%":
-        num_questions = max(1, total_questions // 4)
-    elif question_percentage == "50%":
-        num_questions = max(1, total_questions // 2)
-    else:
-        num_questions = total_questions
-
-    st.write(f"Test zawiera {total_questions} pytań. Wybrano {num_questions} pytań do testu.")
-
+# Modyfikacja formularza dla pytań z wieloma odpowiedziami
 if st.button("Rozpocznij test"):
     st.session_state.selected_quiz = quiz_choice
     st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
     for q in st.session_state.quiz_data:
         random.shuffle(q["options"])
-    st.session_state.user_answers = {q['question']: None for q in st.session_state.quiz_data}
+    st.session_state.user_answers = {q['question']: [] for q in st.session_state.quiz_data}
     st.session_state.quiz_started = True
     st.session_state.show_results = False
     st.session_state.answers_locked = False
 
+# Wyświetlanie pytań
 if "quiz_started" in st.session_state and st.session_state.quiz_started:
     st.write(f"Test: {st.session_state.selected_quiz}")
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
 
-            options_with_emojis = [
-                f"{opt} {'✅' if opt == q['answer'] else '❌' if st.session_state.show_results and st.session_state.user_answers[q['question']] == opt else ''}"
-                for opt in q["options"]
-            ]
-
-            selected_option = st.radio(
+            selected_options = st.multiselect(
                 "Wybierz odpowiedź:",
-                options_with_emojis if st.session_state.show_results else q["options"],
-                index=(q["options"].index(st.session_state.user_answers[q['question']])
-                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
-                       else None),
+                options=q["options"],
+                default=st.session_state.user_answers[q['question']],
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
 
             if not st.session_state.show_results and not st.session_state.answers_locked:
-                st.session_state.user_answers[q['question']] = selected_option
+                st.session_state.user_answers[q['question']] = selected_options
 
         submit_button = st.form_submit_button(label="Sprawdź wynik")
         if submit_button:
@@ -119,8 +97,10 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             st.session_state.answers_locked = True
             st.rerun()
 
+# Wyświetlanie wyników
 if "show_results" in st.session_state and st.session_state.show_results:
-    quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
+    quiz_results_multiple(st.session_state.quiz_data, st.session_state.user_answers)
+
 
 st.markdown("""
     <style>
