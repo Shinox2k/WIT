@@ -127,13 +127,15 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
                 options_with_emojis.append(f"{opt}{emoji}")
 
             if is_multiple:
-                # Ustaw wartości domyślne bezpośrednio jako wybrane odpowiedzi
-                default_values = st.session_state.user_answers[q['question']] if st.session_state.user_answers[q['question']] else []
+                valid_default_values = [
+                    opt for opt in st.session_state.user_answers[q['question']]
+                    if opt in q["options"]  # Use q["options"] instead of options_with_emojis
+                ]
 
                 selected_options = st.multiselect(
                     "Wybierz odpowiedzi:",
                     options_with_emojis if st.session_state.show_results else q["options"],
-                    default=default_values,  # Używamy wartości, nie indeksów
+                    default=valid_default_values,  # Use filtered values
                     key=f"{q['question']}_{idx}",
                     disabled=st.session_state.show_results or st.session_state.answers_locked
                 )
