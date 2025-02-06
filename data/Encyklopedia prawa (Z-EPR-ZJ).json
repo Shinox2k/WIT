@@ -213,7 +213,7 @@
             "hipoteza, dyspozycja",
             "poprzednik, następnik"
         ],
-        "answer": "hipoteza, dyspozycja"
+        "answer": "hipoteza, dyspozycja, sankcja"
     },
     {
         "question": "Akty stosowania prawa są",
@@ -222,7 +222,7 @@
             "czynnościami konwencjonalnymi prawnie istotnymi",
             "czynnościami konwencjonalnymi prawnie irrelewantnymi"
         ],
-        "answer": "czynnościami konwencjonalnymi prawnie istotnymi"
+        "answer": "czynnościami konwencjonalnymi prawnie obojętnymi"
     },
     {
         "question": "Norma prawna w odniesieniu do przepisu prawa stanowi jego",
