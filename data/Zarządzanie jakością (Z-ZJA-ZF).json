@@ -1,36 +1,36 @@
 [
     {
-        "question": "„Sterowanie przepływem między stanowiskami pracy” Podane hasło jest głównym celem metody …",
+        "question": "„Sterowanie przepływem między stanowiskami pracy”\nPodane hasło jest głównym celem metody ...",
         "options": ["Kanban", "JIT", "Kaizen", "INNA ODPOWIEDŻ"],
         "answer": "Kanban"
     },
     {
-        "question": "Diagram Ishikawy; Macierz RASCI; Histogram; Lista Kiplinga Spośród w/w narzędzi jakości - do identyfikacji przyczyny problemu wykorzystywane ...",
+        "question": "Diagram Ishikawy; Macierz RASCI; Histogram; Lista Kiplinga\nSpośród w/w narzędzi jakości - do identyfikacji przyczyny problemu wykorzystywane ...",
         "options": ["Są wszystkie narzędzia", "INNA ODPOWIEDŻ", "jest jedno z nich", "są dwa z nich"],
         "answer": "jest jedno z nich"
     },
     {
-        "question": "Zasada \"Vital few\" dotyczy …",
+        "question": "Zasada \"Vital few\" dotyczy ...",
         "options": ["odpowiedzi na pytanie \"lle?\" podczas analizy danego zjawiska z wykorzystaniem Listy Kiplinga", "INNA ODPOWIEDŻ", "dążenia do poprawy warunków życiowych pracowników firmy", "najważniejszych przyczyn danego zjawiska z wykorzystaniem Zasady Pareta"],
         "answer": "najważniejszych przyczyn danego zjawiska z wykorzystaniem Zasady Pareta"
     },
     {
-        "question": "W Macierzy RĄŚCI całościowa odpowiedzialność za wykonanie i wyniki pracy spoczywa na roli lub osobie oznaczonej jako …",
+        "question": "W Macierzy RAŚCI całościowa odpowiedzialność za wykonanie i wyniki pracy spoczywa na roli\nlub osobie oznaczonej jako ...",
         "options": ["INNA ODPOWIEDŻ", "S", "R", "C"],
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Standardyzacja jest …. krokiem wdrożenia praktyk SS.",
+        "question": "Standaryzacja jest .... krokiem wdrożenia praktyk 5S.",
         "options": ["Koniecznym", "INNA ODPOWIEDŻ", "Pierwszym", "Ostatnim"],
         "answer": "Koniecznym"
     },
     {
-        "question": "Do przykazań, mających zastosowanie podczas wdrażania 52pJ, można zaliczyć hasło:",
+        "question": "Do przykazań, mających zastosowanie podczas wdrażania 5ZpJ, można zaliczyć hasło:",
         "options": ["Gdy widzisz błąd - nie odwracaj głowy, lecz przede wszystkim znajdź osobę odpowiedzialną, żeby została ukarana!", "Nie oczekuj postępu — oczekuj perfekcji!", "Szukaj barier - usuń je, by usprawnić system!", "INNA ODPOWIEDŻ"],
-        "answer": "INNA ODPOWIEDŻ"
+        "answer": "Szukaj barier - usuń je, by usprawnić system!"
     },
     {
-        "question": "Diagram Ishikawy; SS; Zasada Pareta; JIT; Lista Kiplinga Spośród w/w narzędzi jakości - do podziału odpowiedzialności w zespole wykorzystywane ...",
+        "question": "Diagram Ishikawy; 5S; Zasada Pareta; JIT; Lista Kiplinga\nSpośród w/w narzędzi jakości - do podziału odpowiedzialności w zespole wykorzystywane ...",
         "options": ["jest jedno z nich", "są wszystkie narzędzia", "są dwa z nich", "INNA ODPOWIEDŻ"],
         "answer": "INNA ODPOWIEDŻ"
     },
@@ -45,19 +45,19 @@
         "answer": "INNA ODPOWIEDŻ"
     },
     {
-        "question": "Fundamentem wdrożenia 'szczuptego” zarządzania jest...",
+        "question": "Fundamentem wdrożenia 'szczupłego” zarządzania jest...",
         "options": ["Kaizen", "JIT", "INNA ODPOWIEDŻ", "Kanban"],
         "answer": "Kaizen"
     },
     {
-        "question": "Subiektywne, zależne od opinii Klienta, podejście do rozumienia jakości jest charakterystyczne w firmach ... :",
+        "question": "Subiektywne, zależne od opinii Klienta, podejście do rozumienia jakości jest\ncharakterystyczne w firmach ...",
         "options": ["w których z sukcesem wdrożono SZJ", "INNA ODPOWIEDŻ", "W Ameryce Ptn.", "W Europie"],
-        "answer": "INNA ODPOWIEDŻ"
+        "answer": "w których z sukcesem wdrożono SZJ"
     },
     {
-        "question": "Spośród powyższych haset do 7 zasad zarządzania jakością należą ... \n1. Zarządzanie relacjami \n2. Zaangażowanie ludzi \n3. Kalibrowanie urządzeń",
+        "question": "Spośród powyższych haseł do 7 zasad zarządzania jakością należą ... \n1. Zarządzanie relacjami \n2. Zaangażowanie ludzi \n3. Kalibrowanie urządzeń",
         "options": ["tylko pierwsze i drugie hasło", "tylko drugie i trzecie hasło", "wszystkie hasta", "INNA ODPOWIEDŻ"],
-        "answer": "INNA ODPOWIEDŻ"
+        "answer": "tylko pierwsze i drugie hasło"
     },
     {
         "question": "Do wymiarów jakości produktu prof. Garvin zalicza ... \n1. Niezawodność \n2. Sposób traktowania Klientów, np. uprzejmość \n3. Estetyka, tj. wrażenie Klienta jak produkt wygląda",
@@ -72,7 +72,7 @@
     {
         "question": "Spośród tych działań - funkcje zarządzania obejmują ... \n1. Planowanie \n2. Kontrolowanie \n3. Motywowanie \n4. Organizowanie",
         "options": ["INNA ODPOWIEDŻ", "tylko pierwsze i trzecie działanie", "tylko pierwsze i drugie działanie", "wszystkie te działania"],
-        "answer": "wszystkie te działania"
+        "answer": "INNA ODPOWIEDŻ"
     },
     {
         "question": "Test Q12 pozwala określić poziom:",
@@ -92,7 +92,7 @@
     {
         "question": "Ile spośród nich jest zaliczanych do rodziny ISO 9000? ISO 9000, ISO 9001, ISO 14001, ISO 19011, ISO 900\n4.",
         "options": ["INNA ODPOWIEDŹ", "2", "3", "4"],
-        "answer": "INNA ODPOWIEDŹ"
+        "answer": "4"
     },
     {
         "question": "Z doświadczeń firm wdrażających SZpJ wynika, że koła jakości zwykle przyczyniają się da … \n1. podniesienia produktywności firmy. \n2. łagodnego obniżenia motywacji pracowników. \n3. usprawnienia procesów firmy.",
@@ -147,17 +147,17 @@
     {
         "question": "Przygotowując się do wdrożenia I ciągłego doskonalenia swoich Systemów Zarządzania Jakością, firma A chce jako podstawę przyjąć normy ISO z rodziny 27000, a firma B - model doskonałości EFOM. Jako właściwe można uznać postępowanie ...",
         "options": ["tylko firmy B", "INNA ODPOWIEDŻ", "tylko firmy A", "obu tych firm"],
-        "answer": "INNA ODPOWIEDŻ"
+        "answer": "tylko firmy B"
     },
     {
         "question": "Firma A (ok. 100 pracowników) wdraża SZpJ. Do krytycznych czynników sukcesu tego przedsięwzięcia należy zaliczyć ... \n1. jasne zasady rozliczania celów kwartalnych pracowników \n2. odpowiedzialny, twórczy i aktywny zespół pracowników \n3. gruntowne szkolenia wszystkich pracowników, dotyczące metod i narzędzi jakości",
         "options": ["prawdziwe jest tylko pierwsze i drugie zdanie", "prawdziwe jest tylko jedno zdanie", "prawdziwe jest tylko drugie i trzecie zdanie", "INNA ODPOWIEDŻ"],
-        "answer": "INNA ODPOWIEDŻ"
+        "answer": "prawdziwe jest tylko jedno zdanie"
     },
     {
         "question": "O jakości produktu wytworzonego w Europie zwykle decyduje ...",
         "options": ["INNA ODPOWIEDŻ", "wynik analizy spełnienia potrzeb Klienta", "efektywność wdrożenia SZJ", "opinia Klienta"],
-        "answer": "INNA ODPOWIEDŻ"
+        "answer": "efektywność wdrożenia SZJ"
     },
     {
         "question": "Do skutków braku zaufania do pracowników zwykle należy ... \n1. konieczność podejmowania decyzji bez konsultacji z pracownikami. \n2. poniesienie kosztów koniecznych szkoleń dotyczących wymagań ISO 9000. \n3. przyjmowanie przez pracowników postaw obronnych wobec przetężonych.",
@@ -192,7 +192,7 @@
     {
         "question": "Czy polskie wydanie normy ISO 50001 zawiera rozdział 9, dotyczący oceny efektów działalności firmy?",
         "options": ["INNA ODPOWIEDŹ", "Tak - bo wynika to z Polityki Jakości zatwierdzonej przez Polski Komitet Normalizacji", "Tak - bo wynika to z Załącznika SL opublikowanego przez ISO/IEC i struktury normy 9001", "Nie - bo nie ma normy ISO 50001"],
-        "answer": "INNA ODPOWIEDŹ"
+        "answer": "Tak - bo wynika to z Załącznika SL opublikowanego przez ISO/IEC i struktury normy 9001"
     },
     {
         "question": "W firmach, które wdrożyły SZJ - kontrola jakości jest stosowana do wykrywania niezgodności. \n2. W firmach, które NIE wdrożyły SZJ - skutki pojawienia się niezgodności z zasady pozostają nieusunięte.",
@@ -207,7 +207,7 @@
     {
         "question": "Drugim krokiem cyklu PDCA jest ...",
         "options": ["Wykonaj to, co zostało zaplanowane dla tego cyklu", "Wykonaj zaplanowane na ten cykl działania, ale tylko w ograniczonym zakresie", "INNA ODPOWIEDŹ", "Kieruj (Drive) zmianą procesu lub systemu"],
-        "answer": "INNA ODPOWIEDŹ"
+        "answer": "Wykonaj to, co zostało zaplanowane dla tego cyklu"
     },
     {
         "question": "Zastosowanie Modelu EFQM zwykle umożliwia ... \n1. szybkie osiągnięcie wysokiego poziomu doskonałości organizacji. \n2. Integrację istniejących w organizacji i planowanych inicjatyw projakościowych. \n3. zrozumienie mocnych i słabych stron organizacji.",
@@ -217,7 +217,7 @@
     {
         "question": "Wg opisu ról uczestniczących w procesie - Właściciel procesu między innymi ...",
         "options": ["INNA ODPOWIEDŹ", "aktywnie bierze udział w wykonywaniu działań procesu (jako tzw. role model)", "określa zakres doskonalenia procesu", "decyduje o wynagrodzeniu wykonawców"],
-        "answer": "INNA ODPOWIEDŹ"
+        "answer": "określa zakres doskonalenia procesu"
     },
     {
         "question": "Firma T wdraża SZpJ I w związku z tym, troszcząc się o motywację pracowników, kierownicy ... \n1. zawsze transparentnie przedstawiają uzasadnienia przyznawanych nagród. \n2. nigdy nie zaskakują pracowników decyzjami a obniżeniu premii w przypadku negatywnych wyników kontroli, lecz uzgadniają z nimi jasne zasady premiowania w danym roku. \n3. otwarcie informują pracowników o możliwościach rozwoju i ścieżkach kariery oraz zasadach zwiększenia wynagrodzenia.",
@@ -242,7 +242,7 @@
     {
         "question": "Starając się zbudować zaangażowanie pracowników dla inicjatyw projakościowych, warto … \n1. rozpoznać ich talenty i przydzielać im odpowiednie zadania. \n2. zapewnić im szkolenia dotyczące otwartej komunikacji. \n3. regularnie informować wszystkich pracowników o efektach prowadzonych działań i uzyskiwanych przez nich wyników oraz wyróżniać najlepszych.",
         "options": ["prawdziwe jest tylko pierwsze i trzecie zdanie", "INNA ODPOWIEDŹ", "prawdziwe jest tylko pierwsze i drugie zdanie", "prawdziwe są wszystkie zdania"],
-        "answer": "prawdziwe są wszystkie zdania"
+        "answer": "prawdziwe jest tylko pierwsze i drugie zdanie"
     },
     {
         "question": "W firmie A prowadzone są między innymi takie działania projakościowe: \n1. Monitorowanie i usprawnianie sposobów działania firmy \n2. Zbieranie wyników prowadzonych analiz, przygotowując podstawy do podejmowania decyzji \n3. Budowanie kontaktów z dostawcami opartych na zaufaniu Spośród powyższych działań - bezpośrednio z 7 zasad zarządzania jakością wynika …",
@@ -307,7 +307,7 @@
     {
         "question": "Dbając o właściwe relacje z pracownikami w firmie wdrażającej TQM, kierownicy powinni między innymi … \n1. umiejętnie słuchać tego, co pracownicy mają do powiedzenia. \n2. wydawać jasne polecenia i spokojnie oczekiwać na ich wykonanie. \n3. otwarcie i zdecydowanie oceniać pracowników, używając jednak tzw. mocnych słów wyłącznie w przypadku, gdy są one konieczne.",
         "options": ["właściwe są wszystkie działania", "właściwe jest tylko jedno działanie", "INNA ODPOWIEDŹ", "właściwe jest tylko pierwsze I drugie działanie"],
-        "answer": "właściwe jest tylko pierwsze I drugie działanie"
+        "answer": "właściwe jest tylko jedno działanie"
     },
     {
         "question": "Firma A (ok. 100 pracowników) planuje opracowanie I wdrożenie swego Systemu Zarządzania Jakością zgodnie ze wskazaniami ISO. W związku z tym KONIECZNE jest uwzględnienie w planie firmy A punktu ... \n1. Certyfikacja SZJ. \n2. Przeprowadzenie serii audytów wewnętrznych. \n3. Przeszkolenie załogi.",
