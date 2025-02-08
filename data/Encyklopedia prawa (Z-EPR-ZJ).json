@@ -222,7 +222,7 @@
             "czynnościami konwencjonalnymi prawnie istotnymi",
             "czynnościami konwencjonalnymi prawnie irrelewantnymi"
         ],
-        "answer": "czynnościami konwencjonalnymi prawnie istotnymi"
+        "answer": "czynnościami konwencjonalnymi prawnie obojętnymi"
     },
     {
         "question": "Norma prawna w odniesieniu do przepisu prawa stanowi jego",
@@ -412,5 +412,149 @@
             "celowościowa"
         ],
         "answer": "celowościowa"
+    },
+        {
+        "question": "Mianem luki w prawie nie określa się stanu, w którym ustawodawca:",
+        "options": [
+            "nie zakończył procesu prawodawczego wbrew wyraźnej zapowiedzi",
+            "zakończył proces legislacyjny, ale nadal nie można ustalić norm regulujących określoną kwestię",
+            "świadomie pozostawił jakąś kwestię poza regulacją prawną"
+        ],
+        "answer": "świadomie pozostawił jakąś kwestię poza regulacją prawną"
+    },
+    {
+        "question": "Usunięcie luk nie zachodzi wskutek:",
+        "options": [
+            "zmiany prawa",
+            "zastosowania odpowiednich reguł wnioskowania",
+            "prawotwórczej roli orzecznictwa sądów"
+        ],
+        "answer": "zmiany prawa"
+    },
+    {
+        "question": "Wskaż błędne zdanie:",
+        "options": [
+            "Wyróżnia się luki tetyczne, aksjologiczne i logiczne.",
+            "Wyróżnia się luki konstrukcyjne, aksjologiczne i logiczne.",
+            "Wyróżnia się luki konstrukcyjne, aksjologiczne i teleologiczne."
+        ],
+        "answer": "Wyróżnia się luki tetyczne, aksjologiczne i logiczne."
+    },
+    {
+        "question": "Usuwaniu luk w prawie nie służy:",
+        "options": [
+            "argumentum a simili",
+            "wnioskowanie per analogiam",
+            "wnioskowanie \"z celu na środki\""
+        ],
+        "answer": "wnioskowanie \"z celu na środki\""
+    },
+    {
+        "question": "Wnioskowanie per analogiam jest dopuszczalne w prawie:",
+        "options": [
+            "cywilnym",
+            "karnym",
+            "podatkowym"
+        ],
+        "answer": "cywilnym"
+    },
+    {
+        "question": "Zdanie \"Jeśli właściciel może sprzedać rzecz, to tym bardziej może ją wynająć\" jest przykładem wnioskowania:",
+        "options": [
+            "a maiori ad minus (z większego na mniejsze)",
+            "a minori ad maius (z mniejszego na większe)",
+            "a contrario"
+        ],
+        "answer": "a maiori ad minus (z większego na mniejsze)"
+    },
+    {
+        "question": "Zdanie \"Jeśli najemca nie może podnająć rzeczy, to tym bardziej nie może jej sprzedać\" jest przykładem wnioskowania:",
+        "options": [
+            "a maiori ad minus (z większego na mniejsze)",
+            "a minori ad maius (z mniejszego na większe)",
+            "a contrario (z przeciwieństwa)"
+        ],
+        "answer": "a minori ad maius (z mniejszego na większe)"
+    },
+    {
+        "question": "Topiki prawnicze służą:",
+        "options": [
+            "wyprowadzaniu norm prawnych z innych norm prawnych",
+            "przekonywaniu do określonej wykładni prawa",
+            "usuwaniu luk w prawie"
+        ],
+        "answer": "przekonywaniu do określonej wykładni prawa"
+    },
+    {
+        "question": "Elektroniczne bazy danych zawierające informację o prawie dzielą się na:",
+        "options": [
+            "publiczne i prywatne",
+            "państwowe i samorządowe",
+            "autentyczne i nieautentyczne"
+        ],
+        "answer": "publiczne i prywatne"
+    },
+    {
+        "question": "Z domniemania autentyczności korzysta:",
+        "options": [
+            "Dziennik Ustaw",
+            "Internetowy System Aktów Prawnych",
+            "Publiczny Portal Informacji o Prawie"
+        ],
+        "answer": "Dziennik Ustaw"
+    },
+    {
+        "question": "Bazą aktów prawnych dostępną w 24 językach jest:",
+        "options": [
+            "EUR-Lex",
+            "EU-Lex",
+            "UE-Lex"
+        ],
+        "answer": "EUR-Lex"
+    },
+    {
+        "question": "Na polskim rynku oferowane są prywatne bazy aktów prawnych w liczbie:",
+        "options": [
+            "2",
+            "4",
+            "8"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "Prowadzeniu dyskursu między doktryną prawa a sądami służą przede wszystkim:",
+        "options": [
+            "komentarze",
+            "tezy z piśmiennictwa",
+            "glosy"
+        ],
+        "answer": "glosy"
+    },
+    {
+        "question": "W monografiach zazwyczaj opisuje się kompleksowo:",
+        "options": [
+            "jedno zagadnienie prawne",
+            "dwa zagadnienia prawne",
+            "trzy zagadnienia prawne"
+        ],
+        "answer": "jedno zagadnienie prawne"
+    },
+    {
+        "question": "Z założenia osobne opracowania do każdej jednostki redakcyjnej opisywanego aktu prawnego zawiera:",
+        "options": [
+            "artykuł naukowy",
+            "monografia",
+            "komentarz"
+        ],
+        "answer": "komentarz"
+    },
+    {
+        "question": "Mianem aprobujących albo krytycznych zwykle określa się:",
+        "options": [
+            "komentarze",
+            "recenzje",
+            "glosy"
+        ],
+        "answer": "glosy"
     }
 ]

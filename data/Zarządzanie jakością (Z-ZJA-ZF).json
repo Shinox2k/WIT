@@ -135,11 +135,6 @@
         "answer": "jest pierwsze i trzecie określenie"
     },
     {
-        "question": "Definicja jakości wg ISO 9000 mówi o ...",
-        "options": ["INNA ODPOWIEDŻ", "spełnieniu wymagań", "przekroczeniu oczekiwań", "zaspokojeniu potrzeb"],
-        "answer": "spełnieniu wymagań"
-    },
-    {
         "question": "\n1. Audyt musi być udokumentowany i niezależny. \n2. Kontrola zwykle jest zapowiedziana.",
         "options": ["Prawdziwe jest tylko pierwsze zdanie", "INNA ODPOWIEDŻ", "Prawdziwe jest tylko drugie zdanie", "Żadne z nich nie jest prawdziwe"],
         "answer": "Prawdziwe jest tylko pierwsze zdanie"
