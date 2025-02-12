@@ -3,14 +3,11 @@ import random
 import os
 import json
 
-
 def load_css(file_name="styles.css"):
     with open(file_name, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-
 load_css()
-
 
 def load_quizzes(directory="data"):
     quizzes = {}
@@ -29,7 +26,7 @@ def load_quizzes(directory="data"):
 
 
 def quiz_results(quiz_data, user_answers):
-    correct = sum(1 for q in quiz_data if set(user_answers[q['question']]) == set(q['answer']))
+    correct = sum(1 for q in quiz_data if user_answers[q['question']] == q['answer'])
     total = len(quiz_data)
     score_percentage = (correct / total) * 100 if total > 0 else 0
 
@@ -39,9 +36,9 @@ def quiz_results(quiz_data, user_answers):
 
     st.markdown(f"""
         <div style="
-            border: 3px solid {border_color};
-            border-radius: 10px;
-            padding: 15px;
+            border: 3px solid {border_color}; 
+            border-radius: 10px; 
+            padding: 15px; 
             margin-bottom: 20px;
             text-align: center;
             background-color: {background_color};
@@ -59,7 +56,7 @@ quizzes = load_quizzes()
 st.title("WIT 2025")
 
 quiz_choice = st.selectbox("Wybierz test:", list(quizzes.keys()))
-
+#Test
 if quiz_choice:
     total_questions = len(quizzes[quiz_choice])
     question_percentage = st.radio(
@@ -68,7 +65,17 @@ if quiz_choice:
         index=4
     )
 
-    num_questions = max(1, int(total_questions * int(question_percentage.strip('%')) / 100))
+    if question_percentage == "5%":
+        num_questions = max(1, total_questions // 20)
+    elif question_percentage == "10%":
+        num_questions = max(1, total_questions // 10)
+    elif question_percentage == "25%":
+        num_questions = max(1, total_questions // 4)
+    elif question_percentage == "50%":
+        num_questions = max(1, total_questions // 2)
+    else:
+        num_questions = total_questions
+
     st.write(f"Test zawiera {total_questions} pytań. Wybrano {num_questions} pytań do testu.")
 
 if st.button("Rozpocznij test"):
@@ -76,7 +83,7 @@ if st.button("Rozpocznij test"):
     st.session_state.quiz_data = random.sample(quizzes[quiz_choice], num_questions)
     for q in st.session_state.quiz_data:
         random.shuffle(q["options"])
-    st.session_state.user_answers = {q['question']: [] for q in st.session_state.quiz_data}
+    st.session_state.user_answers = {q['question']: None for q in st.session_state.quiz_data}
     st.session_state.quiz_started = True
     st.session_state.show_results = False
     st.session_state.answers_locked = False
@@ -86,15 +93,24 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
     with st.form(key="quiz_form"):
         for idx, q in enumerate(st.session_state.quiz_data):
             st.subheader(f"Pytanie {idx + 1}: \n {q['question']}")
-            selected_options = st.multiselect(
+
+            options_with_emojis = [
+                f"{opt} {'✅' if opt == q['answer'] else '❌' if st.session_state.show_results and st.session_state.user_answers[q['question']] == opt else ''}"
+                for opt in q["options"]
+            ]
+
+            selected_option = st.radio(
                 "Wybierz odpowiedź:",
-                q["options"],
-                default=st.session_state.user_answers[q['question']],
+                options_with_emojis if st.session_state.show_results else q["options"],
+                index=(q["options"].index(st.session_state.user_answers[q['question']])
+                       if st.session_state.show_results and st.session_state.user_answers[q['question']] in q["options"]
+                       else None),
                 key=f"{q['question']}_{idx}",
                 disabled=st.session_state.show_results or st.session_state.answers_locked
             )
+
             if not st.session_state.show_results and not st.session_state.answers_locked:
-                st.session_state.user_answers[q['question']] = selected_options
+                st.session_state.user_answers[q['question']] = selected_option
 
         submit_button = st.form_submit_button(label="Sprawdź wynik")
         if submit_button:
@@ -104,3 +120,17 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
 
 if "show_results" in st.session_state and st.session_state.show_results:
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
+
+st.markdown("""
+    <style>
+        .stButton>button {
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .stButton>button:hover {
+            background-color: #45a049;
+        }
+    </style>
+""", unsafe_allow_html=True)
