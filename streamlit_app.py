@@ -121,7 +121,33 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             st.rerun()
 
 if "show_results" in st.session_state and st.session_state.show_results:
+    st.write("Podsumowanie pytań i odpowiedzi:")
+    for idx, question_data in enumerate(st.session_state.quiz_data):
+        # Wyświetl pytanie
+        st.subheader(f"Pytanie {idx + 1}: {question_data['question']}")
+
+        # Pobierz odpowiedzi użytkownika i poprawne
+        user_selection = set(st.session_state.user_answers[question_data['question']])
+        correct_answers = set(question_data['answer'])
+
+        # Wyświetl wszystkie opcje z oznaczeniami
+        for option in question_data['options']:
+            if option in correct_answers and option in user_selection:
+                # Poprawna i wybrana przez użytkownika
+                st.write(f"✔ **{option}** (Twoja odpowiedź)")
+            elif option in correct_answers:
+                # Poprawna, ale nie wybrana przez użytkownika
+                st.write(f"✔ {option}")
+            elif option in user_selection:
+                # Błędnie zaznaczona przez użytkownika
+                st.write(f"❌ {option} (Twoja odpowiedź)")
+            else:
+                # Nie zaznaczone i błędne
+                st.write(f"{option}")
+
+    # Wywołanie podsumowania ogólnego
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
+
 
 st.markdown("""
     <style>
