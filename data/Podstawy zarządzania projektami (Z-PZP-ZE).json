@@ -231,21 +231,6 @@
         ]
     },
     {
-        "question": "Które role wchodzą w skład komitetu sterującego?",
-        "options": [
-            "Główny użytkownik",
-            "Kierownicy zespołów",
-            "Dyrektor finansowy",
-            "Główny dostawca",
-            "Kierownik projektu"
-        ],
-        "answer": [
-            "Główny użytkownik",
-            "Dyrektor finansowy",
-            "Główny dostawca"
-        ]
-    },
-    {
         "question": "Z punktu widzenia rodzaju wymagań projektowych można podzielić je na Wybierz jedną lub więcej odpowiedzi",
         "options": [
             "Niefunkcjonalne",
