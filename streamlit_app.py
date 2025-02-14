@@ -121,7 +121,8 @@ if "quiz_started" in st.session_state and st.session_state.quiz_started:
             st.rerun()
 
 if "show_results" in st.session_state and st.session_state.show_results:
-    st.write("Podsumowanie pytań i odpowiedzi:")
+    st.write("Podsumowanie pytań i odpowiedzi:")  # Sekcja wyników
+
     for idx, question_data in enumerate(st.session_state.quiz_data):
         # Wyświetl pytanie
         st.subheader(f"Pytanie {idx + 1}: {question_data['question']}")
@@ -130,24 +131,26 @@ if "show_results" in st.session_state and st.session_state.show_results:
         user_selection = set(st.session_state.user_answers[question_data['question']])
         correct_answers = set(question_data['answer'])
 
-        # Wyświetl wszystkie opcje z oznaczeniami
-        for option in question_data['options']:
-            if option in correct_answers and option in user_selection:
-                # Poprawna i wybrana przez użytkownika
-                st.write(f"✔ **{option}** (Twoja odpowiedź)")
-            elif option in correct_answers:
-                # Poprawna, ale nie wybrana przez użytkownika
-                st.write(f"✔ {option}")
-            elif option in user_selection:
-                # Błędnie zaznaczona przez użytkownika
-                st.write(f"❌ {option} (Twoja odpowiedź)")
-            else:
-                # Nie zaznaczone i błędne
-                st.write(f"{option}")
+        if user_selection != correct_answers:  # Jeśli odpowiedź użytkownika jest błędna
+            st.write("Twoje odpowiedzi:")
+            for option in question_data['options']:
+                if option in user_selection and option not in correct_answers:
+                    # Błędnie zaznaczone przez użytkownika
+                    st.write(f"❌ {option} (Twoja odpowiedź)")
+                elif option in user_selection and option in correct_answers:
+                    # Zaznaczone poprawne (nie pojawi się, bo chcemy je ukryć)
+                    continue
+
+            st.write("Poprawne odpowiedzi:")
+            for option in correct_answers:
+                if option not in user_selection:
+                    st.write(f"✔ {option}")
+        else:
+            # Jeśli odpowiedź jest poprawna, wyświetl komunikat bez szczegółowych opcji
+            st.write("🎉 To pytanie zostało zaliczone poprawnie!")
 
     # Wywołanie podsumowania ogólnego
     quiz_results(st.session_state.quiz_data, st.session_state.user_answers)
-
 
 st.markdown("""
     <style>
