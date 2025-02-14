@@ -71,7 +71,7 @@
         ],
         "answer": [
             "Zagwarantowanie aktualnej wiedzy o stanie realizacji projektu",
-            "Zagwarantowanie, że projekt ma nadal cel biznesowy i jest korzystny dla firmy",
+            "Zagwarantowanie, że projekt ma nadal cel biznesowy i jest korzystny dla firmy"
         ]
     },
     {
@@ -210,6 +210,104 @@
         "answer": [
             "Udział w zarządzaniu zmianą",
             "Akceptacja faz i produktów projektu"
+        ]
+    },
+    {
+        "question": "Wymień podstawowe ograniczenia w projekcie",
+        "options": [
+            "Zakre",
+            "Czas",
+            "Jakość",
+            "Plany",
+            "Naczelne kierownictwo",
+            "Budżet"
+        ],
+        "answer": [
+            "Zakres",
+            "Czas",
+            "Jakość",
+            "Budżet"
+        ]
+    },
+    {
+        "question": "Które role wchodzą w skład komitetu sterującego?",
+        "options": [
+            "Główny użytkownik",
+            "Kierownicy zespołów",
+            "Dyrektor finansowy",
+            "Główny dostawca",
+            "Kierownik projektu"
+        ],
+        "answer": [
+            "Główny użytkownik",
+            "Dyrektor finansowy",
+            "Główny dostawca"
+        ]
+    },
+    {
+        "question": "Jakie działania względem środowiska projektu powinien realizować kierownik projektu?",
+        "options": [
+            "Monitorować zmiany w środowisku projektu",
+            "Tworzyć otoczenie i środowisko projektu",
+            "Dążyć do zmniejszenia liczby interesariuszy projektu",
+            "Zarządzać środowiskiem"
+        ],
+        "answer": [
+            "Monitorować zmiany w środowisku projektu",
+            "Tworzyć otoczenie i środowisko projektu",
+            "Zarządzać środowiskiem"
+        ]
+    },
+    {
+        "question": "Z punktu widzenia rodzaju wymagań projektowych można podzielić je na Wybierz jedną lub więcej odpowiedzi",
+        "options": [
+            "Niefunkcjonalne",
+            "Funkcjonalne",
+            "Zarządcze",
+            "Techniczne"
+        ],
+        "answer": [
+            "Niefunkcjonalne",
+            "Funkcjonalne"
+        ]
+    },
+    {
+        "question": "Wybierz zdania prawdziwe dotyczące zarządzania projektem",
+        "options": [
+            "Kierownik projektu pochodzi ze strony odbiorcy produktów projektu",
+            "Może być dwóch kierowników projektu - ze strony dostawcy i ze strony odbiorcy",
+            "Kierownik projektu jest członkiem Komitetu Sterującego",
+            "Kierownik projektu pochodzi ze strony dostawcy produktów projektu"
+        ],
+        "answer": [
+            "Może być dwóch kierowników projektu - ze strony dostawcy i ze strony odbiorcy",
+            "Kierownik projektu pochodzi ze strony dostawcy produktów projektu"
+        ]
+    },
+    {
+        "question": "W metodykach kaskadowych ",
+        "options": [
+            "Można realizować więcej niż jeden etap techniczny równolegle",
+            "Etapy techniczne nie muszą pokrywać się z etapami zarządczymi",
+            "Projekt musi składać się z więcej niż jednego etapu zarządczego. Można realizować więcej niż jeden etap zarządczy równolegle"
+        ],
+        "answer": [
+            "Można realizować więcej niż jeden etap techniczny równolegle",
+            "Etapy techniczne nie muszą pokrywać się z etapami zarządczymi"
+        ]
+    },
+    {
+        "question": "Możliwe rodzaje buforów w metodzie łańcucha krytycznego to",
+        "options": [
+            "Bufor zasilający",
+            "Bufor zasobów",
+            "Bufor projektu",
+            "Bufor ryzyka"
+        ],
+        "answer": [
+            "Bufor zasilający",
+            "Bufor zasobów",
+            "Bufor projektu"
         ]
     }
 ]
