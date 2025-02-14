@@ -246,20 +246,6 @@
         ]
     },
     {
-        "question": "Jakie działania względem środowiska projektu powinien realizować kierownik projektu?",
-        "options": [
-            "Monitorować zmiany w środowisku projektu",
-            "Tworzyć otoczenie i środowisko projektu",
-            "Dążyć do zmniejszenia liczby interesariuszy projektu",
-            "Zarządzać środowiskiem"
-        ],
-        "answer": [
-            "Monitorować zmiany w środowisku projektu",
-            "Tworzyć otoczenie i środowisko projektu",
-            "Zarządzać środowiskiem"
-        ]
-    },
-    {
         "question": "Z punktu widzenia rodzaju wymagań projektowych można podzielić je na Wybierz jedną lub więcej odpowiedzi",
         "options": [
             "Niefunkcjonalne",
