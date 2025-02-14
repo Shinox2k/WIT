@@ -10,7 +10,8 @@
         ],
         "answer": [
             "Główny dostawca",
-            "Główny użytkownik"
+            "Główny użytkownik",
+            "Dyrektor finansowy"
         ]
     },
     {
@@ -83,8 +84,7 @@
             "Wyznaczenia zadań związanych z największym ryzykiem"
         ],
         "answer": [
-            "Wyznaczenia najwcześniejszych i najpóźniejszych czasów rozpoczęcia oraz zakończenia zadań",
-            "Wyznaczenia zadań związanych z największym ryzykiem"
+            "Wyznaczenia najwcześniejszych i najpóźniejszych czasów rozpoczęcia oraz zakończenia zadań"
         ]
     },
     {
@@ -95,8 +95,7 @@
             "Jest stały na podstawie decyzji kierownika projektu"
         ],
         "answer": [
-            "Jest stały przez cały cykl życia projektu",
-            "Jest stały na podstawie decyzji kierownika projektu"
+            "Jest ustawicznie uaktualniany w miarę napływu informacji o postępie prac"
         ]
     },
     {
@@ -155,9 +154,11 @@
             "Odrzucenie"
         ],
         "answer": [
-            "Akceptowanie",
+            "Wzmacnianie",
             "Unikanie",
-            "Wykorzystanie"
+            "Wykorzystanie",
+            "Akceptowanie",
+            "Plan rezerwowy"
         ]
     },
     {
@@ -255,7 +256,8 @@
         "answer": [
             "Monitorować zmiany w środowisku projektu",
             "Tworzyć otoczenie i środowisko projektu",
-            "Zarządzać środowiskiem"
+            "Zarządzać środowiskiem",
+            "Tworzyć otoczenie i środowisko projektu"
         ]
     },
     {
