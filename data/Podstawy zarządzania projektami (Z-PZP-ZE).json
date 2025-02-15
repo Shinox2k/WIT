@@ -281,5 +281,43 @@
             "Bufor zasobów",
             "Bufor projektu"
         ]
-    }
+    },
+    {
+        "question": "Na początku projektu realizowanego podejściem zwinnym.",
+        "options": [
+            "Sprinty mogą być realizowane równolegle",
+            "Realizacja projektu oparta jest ściśle o plan stworzony na początku projektu",
+            "Znamy szczegółowy zakres projektu",
+            "Zakres prac do zrealizowania wyznaczamy przy użyciu techniki MOSCOW"
+        ],
+        "answer": [
+            "Zakres prac do zrealizowania wyznaczamy przy użyciu techniki MOSCOW"
+        ]
+    },
+    {
+        "question": "Podejście zwinne w zarządzaniu projektem charaktertyzuje",
+        "options": [
+            "Duża elastyczność w definiowaniu wymagań",
+            "Podział projektu na sprinty",
+            "Konieczność stałego kontaktu z biznesem",
+            "Z góry ustalony zakres projektu"
+        ],
+        "answer": [
+            "Duża elastyczność w definiowaniu wymagań",
+            "Podział projektu na sprinty",
+            "Konieczność stałego kontaktu z biznesem"
+        ]
+    },
+    {
+        "question": "Metoda punktów przypadków użycia uwzględnia między innymi czynniki:",
+        "options": [
+            "złożoności środowiska, złożoności wymagań jakościowych, wpływu aktorów",
+            "złożoności środowiska, złożoności technicznej, złożoności przypadków użycia",
+            "wpływu aktorów, złożoności technicznej, złożoności procedur zarządczych",
+            "złożoności środowiska, złożoności specyfikacji wymagań, złożoności przypadków użycia"
+        ],
+        "answer": [
+            "złożoności środowiska, złożoności technicznej, złożoności przypadków użycia"
+        ]
+    },
 ]
